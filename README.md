@@ -4,6 +4,13 @@ The first-ever (as far as I know) English translation of this gem. Adds in an op
 ## What's in FF7 Perfect Guide?
 Look it up, but basically a ton of exclusive environmental detail images, flavor text, and *CG renders of every item and piece of equipment.* High-def inspectable models of all the vehicles in the game including the snowboard. Videos from FF7 pre-production builds. The timeline of Midgar/Shinra/AVALANCHE leading up to the game's opening. CG cutscenes.
 
+## Using the patch
+
+1. You need the bin/cue of the original disc
+2. Download `FF7PG_English_Patcher.exe` from the [Releases](../../releases) page.
+3. Run the patcher and pick your `.cue`
+4. It writes new English PS1 bin/cue files next to the original.
+
 | Hype Image | Hype Image |
 |:-:|:-:|
 | ![10](https://github.com/user-attachments/assets/06536b17-e807-4b0b-8454-4d9bb134a6c9) | ![20](https://github.com/user-attachments/assets/54cea97c-6741-41a3-9f89-a23fafa21702) |
@@ -26,15 +33,6 @@ Look it up, but basically a ton of exclusive environmental detail images, flavor
 ## Extras
 - **△** on item pages and field close-ups shows English notes and tooltips.
 - **Select** on field screens makes the clickable objects sparkle periodically. Otherwise you get no visual indication or feedback on them.
-
-## Using the patch
-
-1. You need your own copy of the original disc as a BIN/CUE rip.
-2. Download `FF7PG_English_Patcher.exe` from the [Releases](../../releases) page.
-3. Run the patcher and pick your `.cue` (or Track 1 `.bin`).
-4. It writes `Final Fantasy VII International (Perfect Guide) [English].bin/.cue` next to the original. Your files are not modified.
-
-The patcher checks the MD5 of the source and of the result, so a bad or different rip isn't touched.
 
 ## Repository layout
 
