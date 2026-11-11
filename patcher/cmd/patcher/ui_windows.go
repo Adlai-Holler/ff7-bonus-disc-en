@@ -4,6 +4,7 @@ package main
 
 import (
 	"syscall"
+	"unicode/utf16"
 	"unsafe"
 )
 
@@ -14,6 +15,9 @@ var (
 	pGetOpenFileName = comdlg32.NewProc("GetOpenFileNameW")
 	pMessageBox      = user32.NewProc("MessageBoxW")
 	pSetConsoleTitle = kernel32.NewProc("SetConsoleTitleW")
+	pCommDlgErr      = comdlg32.NewProc("CommDlgExtendedError")
+	ole32            = syscall.NewLazyDLL("ole32.dll")
+	pCoInitializeEx  = ole32.NewProc("CoInitializeEx")
 )
 
 type openFileName struct {
@@ -42,9 +46,10 @@ type openFileName struct {
 	flagsEx           uint32
 }
 
+// utf16z encodes s with a trailing NUL. Unlike syscall.UTF16FromString it keeps
+// embedded NULs, which the file-dialog filter string needs.
 func utf16z(s string) []uint16 {
-	u, _ := syscall.UTF16FromString(s)
-	return u
+	return append(utf16.Encode([]rune(s)), 0)
 }
 
 func pickFile() string {
@@ -60,8 +65,12 @@ func pickFile() string {
 		flags:       0x00001000 | 0x00000800 | 0x00080000, // FILEMUSTEXIST | PATHMUSTEXIST | EXPLORER
 	}
 	ofn.lStructSize = uint32(unsafe.Sizeof(ofn))
+	pCoInitializeEx.Call(0, 0x2) // COINIT_APARTMENTTHREADED: the Explorer-style dialog uses shell COM
 	r, _, _ := pGetOpenFileName.Call(uintptr(unsafe.Pointer(&ofn)))
 	if r == 0 {
+		if e, _, _ := pCommDlgErr.Call(); e != 0 {
+			logf("file dialog failed (CommDlgExtendedError 0x%x)", e)
+		}
 		return ""
 	}
 	return syscall.UTF16ToString(buf)

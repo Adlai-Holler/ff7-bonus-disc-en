@@ -12,7 +12,9 @@ import (
 	"io"
 	"os"
 	"path/filepath"
+	"bufio"
 	"regexp"
+	"runtime"
 	"strings"
 	"time"
 
@@ -184,7 +186,35 @@ func run(path string) (string, error) {
 	return outCue, nil
 }
 
+var logFile *os.File
+
+// logf prints to the console and to patcher_log.txt next to the exe.
+func logf(format string, a ...any) {
+	msg := fmt.Sprintf(format, a...)
+	fmt.Println(msg)
+	if logFile != nil {
+		fmt.Fprintln(logFile, msg)
+	}
+}
+
+// pause keeps the console window open so messages can be read.
+func pause() {
+	fmt.Print("\nPress Enter to close this window...")
+	bufio.NewReader(os.Stdin).ReadString('\n')
+}
+
 func main() {
+	runtime.LockOSThread()
+	if exe, err := os.Executable(); err == nil {
+		logFile, _ = os.Create(filepath.Join(filepath.Dir(exe), "patcher_log.txt"))
+	}
+	defer pause()
+	defer func() {
+		if r := recover(); r != nil {
+			logf("\nUNEXPECTED ERROR: %v", r)
+			message("FF7 Perfect Guide - English patch", fmt.Sprintf("Unexpected error:\n\n%v", r), true)
+		}
+	}()
 	setTitle("FF7 Perfect Guide - English patch")
 	path := ""
 	if len(os.Args) > 1 {
@@ -193,15 +223,22 @@ func main() {
 		fmt.Println("Choose your disc image (.cue, or the Track 1 .bin)...")
 		path = pickFile()
 		if path == "" {
-			return
+			fmt.Println("\nNo file chosen. You can also drag the .cue (or Track 1 .bin) into this window")
+			fmt.Print("and press Enter, or just press Enter to quit:\n> ")
+			line, _ := bufio.NewReader(os.Stdin).ReadString('\n')
+			path = strings.Trim(strings.TrimSpace(line), `"`)
+			if path == "" {
+				return
+			}
 		}
 	}
+	logf("Source file: %s", path)
 	out, err := run(path)
 	if err != nil {
-		fmt.Println("\nERROR:", err)
+		logf("\nERROR: %v", err)
 		message("FF7 Perfect Guide - English patch", "Patching failed:\n\n"+err.Error(), true)
 		return
 	}
-	fmt.Println("\nDone! Created:\n  " + out)
+	logf("\nDone! Created:\n  %s", out)
 	message("FF7 Perfect Guide - English patch", "Done! Load this file in your emulator:\n\n"+out, false)
 }
