@@ -1,5 +1,5 @@
 # FF7 Bonus Disc (Perfect Guide) — English Translation
-The first-ever (as far as I know) English translation of this gem. Adds in an optional sparkle on clickable items so you don't have to spend all day clicking every inch of the screen. Runs on real PS1s! Part slop -- I used AI but I put a ton of personal work in, too.
+The first-ever (as far as I know) English translation of this gem. Adds in an optional sparkle on clickable items so you don't have to spend all day clicking every inch of the screen. Runs on real PS1s! Part slop -- I used AI but I worked a little bit too. I'm aiming for perfection so I welcome feedback.
 
 ## What's in FF7 Perfect Guide?
 Look it up, but basically a ton of exclusive environmental detail images, flavor text, and *CG renders of every item and piece of equipment.* High-def inspectable models of all the vehicles in the game including the snowboard. Videos from FF7 pre-production builds. The timeline of Midgar/Shinra/AVALANCHE leading up to the game's opening. CG cutscenes.
