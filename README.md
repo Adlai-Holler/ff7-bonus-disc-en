@@ -36,10 +36,6 @@ Look it up, but basically a ton of exclusive environmental detail images, flavor
 
 The patcher checks the MD5 of the source and of the result, so a bad or different rip isn't touched.
 
-### Extras in the English version
-- **Tooltips:** press △ on item pages and on field close-ups for English notes.
-- **Sparkles:** press **Select** on field screens to make clickable objects sparkle.
-
 ## Repository layout
 
 | Path | What it is |
