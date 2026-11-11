@@ -1,0 +1,22 @@
+# never commit game data or build products
+*.bin
+*.cue
+*.iso
+*.img
+*.NPK
+*.npk
+*.LPK
+*.lpk
+*.STR
+*.TIM
+SLPS_*
+pgwork/
+*.ffpatch
+*.exe
+__pycache__/
+*.pyc
+*.so
+*.npy
+*.pkl
+*.png
+text/exe_strings_full.tsv

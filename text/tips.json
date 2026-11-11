@@ -1,0 +1,42 @@
+{
+ "keys": [
+  "0x8008a9a4",
+  "0x8008c3c8",
+  "0x8009183c",
+  "0x80092e40",
+  "0x800929cc",
+  "0x80097824",
+  "0x80097138",
+  "0x8008c3d8",
+  "0x8008b814",
+  "0x8009280c",
+  "0x80094278",
+  "0x80094288",
+  "0x80094358",
+  "0x80094368",
+  "0x80094378",
+  "0x80094388",
+  "0x80093ecc",
+  "0x80093edc"
+ ],
+ "texts": [
+  "{g}Turtle's Paradise No. 1\n{w}Fine drinks for a lovely evening...\n\nBe sure to drop by the Turtle's Paradise pub!!",
+  "{g}Turtle's Paradise No. 2\n{w}Worn out from a hard day at work...?\n\nBe sure to drop by the Turtle's Paradise pub!!\nNothing beats a drink after work.",
+  "{g}Turtle's Paradise No. 3\n{w}The one thing the Gold Saucer is missing... good drinks and a pub with atmosphere!\n\nBe sure to drop by the Turtle's Paradise pub!!",
+  "{g}Turtle's Paradise No. 4\n{w}Part-timers wanted!\nSeeking patient people who can put up with boredom!\n\nAsk for details at the Turtle's Paradise pub!!",
+  "{g}Turtle's Paradise No. 5\n{w}Cocktails are nice, but nothing beats the local brew.\n\nBe sure to drop by the Turtle's Paradise pub!!",
+  "{g}Turtle's Paradise No. 6\n{w}Don't talk about Wutai until you've had a drink at Turtle's Paradise!\n\nLook for the pub with the giant jar!!",
+  "{g}Signboard\n{w}Turtle's Paradise is running a flyer campaign!\nFind the \"Turtle's Paradise\" flyers posted all around the world. There are 6 in all.\nFound them all? Tell the owner and get a little prize!\nJust read the flyers - please don't take them down, for our other customers' sake!\n{g}- The owner",
+  "{g}Motto of the Week\n{w}Shinra's future is the world's future!!\nMako light makes a brighter world!!",
+  "{g}Men's Song\n{w}Trust only in your own muscles\nThe sweat you shed never lies\nSmile and keep jumping today\nHold back the tears and squat\nThat is the way of a man",
+  "{g}Zack's Letter\n{w}Dear Mom and Dad,\nHow are you doing?\nSorry for running off from the village like that.\nI really wanted to join SOLDIER. I figured you'd worry if I told you...\nI'm doing great now, working hard in SOLDIER.\nP.S. I got a girlfriend.\n{g}- Zack",
+  "{g}Scratched on the Wall\n{w}\"Let's get out of here...\"",
+  "{g}Scratched on the Wall\n{w}\"Feeding time... that's my chance...\"",
+  "{g}Fugitive Report 1\n{w}Date: XX/XX\nThe two subjects who escaped this facility have been found near Midgar.",
+  "{g}Fugitive Report 2\n{g}Condition when found\n{w}A: Former SOLDIER / no number. No effects of Mako exposure or Jenova observed.\nB: Civilian / no number. Excessive reaction to Jenova observed.",
+  "{g}Fugitive Report 3\n{g}Disposition\n{w}A: Resisted; shot dead.\nB: Escaped while A resisted.",
+  "{g}Fugitive Report 4\n{g}Other\n{w}B's whereabouts are currently unknown. However, B's mental confusion appeared well advanced, so we believe B can be left alone without causing problems.\nPlease advise on how to proceed.",
+  "{g}Hojo's Letter\n{w}All who obstruct my research must be removed. That man from the Turks is no exception.\nI modified the Turk biologically and left him sleeping in the basement. Look for him if you are curious.\nBut... this is only a game I thought up on a whim. You need not play along.",
+  "{g}Hojo's Letter\n{w}Turn the safe's dial carefully but fast: within 20 seconds. Don't overshoot!\n{g}Hints for the 4 dials\n{w}Dial 1: lid of the box with the most oxygen\nDial 2: back of the black & white with no sky\nDial 3: creaky floor by the 2F chair...\nFrom there: 5 left, 9 up, 2 left, 6 up."
+ ]
+}

@@ -1,0 +1,75 @@
+<iso_project image_name="ff7pg_ovtest85.bin" cue_sheet="ff7pg_ovtest85.cue">
+    <track type="data" cdvd_style="false">
+        <identifiers system="PLAYSTATION" application="PLAYSTATION" volume="SLPS_01060" publisher="HIRONOBU_SAKAGUCHI" data_preparer="TOSHINORI_MIZUMACHI" copyright="SQUARE" creation_date="1997082900000000+0"/>
+        <license file="Final Fantasy VII International (Japan) (Disc 4) (Perfect Guide)/license_data.dat"/>
+        <default_attributes gmt_offs="36" xa_attrib="32" xa_perm="1365" xa_gid="0" xa_uid="0"/>
+        <directory_tree source="Final Fantasy VII International (Japan) (Disc 4) (Perfect Guide)" gmt_offs="0">
+            <file name="SYSTEM.CNF" type="data" date="19970731105422"/>
+            <file name="SLPS_010.60" type="data" source="pgwork/SLPS_010.60_ov85" date="19970829192106"/>
+            <file name="FF_SYS.LPK" type="data" date="19970820151910"/>
+            <file name="FF_OPN.LPK" type="data" date="19970509175042"/>
+            <file name="FFANM.APK" type="data" date="19970523122418"/>
+            <dir name="S1G" date="19970521164732">
+                <file name="INST_M.S1G" type="data" source="pgwork/S1G/INST_M.S1G" date="19970519182754"/>
+                <file name="INST_P.S1G" type="data" source="pgwork/S1G/INST_P.S1G" date="19970821101618"/>
+                <file name="TITLE.S1G" type="data" date="19970509175338"/>
+            </dir>
+            <file name="NPK_MAIN.NPK" type="data" date="19970520112620"/>
+            <file name="NPK_WM.NPK" type="data" date="19970529192912"/>
+            <dir name="TOWN" date="19970521164732">
+                <file name="FF_TTOWN.NPK" type="data" source="pgwork/FF_TTOWN_d6.NPK" date="19970529120740"/>
+            </dir>
+            <file name="NPK_DF.NPK" type="data" source="pgwork/NPK_DF_v3.NPK" date="19970519194734"/>
+            <file name="NPK_DF2.NPK" type="data" date="19970529192826"/>
+            <file name="NPK_ACC.NPK" type="data" date="19970820151032"/>
+            <file name="NPK_BOU.NPK" type="data" date="19970820132956"/>
+            <file name="NPK_ETC.NPK" type="data" date="19970821123024"/>
+            <file name="NPK_MON.NPK" type="data" date="19970512175734"/>
+            <file name="NPK_WEP.NPK" type="data" date="19970820133008"/>
+            <file name="CG.FFD" type="data" date="19970523101706"/>
+            <file name="NPK_MAKE.NPK" type="data" source="pgwork/NPK_MAKE_g.NPK" date="19970519201224"/>
+            <dir name="MAKINGCG" date="19970521164732">
+                <file name="MAKINGCG.NPK" type="data" date="19970520173656"/>
+            </dir>
+            <dir name="BG" date="19970521164732">
+                <file name="DATF001.LPK" type="data" date="19970328212706"/>
+                <file name="DATF002.LPK" type="data" date="19970328212710"/>
+                <file name="DATF003.LPK" type="data" date="19970328212714"/>
+                <file name="DATF004.LPK" type="data" date="19970328212718"/>
+                <file name="DATF005.LPK" type="data" date="19970328212722"/>
+                <file name="DATF006.LPK" type="data" date="19970328212726"/>
+                <file name="DATF007.LPK" type="data" date="19970328212730"/>
+                <file name="DATF008.LPK" type="data" date="19970328212734"/>
+                <file name="DATF009.LPK" type="data" date="19970328212748"/>
+            </dir>
+            <dir name="HERO" date="19970521164732">
+                <file name="HERO.FFD" type="data" date="19970430173650"/>
+            </dir>
+            <dir name="R3D" date="19970521164732">
+                <file name="RIDE_0.NPK" type="data" date="19970604175036"/>
+            </dir>
+            <dir name="SM" date="19970521164732">
+                <file name="SM000.FFD" type="data" date="19970512121700"/>
+                <file name="SM001.FFD" type="data" date="19970512121724"/>
+            </dir>
+            <dir name="TEXT" date="19970521164732">
+                <file name="MLIST.LPK" type="data" source="pgwork/MLIST_EN_sorted6.LPK" date="19970820175752"/>
+            </dir>
+            <dir name="ITEM" date="19970521164732">
+                <dir name="MATER" date="19970521164732">
+                    <file name="MATER.FFD" type="data" date="19970821124640"/>
+                </dir>
+            </dir>
+            <dir name="STR" date="19970521164732">
+                <file name="PP07FFA.STR" type="mixed" date="19970426155328"/>
+                <file name="PP07FFB.STR" type="mixed" date="19970428141802"/>
+                <file name="PP07FFC.STR" type="mixed" date="19970426170026"/>
+                <file name="PP07FFD.STR" type="mixed" date="19970428101656"/>
+                <file name="PP07FFE.STR" type="mixed" source="pgwork/PP07FFE_en4.STR" date="19970506195824"/>
+                <dummy sectors="150" type="0"/>
+            </dir>
+            <file name="DUMMY3M.DA" trackid="02" type="da" date="19960930194954"/>
+        </directory_tree>
+    </track>
+    <track type="audio" trackid="02" source="Final Fantasy VII International (Japan) (Disc 4) (Perfect Guide)/DUMMY3M.WAV"/>
+</iso_project>

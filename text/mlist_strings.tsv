@@ -1,0 +1,891 @@
+jp	en	where	uses
+CMD. Grand Horn		mon.name	3
+Basilisk Claw		mon.itemA,mon.itemB	2
+None		mon.itemA,mon.itemB,mon.itemC,sum.element	368
+Boss-type		mon.status	68
+Peerless		mon.status	71
+Sleep		mon.status	52
+Imperial Guard		mon.itemA	2
+Ark Dragon		mon.name	1
+Phoenix Down		mon.itemA,mon.itemB,mon.itemC	30
+Ether		mon.itemA,mon.itemB,mon.itemC	31
+Fire absorb		mon.element	11
+Earth null		mon.element	53
+Wind weak		mon.element	29
+Stop		mon.status	96
+Paralyze		mon.status	97
+Frog		mon.status	129
+Claw		mon.attack1	13
+Flamethrower (★Enemy Skill)		mon.attack2	2
+Ahriman		mon.name	1
+Eye Drop		mon.itemA,mon.itemB	7
+L4 Suicide		mon.attack2	1
+L3 Flare		mon.attack3	1
+Ice Golem		mon.name	1
+Hi-Potion		mon.itemA,mon.itemB,mon.itemC	74
+Ice absorb		mon.element	9
+Manip.		mon.status	95
+Confu		mon.status	91
+Berserk		mon.status	65
+Mini		mon.status	95
+Ironite		mon.name	1
+Tackle		mon.attack1,mon.attack2	17
+Fly Upper		mon.attack2	1
+Sleepel		mon.attack3	3
+Acrophies		mon.name	1
+Water Ring		mon.itemB	2
+Water absorb		mon.element	5
+Gravity null		mon.element	71
+Adamantaimai		mon.name	1
+Sea Dragon Scale		mon.itemA,mon.itemB,mon.itemC	4
+Adaman Bangle		mon.itemB	1
+Light Orb		mon.attack1	2
+Death Force (★Enemy Skill)		mon.attack2	1
+Apps		mon.name	1
+Fire weak		mon.element	14
+Ultimate Weapon		mon.itemA,mon.name	2
+Cursed Ring		mon.itemB	1
+Reflect Ring		mon.itemA,mon.itemB	2
+Circlet (all secret)		mon.itemB	1
+Water null		mon.element	18
+Poison		mon.status	38
+Silence		mon.attack3,mon.status	25
+Regen		mon.status	5
+Under Lizard		mon.name	1
+Remedy		mon.itemA,mon.itemB,mon.itemC	17
+Frog petrify		mon.attack2	1
+Eagle Gun		mon.name	1
+X-Potion		mon.itemA,mon.itemB,mon.itemC	29
+Warrior Bangle		mon.itemB	1
+Lightning weak		mon.element	30
+Machine-type		mon.status	40
+Evilhead		mon.name	1
+Vampire Fang		mon.itemA,mon.itemC	3
+Holy Torch		mon.itemA,mon.itemC	3
+Blood Drain		mon.attack1	3
+Ultrasonic		mon.attack2	1
+Evil Wrap		mon.name	1
+Numb Needle		mon.itemA,mon.itemB,mon.itemC	5
+Squid Ink		mon.itemB	1
+Luck Source		mon.itemC	1
+Poison absorb		mon.element	16
+Whip		mon.attack1	1
+Big Fang		mon.attack2	1
+Evil Poison		mon.attack3	1
+Evil Wrap Sample		mon.name	1
+Boss-type minus Death		mon.status	2
+Yin		mon.name	1
+Gravity resist		mon.element	10
+Petrify		mon.status	56
+Slow-numb		mon.status	42
+Slow		mon.status	26
+Haste		mon.status	26
+Death		mon.status	31
+D.Sentence		mon.status	34
+Insect Chimera		mon.name	1
+Spider Web		mon.itemA,mon.itemB,mon.itemC	4
+Gold Hourglass		mon.itemA,mon.itemC	2
+Butterfly Attack		mon.attack1	1
+Stop Web		mon.attack2	1
+Spider Attack		mon.attack3	1
+Vice		mon.name	1
+Potion		mon.itemA,mon.itemB,mon.itemC	48
+Speed Drink		mon.itemB,mon.itemC	3
+Strike		mon.attack1	5
+Vargid Police		mon.name	1
+Tranquilizer		mon.itemA,mon.itemB,mon.itemC	16
+Needle		mon.attack1	1
+Wind Wing		mon.name	1
+Tail Beat		mon.attack1	2
+Shamshir		mon.attack2	1
+Aeroga		mon.attack3	2
+Wolfmeister		mon.name	1
+Water weak		mon.element	4
+Air Buster		mon.name	1
+Titan Bangle		mon.itemA	1
+Fire resist		mon.element	11
+Epiolnis		mon.name	1
+Wizard Bracelet		mon.itemA,mon.itemB	2
+Bird Kick		mon.attack1,mon.attack2	3
+Catapult		mon.attack2	1
+Acid Shower		mon.attack3	1
+Eligor		mon.name	1
+Echo Screen		mon.itemA,mon.itemB	7
+Striking Staff		mon.itemB	2
+Mute Mask		mon.itemA,mon.itemB,mon.itemC	5
+Sword Attack		mon.attack1	1
+Mono-eye Laser		mon.attack2	1
+Elfadunk		mon.name	1
+Shower		mon.attack2	1
+Ancient Dragon		mon.name	1
+Turbo Ether		mon.itemA,mon.itemB,mon.itemC	24
+Gravity weak		mon.element	5
+Horn		mon.attack1	1
+Southern Cross		mon.attack2	1
+Ochu		mon.name	1
+Circlet		mon.itemB	2
+Ribbon		mon.itemC	2
+Poison heals		mon.element	1
+Paralyzing Whip		mon.attack1	1
+Great Pollen		mon.attack2	1
+Gargoyle		mon.name	1
+Guardian		mon.name	1
+Guardian (Right Hand)		mon.name	1
+Guardian (Left Hand)		mon.name	1
+Guard System		mon.name	1
+Fire Cocktail		mon.itemA	2
+Lightning null		mon.element	5
+Guard Scorpion		mon.name	1
+Assault Gun		mon.itemA	1
+Guard Hound		mon.name	1
+Bite		mon.attack1	9
+Tentacle		mon.attack2	1
+Kalm Fang		mon.name	1
+Fang		mon.attack1,mon.attack2	3
+Gas Ducter		mon.name	1
+Punch		mon.attack1	4
+Super Toxic Smog		mon.attack2	1
+Castanets		mon.name	1
+Two-hit Attack		mon.attack1	1
+Pincer Spark		mon.attack2	1
+Cannon Roulette		mon.name	1
+Poison null		mon.element	6
+Garuda		mon.name	1
+Ice Crystal		mon.itemA,mon.itemC	3
+Lightning Bird Horn		mon.itemA,mon.itemB,mon.itemC	5
+Light Curtain		mon.itemA,mon.itemC	4
+Lightning absorb		mon.element	6
+Rod		chr.weapon,mon.attack1	2
+Ice 2		mon.attack1,mon.attack2	3
+Bolt 2		mon.attack3	1
+Gun Carrier		mon.name	1
+S-mine		mon.itemA	4
+Normal Shot		mon.attack1	2
+Gi Nattak		mon.name	1
+Wizer Staff		mon.itemA	1
+Healing reversed		mon.element	8
+Holy weak		mon.element	9
+Gigas		mon.name	1
+Earth Hammer		mon.itemA	1
+Gigas Armlet		mon.itemA,mon.itemB	2
+Kikikiacho		mon.name	1
+Hyper		mon.itemA,mon.itemB,mon.itemC	9
+Beak		mon.attack1	3
+Furious Bomber		mon.attack2	1
+Chimera		mon.name	1
+Elixir		mon.itemA,mon.itemB,mon.itemC	11
+Poison Storm		mon.attack2	1
+Aqualung (★Enemy Skill)		mon.attack3	1
+Capparwire		mon.name	1
+Wire Attack		mon.attack1	1
+Ground Dash		mon.attack2	1
+Carry Armor		mon.name	1
+God Hand		mon.itemA	1
+Kyuvilduns		mon.name	1
+Clinging		mon.attack1	1
+Kyurubinyu		mon.name	1
+Girofergo		mon.name	1
+King Behemoth		mon.name	1
+Behemoth Horn		mon.attack1	2
+Flare		mon.attack2	2
+???? (★Enemy Skill)		mon.attack3	2
+Gi Spector		mon.name	1
+Smoke Bomb		mon.itemA,mon.itemB,mon.itemC	5
+Ghost Hand		mon.itemA,mon.itemB,mon.itemC	4
+Skewer		mon.attack1	1
+Hell Spear		mon.attack2	1
+Death Sentence (★Enemy Skill)		mon.attack2,mon.attack3	3
+Cuahl		mon.name	1
+Blaster		mon.attack2	1
+Quick Machinegun		mon.name	1
+Crown Lance		mon.name	1
+Dream Powder		mon.itemC	2
+Grashtrike		mon.name	1
+Sickle		mon.attack1	3
+String		mon.attack2	1
+Grangalan		mon.name	1
+Grand Horn		mon.name	1
+War Gong		mon.itemA,mon.itemB	2
+Grand Punch		mon.attack2	1
+Christopher		mon.name	1
+Earth Drum		mon.itemA,mon.itemB	3
+Chriselus		mon.name	1
+Sleep Powder		mon.attack2	1
+Griffon		mon.name	1
+Cripshay		mon.name	1
+Pincer		mon.attack1	2
+Double Spike		mon.attack2	1
+Grim Guard		mon.name	1
+Shrinker		mon.itemA,mon.itemB	3
+Crazy Saw		mon.name	1
+Uppercut		mon.attack1	1
+Gunfire		mon.attack2	1
+Grenade		mon.attack2,mon.itemA,mon.itemB,mon.itemC,mon.name	14
+Right Arm		mon.itemA,mon.itemB,mon.itemC	4
+Gremlin		mon.name	1
+Tent		mon.itemA,mon.itemB	3
+Crawler		mon.name	1
+Ice resist		mon.element	6
+Earth weak		mon.element	4
+Cold Breath		mon.attack2	1
+Grosspanzer: Body		mon.name	1
+Grosspanzer: Small Turret		mon.name	1
+Grosspanzer: Big Turret		mon.name	1
+203mm Shell		mon.itemA,mon.itemB	4
+Cromwell		mon.name	1
+Gelschmelze		mon.name	1
+Antidote		mon.itemA,mon.itemB,mon.itemC	6
+Venom		mon.attack2	1
+Ghost		mon.name	1
+Holy instakill		mon.element	2
+Death reversed		mon.element	4
+Scratch		mon.attack1	1
+Fire		mon.attack2,sum.element	5
+Drain		mon.attack3	1
+Ghost Ship		mon.name	1
+Water resist		mon.element	5
+Gorkii		mon.name	1
+Golem		mon.name	1
+Cockatrice		mon.name	1
+Gold Needle		mon.itemA,mon.itemB,mon.itemC	9
+Petrify Smog		mon.attack3	1
+Grangalan Jr.		mon.name	1
+Godo		mon.name	1
+All Creation		mon.itemA	1
+Goblin		mon.name	1
+Zeio Nut		mon.itemA,mon.itemB	2
+Attack		mon.attack1	2
+Goblin Punch (★Enemy Skill)		mon.attack2	1
+Corneo's Henchman		mon.name	1
+Corvette		mon.name	1
+Loco Weed		mon.itemA	5
+Confusion weak		mon.element	3
+Cut Up		mon.attack2	1
+Spinning Slash		mon.attack3	1
+Searcheye		mon.name	1
+Drill Drive		mon.attack1	2
+Fire 2		mon.attack3	1
+Search Crown		mon.name	1
+Seed Shooting		mon.attack1	1
+Four Laser		mon.attack2	1
+Serpent		mon.name	1
+Stardust		mon.itemA	2
+Mind Source		mon.itemC	2
+Sahagin		mon.name	1
+Harpoon		mon.attack1	2
+Water Gun		mon.attack2	1
+Sapphire Weapon		mon.name	1
+-		mon.element,mon.itemA,mon.itemB,mon.itemC,mon.status	10
+Cactuer		mon.name	1
+Tetra Elemental		mon.itemC	1
+Needle Barrage		mon.attack1	1
+Kick ????		mon.attack2	1
+Sapotenter		mon.name	1
+Ice null		mon.element	5
+Fire null		mon.element	4
+Holy null		mon.element	1
+Non-elemental null		mon.element	1
+Sample:H0512		mon.name	1
+Talisman		mon.itemA	1
+Lightning resist		mon.element	4
+Sample:H0512-OPT		mon.name	1
+Sea Worm		mon.name	1
+Ice weak		mon.element	8
+Earth absorb		mon.element	3
+Ignores Gravity		mon.element	1
+Shake		mon.name	1
+Shaiser Scissors		mon.name	1
+Bubble		mon.attack2	1
+Jejujemi		mon.name	1
+Toxic Substance		mon.itemA,mon.itemB,mon.itemC	6
+Confusion Powder		mon.attack2	1
+Jenova BIRTH		mon.name	1
+White Cape		mon.itemA	1
+Jenova DEATH		mon.name	1
+Jenova LIFE		mon.name	1
+Jenova SYNTHESIS		mon.name	1
+Reraise		mon.status	4
+Jemnezmy		mon.name	1
+Poison instakill		mon.element	2
+Ziggy		mon.name	1
+Scissors		mon.name	1
+Judge		mon.name	1
+Shadow Maker		mon.name	1
+Gravity Ball		mon.itemA,mon.itemB	2
+Jamar Armor		mon.name	1
+Jumping		mon.name	1
+Antarctic Wind		mon.itemC	1
+Diving Kick		mon.attack1	1
+Carrot Club Sword		mon.attack2	1
+Shred		mon.name	1
+Tail		mon.attack1	2
+Mad Claw		mon.attack2	1
+Cure 3		mon.attack3	1
+Joker		mon.name	1
+Sweeper		mon.name	1
+Machine Gun		mon.attack1,mon.name	10
+Double Machine Gun		mon.attack1,mon.attack2	3
+Smoke Shot		mon.attack2,mon.attack3	2
+Custom Sweeper		mon.name	1
+Atomic Scissors		mon.itemB	1
+Matra Magic (★Enemy Skill)		mon.attack2,mon.attack3	3
+Zuu		mon.name	1
+Giant Bird Wing		mon.itemA,mon.itemB,mon.itemC	5
+Great Whirlwind		mon.attack2	2
+Swell Float		mon.name	1
+Vacuum		mon.attack2	1
+Needle Hell		mon.attack3	1
+Sculpture		mon.name	1
+Fireball		mon.attack2	1
+Screamer		mon.name	1
+Power Source		mon.itemA,mon.itemC	4
+Iron Ball		mon.attack1	2
+Iron Quake		mon.attack2	1
+Roar		mon.attack3	1
+Stanif		mon.name	1
+Stilva		mon.name	1
+Big Red Clipper		mon.attack1	1
+Trine (★Enemy Skill)		mon.attack2	1
+Magic Breath (★Enemy Skill)		mon.attack3	2
+Stinger		mon.name	1
+Sting		mon.attack1	1
+Sting Bomb		mon.attack2	1
+Rapid Thrusts		mon.attack3	1
+Stealthy Step		mon.name	1
+Malboro Tentacle		mon.itemA,mon.itemB	3
+Triple Attack		mon.attack1	1
+Snow		mon.name	1
+Spiral		mon.name	1
+Guard Source		mon.itemA,mon.itemC	6
+Speed Sound		mon.name	1
+Spencer		mon.name	1
+Sraha Nut		mon.itemA,mon.itemB	2
+Blade Sword		mon.attack1	1
+Sword Uppercut		mon.attack2	1
+Smog Fact		mon.name	1
+Toxic Smog		mon.attack2,mon.attack3	4
+Slaps		mon.name	1
+Slalom		mon.name	1
+Safer Sephiroth		mon.name	1
+Reflect		mon.status	3
+Zenene		mon.name	1
+Poison Shower		mon.attack2	1
+Gehenna Ganer		mon.attack3	1
+Zemzelett		mon.name	1
+Thunderbolt		mon.attack1	1
+White Wind (★Enemy Skill)		mon.attack2	1
+Soul Fire		mon.name	1
+Sword Dance		mon.name	1
+Slap		mon.attack2	1
+Sochi		mon.name	1
+SOLDIER: 1st		mon.name	1
+Shinra Beta		mon.itemB	3
+SOLDIER: 2nd		mon.name	1
+Deadly Sword		mon.attack2	1
+SOLDIER: 3rd		mon.name	1
+Hard Breaker		mon.itemB	1
+Sword Cut		mon.attack1	1
+Kamaitachi		mon.attack2	3
+Zolokalter		mon.name	1
+Poison Spit		mon.attack2	1
+Turks: Elena		mon.name	1
+Minerva Band		mon.itemB	1
+Turks: Rude		mon.name	4
+Ziedrich		mon.itemB	3
+Turks: Reno		mon.name	4
+Tough Ring		mon.itemB	2
+Fairy Tale		mon.itemA	1
+Dark Dragon		mon.name	1
+Dragon Armlet		mon.itemA,mon.itemB	3
+Vaccine		mon.itemC	2
+Darkness		mon.status	3
+Laser (★Enemy Skill)		mon.attack1,mon.attack3	2
+Dragon Force (★Enemy Skill)		mon.attack2	1
+Dark Nation		mon.name	1
+Diamond Weapon		mon.name	1
+Diver Nest		mon.name	1
+Big Wave		mon.attack2	1
+Tornado Wave		mon.attack3	1
+Dyne		mon.name	1
+Silver Armlet		mon.itemA	1
+Touch Me		mon.name	1
+Maiden's Kiss		mon.itemA	1
+Shrike Impale		mon.itemA,mon.itemB	3
+Frog Punch		mon.attack1	2
+Frog Song (★Enemy Skill)		mon.attack2	2
+Double Brain		mon.name	1
+Absorb		mon.attack1	1
+Glare		mon.attack2	1
+Chekhov		mon.name	1
+Ice Ring		mon.itemA	1
+Chuse Tank		mon.name	1
+Rolling Claw		mon.attack2	1
+Chocobo		mon.name	1
+Twin Head (Right Neck)		mon.name	1
+Protect Ring		mon.itemB,mon.itemC	2
+Twin Head (Left Neck)		mon.name	1
+Twin Dragon Fang		mon.itemA	1
+Icicle		mon.name	1
+Diablo		mon.name	1
+Horn Bomber		mon.attack1	1
+Flame		mon.attack2	1
+Cold		mon.attack3,sum.element	2
+Deen Glow		mon.name	1
+Wing Cutter		mon.attack1	1
+Ice		mon.attack2,mon.attack3	2
+Demi		mon.attack3	1
+Desert Sahagin		mon.name	1
+Katon		mon.itemA,mon.itemC	2
+Sand Cannon		mon.attack2	1
+Dejon Hammer		mon.name	1
+Death Claw		mon.attack2,mon.name	2
+Platinum Bangle		mon.itemB	1
+Death Dealer		mon.name	1
+Kiss of Death		mon.itemA	1
+Healing nullify		mon.element	1
+Spinning Turn		mon.attack1	1
+Roulette (★Enemy Skill)		mon.attack2	1
+Death Machine		mon.name	1
+W Machine Gun		mon.itemB	1
+Hundred Needles		mon.attack2	1
+Devil Ride		mon.name	1
+Wheelie		mon.attack1	1
+Drift Turn		mon.attack2	1
+Demon's Gate		mon.name	1
+Earth resist		mon.element	3
+Dual Horn		mon.name	1
+Pipio Nut		mon.itemA,mon.itemB	2
+Horn Stab		mon.attack1	1
+Horn Lift		mon.attack2	1
+Doorbull		mon.name	1
+Two Side		mon.name	1
+Tonadu		mon.name	1
+Great Sonic Wave		mon.attack3	1
+Dragon		mon.name	1
+Fire Fang		mon.itemA,mon.itemC	2
+Gold Armlet		mon.itemB	1
+Dragon Fang		mon.attack1	1
+Dragon Zombie		mon.name	1
+Witch's Cauldron		mon.itemA,mon.itemB	2
+Dragon Rider		mon.name	1
+Trick Play		mon.name	1
+Tonberry		mon.name	1
+Nidhogg		mon.name	1
+Poison Fang		mon.attack1	1
+Hold Whip		mon.attack2	1
+Needle Kiss		mon.name	1
+Dive Attack		mon.attack1	1
+Thunder Kiss		mon.attack2	1
+Nibel Wolf		mon.name	1
+Rutile Nut		mon.itemA,mon.itemB	2
+Neck Hunter		mon.name	1
+Rising Dagger		mon.attack2	1
+Nerosuferoth		mon.name	1
+Heat Wing		mon.attack2	1
+Hard Attacker		mon.name	1
+Oil		mon.attack2	1
+Bound Fat		mon.name	1
+Dark Needle		mon.attack2	1
+Bagnadrana		mon.name	1
+Diamond Hairpin		mon.itemB	1
+Bagigandi		mon.name	1
+Petrify Glare		mon.attack2	1
+Basilisk		mon.name	1
+Stone Strike		mon.attack2	1
+Battery Cap		mon.name	1
+Babavelaumyu		mon.name	1
+Cartilage Sword		mon.attack1	1
+Jump Cartilage Sword		mon.attack2	1
+Seal Cartilage Sword		mon.attack3	1
+Parasite		mon.name	1
+Head Attack		mon.attack1	1
+L5 Death (★Enemy Skill)		mon.attack2	1
+Palmer		mon.name	1
+Edincoat		mon.itemA	1
+Valron		mon.name	1
+Dash Punch		mon.attack1	1
+Jump Kick		mon.attack2	1
+Dive Kick		mon.attack3	1
+Hungry		mon.name	1
+Bandersnatch		mon.name	1
+Bandit		mon.name	1
+Hundred Gunner		mon.name	1
+Beachplug		mon.name	1
+Mighty Guard (★Enemy Skill)		mon.attack2	1
+Hippogriff		mon.name	1
+Pyramid		mon.name	1
+Gravity instakill		mon.element	1
+First Ray		mon.name	1
+Laser Cannon		mon.attack1,mon.name	2
+Poizon Cute		mon.name	1
+Bubble Hell		mon.attack2	1
+Funny Face		mon.name	1
+Cutter		mon.attack1	1
+Words of Curse		mon.attack2	1
+Funny Breath		mon.attack3	1
+Formula		mon.name	1
+Boomerang		mon.itemB	1
+Fall Lander		mon.name	1
+Lunar Curtain		mon.itemA	2
+Flame Dance		mon.attack2	1
+Pudurea		mon.name	1
+Speed Source		mon.itemC	1
+Pudurea Sample		mon.name	1
+Proud Clod		mon.name	1
+Ragnarok		mon.itemA	1
+Prowler		mon.name	1
+Brachioraidos		mon.name	1
+Carob Nut		mon.itemA,mon.itemB	2
+Black Bat		mon.name	1
+Blood Taste		mon.name	1
+Drain Tentacle		mon.attack2	1
+Flapbeat		mon.name	1
+Spacetime Shot		mon.itemA,mon.itemB,mon.itemC	3
+Flower Prong		mon.name	1
+Full Armor Golem		mon.name	1
+Blue Dragon		mon.name	1
+Bull Motor		mon.name	1
+Brain Pod		mon.name	1
+Waste Pollution		mon.attack2,mon.attack3	2
+Frozen Nail		mon.name	1
+Consecutive Claws		mon.attack1	1
+Proto Machinegun		mon.name	1
+Hecteyes		mon.name	1
+Magic Source		mon.itemC	2
+Hedgehog Pie		mon.name	1
+Head Bomber		mon.name	1
+Fin Punch		mon.attack1	1
+Heavy Tank		mon.name	1
+Charge		mon.attack1	1
+Wheelie Attack		mon.attack2	1
+Wide Turn		mon.attack3	1
+Behemoth		mon.name	1
+Heligunner		mon.name	1
+Mythril Armlet		mon.itemA	1
+Belchatax		mon.name	1
+Poison Puff		mon.attack2	1
+Hell Harley VR2		mon.name	1
+Arena-type (Frog		mon.status	1
+Invincible)		mon.status	1
+Hammer Blow		mon.attack1	1
+Magnetic Field Shift		mon.attack2	1
+Thrash		mon.attack3	1
+Hell House		mon.name	1
+Heretic Hojo		mon.name	1
+Poison Frog		mon.name	1
+Poisona		mon.attack3	1
+Hole Eater		mon.name	1
+Pollensalta		mon.name	1
+Fire 3		mon.attack1	1
+Angel Whisper (★Enemy Skill)		mon.attack2	1
+Bottomswell		mon.name	1
+Power Wrist		mon.itemA	1
+Bomb		mon.name	1
+Bomb Fragment		mon.itemA,mon.itemC	2
+Maximum Chimera		mon.name	1
+Magnard		mon.name	1
+Grangalan Jr. Jr.		mon.name	1
+Magic Pot		mon.name	1
+Master Tonberry		mon.name	1
+Megalixir		mon.itemA	1
+Gravity absorb		mon.element	1
+Materia Keeper		mon.name	1
+Jem Ring		mon.itemA	1
+Madouge		mon.name	1
+Grand Crab		mon.itemB	1
+Swamp Shoot		mon.attack2	1
+Mandragora		mon.name	1
+Lasan Nut		mon.itemA,mon.itemB	2
+Glass Thrust		mon.attack1	1
+Slow Dance		mon.attack2	1
+Manhole		mon.name	1
+Barrier		mon.status	1
+Battle		mon.status	1
+MBarrier		mon.status	1
+Shield		mon.status	1
+Death Force		mon.status	1
+Resist		mon.status	1
+Missile Launcher		mon.name	1
+Rocket Launcher		mon.attack1,mon.name	2
+Midgar Zolom		mon.name	1
+Mirage		mon.name	1
+Reflecting Mirror		mon.itemA	1
+Mu		mon.name	1
+Mover		mon.name	1
+Motor Ball		mon.name	1
+Star Pendant		mon.itemA	1
+Mole Dancer		mon.name	1
+Dance		mon.attack2	1
+Moth Slasher		mon.name	1
+Carbon Bangle		mon.itemB	1
+Snout Attack		mon.attack1	1
+Speed Slash		mon.attack2	1
+Mono Drive		mon.name	1
+Marlboro		mon.name	1
+Yang		mon.name	1
+Yuffie		mon.name	1
+Rapps		mon.name	1
+Ring of Peace		mon.itemA	1
+Land Worm		mon.name	1
+Earthquake		mon.attack1	1
+Sandstorm		mon.attack2	1
+Bizarro Sephiroth		mon.name	1
+Rilfsak		mon.name	1
+Dance of Leaves		mon.attack2	1
+Rufus		mon.name	1
+Protect Vest		mon.itemA	1
+Lessaloploss		mon.name	1
+Wing Cut		mon.attack1	1
+Scorpion Tail		mon.attack2	1
+Red Dragon		mon.name	1
+Levrikon		mon.name	1
+Hundred Thrusts		mon.attack2	1
+Lost Number		mon.name	1
+Cosmo Memory		mon.itemA	1
+Carry Armor: Right Arm		mon.name	1
+Heretic Hojo: Right Arm		mon.name	1
+Seabed Guard		mon.name	1
+Marine		mon.name	1
+Shinra Anzen		mon.itemA,mon.itemB	2
+Smoke Shell		mon.attack3	2
+Strange Bug		mon.name	1
+Reinforced Trooper		mon.name	1
+Ultimate Lifeform Hojo NA		mon.name	1
+Aerial Soldier		mon.name	1
+Warning Board		mon.name	1
+Death (instant death from Death spells etc.)		mon.status	1
+Guard		mon.name	1
+Tonfa		mon.attack2	1
+Carry Armor: Left Arm		mon.name	1
+Heretic Hojo: Left Arm		mon.name	1
+Advanced Trooper		mon.name	1
+Hand Claw		mon.attack1	3
+Harrier Beam		mon.attack2	1
+Water Wave		mon.attack3	1
+Shinra Sub Crewman		mon.name	1
+Shinra Guard		mon.name	1
+Blade Beast		mon.name	1
+Discharge		mon.attack2	1
+Water Polo		mon.name	1
+Unknown		mon.name	1
+Fire Armlet		mon.itemB	1
+Unknown 2		mon.name	1
+Aurora Armlet		mon.itemB	1
+Boss		mon.status	1
+Unknown 3		mon.name	1
+Bolt Armlet		mon.itemB	1
+Trooper		mon.name	1
+Machine Gun Beam		mon.attack2	2
+Footcutter Weed		mon.name	1
+Glass Cutter		mon.attack1	1
+Hysteric Voice		mon.attack2	1
+Magic Hammer (★Enemy Skill)		mon.attack3	1
+Captain		mon.name	1
+Dragon Fury Cannon		mon.name	1
+Iron Giant		mon.name	1
+Escort Guard		mon.itemC	1
+Special Trooper		mon.name	1
+Wave Motion		mon.attack3	1
+Tailhopper		mon.name	1
+Somersault		mon.attack2	1
+Hojo		mon.name	1
+Magic-Absorbing Materia		mon.name	1
+Thunderbird		mon.name	1
+Thunder Swift		mon.itemC	1
+Stab		mon.attack1	1
+Thunder Strike		mon.attack2	1
+Grenadier		mon.name	1
+Cloud Strife		chr.name	1
+21		chr.age	1
+173		chr.height	1
+AB		chr.blood	1
+8/11		chr.birthday	1
+Nibelheim		chr.hometown	2
+Sword		chr.weapon	1
+Idolized Sephiroth and became a SOLDIER for the Shinra Company. His blue eyes are the mark of one bathed in Mako. He is currently hired for gil by the anti-Shinra group AVALANCHE.		chr.desc	1
+Tifa Lockhart		chr.name	1
+20		chr.age	1
+167		chr.height	1
+B		chr.blood	2
+5/3		chr.birthday	1
+Gloves		chr.weapon	1
+　Clouds childhood friend and the star of Seventh Heaven in Sector 7. After the Nibelheim incident she locked part of her heart away.		chr.desc	1
+Barret Wallace		chr.name	1
+35		chr.age	1
+197		chr.height	1
+O		chr.blood	2
+12/15		chr.birthday	1
+Corel		chr.hometown	1
+Gimmick Arm		chr.weapon	1
+　Leader of AVALANCHE. He fights to protect the Planet. Rough but holds the group together. Still carries the past of his lost right arm.		chr.desc	1
+Red XIII Nanaki		chr.name	1
+48		chr.age	1
+？		chr.age,chr.birthday,chr.blood,chr.height,chr.hometown	13
+Cosmo Canyon		chr.hometown	1
+Hair Ornament		chr.weapon	1
+　A thoughtful beast who speaks human language. Rescued by Cloud. He is 48 but only about 15 in human years. Real name Nanaki.		chr.desc	1
+Aerith Gainsborough		chr.name	1
+22		chr.age	1
+163		chr.height	1
+2/7		chr.birthday	1
+Icicle Inn		chr.hometown	1
+Sells flowers in the ruined slums. As a survivor of the Ancients, she possesses a certain mysterious charm.		chr.desc	1
+Cid Highwind		chr.name	1
+32		chr.age	1
+178		chr.height	1
+2/22		chr.birthday	1
+Rocket Town		chr.hometown,loc.name	2
+Spear		chr.weapon	1
+An airship pilot who never gave up his dream of space. After a failed rocket launch, Shinra cut off his space development funding, and he had no choice but to abandon that dream.		chr.desc	1
+Yuffie Kisaragi		chr.name	1
+16		chr.age	1
+160		chr.height	1
+A		chr.blood	2
+11/20		chr.birthday	1
+Wutai		chr.hometown,loc.name	2
+Shuriken		chr.weapon	1
+Ninja girl who loves materia. Travels with Cloud while trying to steal it.		chr.desc	1
+Cait Sith		chr.name	1
+100		chr.height	1
+Megaphone		chr.weapon	1
+　A strange cat who loves fortune-telling and rides a Fat Mog. He remote-controls a fake body. A Shinra spy but not truly evil.		chr.desc	1
+Vincent Valentine		chr.name	1
+27		chr.age	1
+184		chr.height	1
+10/13		chr.birthday	1
+Gun		chr.weapon	1
+　A man bound by guilt. His atonement is to sleep under the Shinra Mansion. A former Turk with remarkable gun skill.		chr.desc	1
+Sephiroth		chr.name	1
+Katana		chr.weapon	1
+　Until five years ago he was a Shinra SOLDIER admired by everyone. After learning his birth secret in Nibelheim he became a ruler.		chr.desc	1
+Icicle Area		loc.name	1
+Under Junon		loc.name	1
+Wutai Area		loc.name	1
+Wutai Pagoda		loc.name	1
+Woodland Area		loc.name	1
+Gaea's Cliff		loc.name	1
+Gi Cave		loc.name	1
+Grassland Area		loc.name	1
+Grassland Area (Marsh)		loc.name	1
+Crater		loc.name	1
+Gold Saucer Area		loc.name	1
+Cosmo Area		loc.name	1
+Goblin Island		loc.name	1
+Don Corneo's Mansion		loc.name	1
+Corel Area		loc.name	1
+Corel Prison		loc.name	1
+Corel Prison (Desert)		loc.name	1
+Mt. Corel		loc.name	1
+Corel Mako Reactor		loc.name	1
+Gongaga Area		loc.name	1
+Gongaga Jungle		loc.name	1
+Gongaga		loc.name	1
+Gongaga Mako Reactor		loc.name	1
+Fort Condor		loc.name	1
+Cactus Island		loc.name	1
+Coral Valley		loc.name	1
+Junon		loc.name	1
+Junon Area		loc.name	1
+Da-chao Statue		loc.name	1
+Nibel Area		loc.name	1
+Mt. Nibel		loc.name	1
+Highway		loc.name	1
+Mythril Mine		loc.name	1
+Midgar Area		loc.name	1
+Mideel Area		loc.name	1
+Rocket Town Area		loc.name	1
+Sector 1		loc.name	1
+No. 1 Mako Reactor		loc.name	1
+Cargo Ship		loc.name	1
+Underwater Pipe		loc.name	1
+Underwater Mako Reactor		loc.name	1
+Various		loc.name	1
+Church		loc.name	1
+Air, etc.		loc.name	1
+Ancient Forest		loc.name	1
+Temple of the Ancients		loc.name	1
+Sector 5 Slums		loc.name	1
+No. 5 Mako Reactor		loc.name	1
+Sector 4 Underground Mine		loc.name	1
+Sector 7 Pillar		loc.name	1
+Shinra Building		loc.name	1
+Shinra Building Roof		loc.name	1
+Shinra Mansion		loc.name	1
+Snowfield		loc.name	1
+Underwater Altar		loc.name	1
+Inside the Cliff		loc.name	1
+Submarine		loc.name	1
+Submarine Dock		loc.name	1
+Footprints		loc.name	1
+Northern Cave		loc.name	1
+Great Glacier		loc.name	1
+Great Glacier Cave		loc.name	1
+Coal Train		loc.name	1
+Underground Sewers		loc.name	1
+Sector 8		loc.name	1
+Sector 8 Underpass		loc.name	1
+Airship Gelnika		loc.name	1
+Mako Cannon (Sister Ray)		loc.name	1
+Spiral Tunnel		loc.name	1
+Whirlwind Maze		loc.name	1
+Train Graveyard		loc.name	1
+Sector 6 Ruins		loc.name	1
+????		loc.name	1
+Chocobo & Mog 1		sum.name	1
+Special Move!!		sum.attack	1
+"The Chocobo and Mog join forces to attack. There are two attacks: the bold body-slam ""Special Move!!"" and a transformation into the ""Fat Chocobo""."		sum.desc	2
+Chocobo & Mog 2		sum.name	1
+Fat Chocobo		sum.attack	1
+Shiva		sum.name	1
+Diamond Dust		sum.attack	1
+She descends from the sky amid the Diamond Dust. The power of cold gathered at her fingertips freezes the enemy solid.		sum.desc	1
+Ifrit		sum.name	1
+Hellfire		sum.attack	1
+Ifrit, a being of fire, rises from the ground and gathers fiery power throughout his body. He then charges the enemies, dealing fire damage to all of them.		sum.desc	1
+Ramuh		sum.name	1
+Judgment Bolt		sum.attack	1
+Lightning		sum.element	1
+He raises the ground to store more lightning and holds his staff skyward, then discharges the gathered power at once to damage the enemy.		sum.desc	1
+Titan		sum.name	1
+Anger of the Land		sum.attack	1
+Earth		sum.element	1
+Raising a huge cloud of dust, he crawls out of the ground. Planting both hands firmly on the earth, he flips the ground over along with the enemies.		sum.desc	1
+Odin 1		sum.name	1
+Zantetsuken		sum.attack	1
+"Appears riding a six-legged horse. Cuts the enemy in two with ""Zantetsuken,"" and impales enemies who survive with the ""Gungnir"" spear thrown into the air."		sum.desc	2
+Odin 2		sum.name	1
+Gungnir		sum.attack	1
+Leviathan		sum.name	1
+Tidal Wave		sum.attack	1
+Water		sum.element	1
+A messenger of water appears from a sphere of water floating in the air. He calls up a huge tidal wave, dealing water damage to the enemy.		sum.desc	1
+Bahamut		sum.name	1
+Mega Flare		sum.attack	1
+"The black dragon Bahamut appears from between the clouds. He deals damage with the powerful breath attack ""Mega Flare."""		sum.desc	1
+Kjata		sum.name	1
+Tri-Disaster		sum.attack	1
+Fire/Ice/Bolt		sum.element	1
+A red current envelops all enemies, followed by lightning, ice and fire attacks. Finally Kjata appears and sets off an earthquake aimed at the enemy.		sum.desc	1
+Alexander		sum.name	1
+Divine Judgment		sum.attack	1
+Holy		sum.element	1
+"A giant golem appears beneath the enemies and fires a beam from its eyes. It delivers the Holy-elemental ""Divine Judgment"" upon the enemy."		sum.desc	1
+Phoenix		sum.name	1
+Rebirth Flame		sum.attack	1
+"A ball of fire descends from the sky and the immortal bird Phoenix emerges from it. It attacks the enemy with ""Rebirth Flame"" and casts Life on the whole party."		sum.desc	1
+Neo Bahamut		sum.name	1
+Giga Flare		sum.attack	1
+Pulls the enemies and the ground up into the sky, then the red dragon Neo Bahamut blasts it all away with a powerful breath.		sum.desc	1
+Hades		sum.name	1
+Black Cauldron		sum.attack	1
+He chants a sinister spell over the black cauldron and engulfs the enemy in smoke that inflicts Poison, Confusion, Sleep, Silence, Mini, Frog, Slow and Paralysis.		sum.desc	1
+Typhon		sum.name	1
+Catastrophe		sum.attack	1
+Fire/Ice/Bolt/Earth		sum.element	1
+Typhon, who has a face front and back, emerges from a tornado. He deals damage with two kinds of attack: a breath attack and a ceiling-drop attack.		sum.desc	1
+Bahamut ZERO		sum.name	1
+Terra Flare		sum.attack	1
+"The highest form of Bahamut. He concentrates power in outer space and breathes the mighty ""Terra Flare"" down upon the ground."		sum.desc	1
+Knights of the Round		sum.name	1
+Ultimate End		sum.attack	1
+Thirteen knights slash the enemy in turn. Most enemies who take all thirteen hits meet their death.		sum.desc	1

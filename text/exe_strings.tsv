@@ -1,0 +1,1920 @@
+offset	jplen	slot	jp	en	note
+000B0C	12	15	その他　　　	Other       	
+000B1C	12	15	マテリア　　	Materia     	
+000B2C	12	15	アクセサリー	Accessory   	
+000B3C	12	15	防具　　　　	Armor       	
+000B4C	12	15	武器　　　　	Weapon      	
+000B8C	12	15	次画面　　　	Next        	
+000B9C	12	15	前画面　　　	Previous    	
+000BAC	12	15	戻る　　　　	Back        	
+000BBC	12	15	モンスター　	Monsters    	
+000BCC	12	15	召喚獣　　　	Summons     	
+000BDC	12	15	キャラクター	Characters  	
+000BEC	18	19	神羅 uV式 潜水艦  	Shinra uV Sub     	
+000C00	18	19	ハイウインド      	Highwind          	
+000C14	18	19	スノーボード      	Snowboard         	
+000C28	18	19	タイニー・ブロンコ	Tiny Bronco       	
+000C3C	18	19	ロケット 神羅26号 	Shinra No. 26     	
+000C50	18	19	バギー            	Buggy             	
+000C64	18	19	ロープウェイ      	Ropeway           	
+000C78	18	19	神羅 sA-37式      	Shinra sA-37      	added 2026-11-04 (missed by extractor)
+000C8C	18	19	ハーディ・デイトナ	Hardy-Daytona     	
+000CA0	19	19	神羅 B1A式 ﾍﾘｺ@プﾀｰ	Shinra B1A Heli	
+000CB4	12	15	ヴィンセント	Vincent     	
+000CC4	12	15	ケット・シー	Cait Sith   	
+000CD4	12	15	ユフィ　　　	Yuffie      	
+000CE4	12	15	シド　　　　	Cid         	
+000CF4	12	15	エアリス　　	Aeris       	
+000D04	12	15	レッドⅩⅢ　	Red XIII    	
+000D14	12	15	バレット　　	Barret      	
+000D24	12	15	ティファ　　	Tifa        	
+000D34	12	15	クラウド　　	Cloud       	
+000E64	26	27	crc32:8f5ddced	    {~f06}5000+ points{~f0F}    	added 2026-11-04 (missed by extractor)
+000E80	26	27	crc32:109c753b	  {~f06}3000-4999 points{~f0F}  	added 2026-11-04 (missed by extractor)
+001120	26	27	crc32:fdd7d6f6	       {~f0D}Score{~f0F}        	
+00113C	30	31	crc32:51d20880	   {~f0D}BP (Battle Points){~f0F}   	
+001178	26	27	crc32:dc24afc2	 {~f04}Shop (post-Meteor){~f0F}  	
+001194	26	27	crc32:59683f13	{~f04}Lady's Materia Shop{~f0F} 	
+0011B0	26	27	crc32:56b1416e	  {~f04}Lady's Item Shop{~f0F}  	
+0011CC	26	27	crc32:ffe5aa5d	 {~f04}Lady's Weapon Shop{~f0F} 	
+001200	26	27	crc32:4c0abaca	 {~f04}Prizes (post-Meteor){~f0F} 	
+00121C	26	27	crc32:24dd9651	 {~f04}Prizes (pre-Meteor){~f0F}  	
+001238	26	27	crc32:f56bbf11	    {~f04}Prize Exchange{~f0F}    	
+001254	26	27	crc32:ca5872b9	    {~f04}Item Shop{~f0F}       	
+001270	26	27	crc32:8707934e	   {~f04}General Store{~f0F}    	
+00128C	26	27	crc32:5cd3b769	{~f04}Grocer: Post-Meteor{~f0F}	
+0012A8	26	27	crc32:fcbee08c	{~f04}Grocer: Pre-Meteor{~f0F}  	
+0012C4	26	27	crc32:99d2a123	       {~f04}Grocer{~f0F}       	
+0012E0	26	27	crc32:b458ca40	 {~f04}Acc. (post-Meteor){~f0F} 	added 2026-11-04 (missed by extractor)
+0012FC	26	27	crc32:14359da5	 {~f04}Acc. (pre-Meteor){~f0F}  	added 2026-11-04 (missed by extractor)
+001318	26	27	crc32:c2208494	   {~f04}Accessory Shop{~f0F}   	
+001334	26	27	crc32:e7091b99	  {~f04}Materia (ruined){~f0F}  	added 2026-11-04 (missed by extractor)
+001350	26	27	crc32:623b161d	{~f04}Materia(post-Meteor){~f0F}	added 2026-11-04 (missed by extractor)
+00136C	26	27	crc32:c25641f8	{~f04}Materia (pre-Meteor){~f0F}	added 2026-11-04 (missed by extractor)
+001388	26	27	crc32:6fedc157	    {~f04}Materia Shop{~f0F}    	
+0013A4	26	27	crc32:3e8e52d0	   {~f04}Items (ruined){~f0F}   	added 2026-11-04 (missed by extractor)
+0013C0	26	27	crc32:332883f4	{~f04}Items (post-Meteor){~f0F} 	added 2026-11-04 (missed by extractor)
+0013DC	26	27	crc32:9345d411	 {~f04}Items (pre-Meteor){~f0F} 	added 2026-11-04 (missed by extractor)
+0013F8	26	27	crc32:80f63121	    {~f04}Item Shop{~f0F}       	
+001414	26	27	crc32:d6cb323c	   {~f04}Weapons (ruined){~f0F}   	
+001430	26	27	crc32:ce9c5cb3	{~f04}Weapons: Post-Meteor{~f0F}	added 2026-11-04 (missed by extractor)
+00144C	26	27	crc32:6ef10b56	{~f04}Weapons: Pre-Meteor{~f0F} 	added 2026-11-04 (missed by extractor)
+001468	26	27	crc32:12ed1f5d	     {~f04}Weapon Shop{~f0F}      	
+001484	20	23	　６９Ｆ　　　　　　	  69F               	
+00149C	20	23	　６６Ｆ　　　　　　	  66F               	
+0014B4	20	23	　６５Ｆ　　　　　　	  65F               	
+0014CC	20	23	　６４Ｆ　　　　　　	  64F               	
+0014E4	20	23	　６３Ｆ　　　　　　	  63F               	
+0014FC	20	23	　６２Ｆ　　　　　　	  62F               	
+001514	20	23	　６１Ｆ　　　　　　	  61F               	
+00152C	20	23	　６０Ｆ　　　　　　	  60F               	
+001544	20	23	　５９Ｆ　　　　　　	  59F               	
+00155C	20	23	　　３Ｆ　　　　　　	   3F               	
+001574	20	23	　　２Ｆ　　　　　　	   2F               	
+00158C	20	23	　　１Ｆ　　　　　　	   1F               	
+0015A4	293	295	crc32:5c2c322a	 {~f06}Model Viewer Controls{~f0F} \n{~f04}D-pad   :{~f0F} Rotate X/Y axis\n{~f04}L1, R1  :{~f0F} Rotate Z axis\n{~f04}L2, R2  :{~f0F} Zoom in/out\n{~f04}Circle  :{~f0F} Action\n          (not on all models)\n{~f04}Cross   :{~f0F} Back to list\n{~f04}Triangle:{~f0F} Show/hide info\n{~f04}Select  :{~f0F} This help	
+0016CC	295	295	crc32:71253275	    {~f06}Shinra Type-uV Submarine{~f0F} \n   {~f04}Length:{~f0F} 14.56m\n    {~f04}Width:{~f0F}  4.58m\n   {~f04}Weight:{~f0F} Unknown\n     {~f04}Crew:{~f0F} 35{~f0E} \nDATA:{~f0F} \n A small Shinra submarine. Its\n low-frequency sonar excels at\n tracking subs and torpedoes.\n It also carries a torpedo\n tube.	
+0017F4	440	443	crc32:805315f8	        {~f06}Airship Highwind{~f0F} \n   {~f04}Length:{~f0F}   237m\n    {~f04}Width:{~f0F}   183m (excl. props)\n   {~f04}Height:{~f0F}    33m (excl. props)\n   {~f04}Weight:{~f0F} 2,150t\n{~f04}Top speed:{~f0F}   386kt\n   {~f04}Cruise:{~f0F}   173kt{~f0E} \nDATA:{~f0F} \n A high-speed airship built by\n Shinra at enormous cost and\n named Highwind after Cid.\n After a crew mutiny it left\n Shinra control and now carries\n Cloud and company across the\n skies.	
+0019B0	255	255	crc32:3672389a	           {~f06}Snowboard{~f0F} \n   {~f04}Length:{~f0F} 153.0cm\n     {~f04}Edge:{~f0F} 116.0cm\n    {~f04}Waist:{~f0F}  25.1cm{~f0E} \nDATA:{~f0F} \n Rainbow finish. Stiff and\n springy, a special model for\n intermediate riders. Great on\n the steep slopes near Icicle\n Inn.	
+001AB0	468	471	crc32:abf6d65a	      {~f06}Autogyro Tiny Bronco{~f0F} \n   {~f04}Length:{~f0F} 12.74m (excl. props)\n    {~f04}Width:{~f0F} 12.48m (excl. props)\n   {~f04}Height:{~f0F}  3.57m (excl. props)\n   {~f04}Weight:{~f0F} 3,850kg\n{~f04}Top speed:{~f0F}   235kt\n   {~f04}Cruise:{~f0F}    73kt{~f0E} \nDATA:{~f0F} \n A propeller plane Shinra paid\n a fortune to build. Packed\n with technology and with all\n of Cid's passion and romance,\n its sturdy body can still\n cross the sea freely even\n after losing its wings.	
+001C88	297	299	crc32:d12f4d3f	      {~f06}Rocket Shinra No. 26{~f0F} \n   {~f04}Length:{~f0F} 48m\n   {~f04}Weight:{~f0F} 1,418t\n    {~f04}Notes:{~f0F} Escape pod{~f0E} \nDATA:{~f0F} \n Built over many years by the\n best Shinra engineers. Its\n first launch was aborted by\n human error and an oxygen tank\n fault, but the second\n succeeded.	
+001DB4	328	331	crc32:ad3190ca	             {~f06}Buggy{~f0F} \n   {~f04}Length:{~f0F}  7.26m\n    {~f04}Width:{~f0F}  3.58m\n   {~f04}Height:{~f0F}  1.96m\n   {~f04}Weight:{~f0F} 2,150kg\n    {~f04}Speed:{~f0F}  approx. 80km/h{~f0E} \nDATA:{~f0F} \n Crosses plains, deserts and\n shallow rivers on reinforced\n tires at about 50km/h. Owned\n by Dio, who runs the Gold\n Saucer.	
+001F00	397	399	crc32:dc0f43df	            {~f06}Ropeway{~f0F} \n   {~f04}Length:{~f0F} 12.75m (gondola)\n    {~f04}Width:{~f0F}  4.06m (gondola)\n   {~f04}Height:{~f0F}  2.88m (gondola)\n   {~f04}Weight:{~f0F} 2,920kg\n{~f04}Max slope:{~f0F}  approx. 42deg{~f0E} \nDATA:{~f0F} \n An aerial cableway linking\n North Corel to the Gold\n Saucer, the amusement park in\n the middle of the desert. Blue\n gondolas holding 15 people\n hang from the wire rope.	
+002090	280	283	crc32:525950d1	   {~f06}Shinra sA-37 Three-Wheeler{~f0F} \n   {~f04}Length:{~f0F}  2.96m\n    {~f04}Width:{~f0F}  1.87m\n   {~f04}Height:{~f0F}  1.56m{~f0E} \nDATA:{~f0F} \n Based on the sA-27 three-\n wheeler, with a roof added.\n Its biggest improvement over\n the sA-27 is the switch from a\n pipe frame to a monocoque\n frame.	
+0021AC	387	387	crc32:4fd61c39	         {~f06}Hardy-Daytona{~f0F} \n   {~f04}Length:{~f0F} 2,300mm\n    {~f04}Width:{~f0F}   785mm\n   {~f04}Height:{~f0F} 1,175mm\n   {~f04}Displ.:{~f0F} 1,160cc\n   {~f04}Engine:{~f0F} VE4-Ge\n           (oil-cooled V4 DOHC){~f0E} \nDATA:{~f0F} \n The newest Shinra bike engine\n and its first V-type DOHC. Low\n durability and a narrow power\n band make it a monster for\n experts only.	
+002330	466	467	crc32:13b530b4	     {~f06}Shinra B1A Helicopter{~f0F} \n   {~f04}Length:{~f0F}  9.14m (excl. rotor)\n    {~f04}Width:{~f0F}  3.05m (excl. rotor)\n   {~f04}Height:{~f0F}  2.89m (excl. rotor)\n   {~f04}Weight:{~f0F} 1,230kg\n{~f04}Top speed:{~f0F}   150kt\n   {~f04}Cruise:{~f0F}    43kt{~f0E} \nDATA:{~f0F} \n Shinra multipurpose helicopter\n used by the Turks and other\n Shinra staff for all kinds of\n jobs. Often flown in dark\n Midgar, many carry a pair of\n very bright fog lamps on the\n nose.	
+002504	20	23	チョコボせんにんの家	Chocobo Sage	
+00251C	14	15	武器職人の小屋	Smith Hut	
+00252C	20	23	ルクレツィアのほこら	Lucrecia	
+002544	10	11	オヤジ小屋	Old Hut	
+002550	14	15	マテリアの洞窟	Materia Cave	
+002560	14	15	飛空艇ゲルニカ	Gelnika	
+002570	8	11	古えの森	Old Forest	
+00257C	8	11	ウータイ	Wutai	
+002588	10	11	ミディール	Mideel	
+002594	16	19	アイシクルロッジ	Icicle Inn	
+0025A8	10	11	忘らるる都	Forgotten Capital	
+0025B4	14	15	ボーンビレッジ	Bone Village	
+0025C4	12	15	古代種の神殿	Temple	
+0025D4	10	11	ロケット村	Rocket Town	
+0025E0	12	15	ニブルヘイム	Nibelheim	
+0025F0	16	19	コスモキャニオン	Cosmo Canyon	
+002604	8	11	ゴンガガ	Gongaga	
+002610	16	19	ゴールドソーサー	Gold Saucer	
+002624	8	11	北コレル	North Corel	
+002630	18	19	コスタ・デル・ソル	Costa del Sol	
+002644	10	11	海底魔晄炉	Undersea	
+002650	8	11	ジュノン	Junon	
+00265C	16	19	コンドルフォート	Fort Condor	
+002670	16	19	チョコボファーム	Chocobo Farm	
+002684	10	11	ミッドガル	Midgar	
+002690	12	15	ハイウインド	Highwind	
+0026A0	16	19	センターホールへ	To Center Hall	
+0026B4	8	11	汚れた床	Dirty Floor	
+0026C0	18	19	エンジン調整パネル	Engine Panel	
+0026D4	12	15	チョコぼうへ	To Chocobos	
+0026E4	22	23	オペレーションルームへ	To Operation Room	
+0026FC	14	15	コックピットへ	To Cockpit	
+00270C	8	11	レーダー	Radar	
+002718	18	19	デリケートな計器類	Delicate Gauges	
+00272C	29	31	crc32:082631cd	Operation\n  Display	
+00274C	14	15	室内温度調整機	Thermostat	
+00275C	8	11	八番街へ	To Sector 8	
+002768	8	11	七番街へ	To Sector 7	
+002774	8	11	六番街へ	To Sector 6	
+002780	20	23	ウォールマーケットへ	To Wall Market	
+002798	8	11	伍番街へ	To Sector 5	
+0027A4	20	23	伍番街スラムの教会へ	To Sector 5 Church	
+0027BC	10	11	神羅ビルへ	To Shinra	
+0027C8	12	15	壊れた消防車	Fire Truck	
+0027D8	14	15	壊れたパトカー	Police Car	
+0027E8	14	15	演劇の公演告知	Play Poster	
+0027F8	18	19	バーゲンのポスター	Sale Poster	
+00280C	14	15	七番街スラムへ	To Sec.7 Slums	
+00281C	16	19	七番街スラム駅へ	To Sector 7 Station	
+002830	14	15	セブンスヘブン	7th Heaven	
+002840	12	15	ジョニーの家	Johnny's House	
+002850	10	11	初心者の館	Beginners Hall	
+00285C	8	11	ストーブ	Stove	
+002868	10	11	マテリア壺	Materia Jar	
+002874	8	11	ミカン箱	Fruit Box	
+002880	14	15	強化戦闘員の頭	SOLDIER Head	
+002890	12	15	アサルトガン	Assault Gun	
+0028A0	18	19	スパイダーショット	Spider Shot	
+0028B4	10	11	腕クリップ	Arm Clip	
+0028C0	10	11	バズーカー	Bazooka	
+0028CC	8	11	エーテル	Ether	
+0028D8	27	27	crc32:e61cc854	Support Materia:\n  All	
+0028F4	12	15	予備のベッド	Spare Bed	
+002904	12	15	麻の掛け布団	Hemp Quilt	
+002914	10	11	どくろの枕	Skull Rest	
+002920	20	23	金髪ギャルのポスター	Blonde Pin-Up	
+002938	12	15	成田山の提灯	Temple Lantern	
+002948	16	19	富士山のペナント	Mt. Fuji pennant	
+00295C	16	19	ハワイのペナント	Hawaii Pennant	
+002970	16	19	クランクシャフト	Crankshaft	
+002984	14	15	キャブレーター	Carburetor	
+002994	12	15	車のおもちゃ	Toy Car	
+0029A4	8	11	マフラー	Muffler	
+0029B0	12	15	お茶くみ人形	Tea Doll	
+0029C0	22	23	暴走族「亜罵乱血」の旗	Biker Gang Flag	
+0029D8	16	19	野球のトロフィー	Baseball Trophy	
+0029EC	18	19	トイレットペーパー	Toilet Paper	
+002A00	14	15	ライダースーツ	Riding Suit	
+002A10	8	11	皮ジャン	Leathers	
+002A1C	10	11	大型換気扇	Big Vent Fan	
+002A28	16	19	ジュークボックス	Jukebox	
+002A3C	16	19	蜂蜜の館のマッチ	Honey Bee Matches	
+002A50	24	27	アバランチ特製アルコール	AVALANCHE Special Brew	
+002A6C	18	19	アバランチアジトへ	To AVALANCHE Base	
+002A80	24	27	crc32:e9563b12	Pinball\n  COWBOY RIDE	
+002A9C	12	15	サンドバッグ	Punching Bag	
+002AAC	14	15	30kgのダンベル	30kg Dumbbell	
+002ABC	14	15	10kgの鉄アレイ	10kg Dumbbell	
+002ACC	18	19	プリンター付き白板	Printing Whiteboard	
+002AE0	22	23	ジェシーのカスタムＰＣ	Jessie's Custom PC	
+002AF8	14	15	アバランチの旗	AVALANCHE Flag	
+002B08	20	23	マリンのいたずら書き	Marlene's Doodles	
+002B20	16	19	セブンスヘブンへ	To 7th Heaven	
+002B34	20	23	モススラッシャーの頭	Moss Slasher's Head	
+002B4C	20	23	壊れたステンドグラス	Broken Stained Glass	
+002B64	25	27	crc32:f4623930	Slum Church\n  To the Back	
+002B80	23	23	crc32:62ec2ead	Slum Church\n  To Chapel	
+002B98	18	19	エアリスが育てた花	Flowers Aeris Grew	
+002BAC	10	11	教会の奥へ	To the Back	
+002BB8	8	11	礼拝堂へ	To Chapel	
+002BC4	18	19	エアリスの家の前へ	To Aeris's House	
+002BD8	12	15	神羅ビジョン	Shinra Vision	
+002BE8	8	11	漢方の瓶	Herbal Jars	
+002BF4	10	11	レジスター	Register	
+002C00	16	19	御門のカレンダー	Mikado Calendar	
+002C14	10	11	漢方薬の瓶	Herbal Medicine	
+002C20	8	11	重機関砲	Heavy Gun	
+002C2C	10	11	汚れた布団	Dirty Futon	
+002C38	20	23	つけっぱなしのテレビ	TV Left on	
+002C50	8	11	懐中電灯	Flashlight	
+002C5C	16	19	エネルギーＶの箱	Energy V Box	
+002C70	20	23	マテリア屋チェーン旗	Materia Chain Flag	
+002C88	8	11	松の盆栽	Bonsai Pine	
+002C94	20	23	エアリスから買った花	Flower from Aeris	
+002CAC	10	11	デコーダー	Decoder	
+002CB8	24	27	伝説の空手家のカレンダー	Karate Legend Calendar	
+002CE0	16	19	空っぽの引き出し	Empty Drawer	
+002CF4	24	27	伝説の空手家の闘魂座布団	Karate Master's Cushion	
+002D10	18	19	亀道楽通信ＮＯ．１	Turtle's Paradise No.1	
+002D24	23	23	crc32:290501c9	Indep. Materia:\n  Cover	
+002D3C	12	15	エアリスの家	Aeris's House	
+002D4C	10	11	カキツバタ	Iris	
+002D58	20	23	カロライナジャスミン	Carolina Jasmine	
+002D70	10	11	カノコユリ	Lily	
+002D7C	27	27	crc32:c4762a9f	Pink Evening\nPrimrose	
+002D98	10	11	花形ランプ	Flower Lamp	
+002DA4	21	23	crc32:64ea6817	Grand\nParadise	
+002DBC	16	19	フェニックスの尾	Phoenix Down	
+002DD0	14	15	レプトシフォン	Leptosiphon	
+002DE0	10	11	アデニウム	Adenium	
+002DEC	8	11	リコリス	Lycoris	
+002DF8	20	23	シンキリシマリンドウ	Gentian	
+002E10	16	19	ヒメハナビシソウ	Golden Poppy	
+002E24	14	15	ゼフィランサス	Zephyranthes	
+002E34	29	31	crc32:8e13c06c	Command Materia:\n  Sense	
+002E54	8	11	トンネル	Tunnel	
+002E60	14	15	公園管理人の家	Park Keeper's House	
+002E70	8	11	ブランコ	Swing	
+002E7C	8	11	水飲み場	Fountain	
+002E88	8	11	公衆便所	Public Toilet	
+002E94	18	19	七番街プレート落下	Sector 7 Plate	
+002EA8	12	15	蜜蜂の館前へ	To Honey Bee	
+002EB8	10	11	会員カード	Member Card	
+002EC4	31	31	crc32:8b67169a	Wall Market\n  To Exterior 2	
+002EE4	20	23	ドリンクの自動販売機	Drink Machine	
+002EFC	14	15	蜜蜂の館２号店	Honey Bee Inn 2	
+002F0C	31	31	crc32:8aa57cad	Wall Market\n  To Exterior 1	
+002F2C	14	15	「恋人の巣箱」	Lovers Nest	
+002F3C	16	19	「女王蜂の巣箱」	Queen Bee Room	
+002F50	8	11	化粧室へ	To Restroom	
+002F5C	18	19	「団体様の巣箱」へ	To Group Room	
+002F70	14	15	「愛の巣箱」へ	To Love Nest	
+002F80	16	19	ボディシャンプー	Body Shampoo	
+002F94	14	15	海藻ローション	Seaweed Lotion	
+002FA4	10	11	円型ベッド	Round Bed	
+002FB0	12	15	ランジェリー	Lingerie	
+002FC0	12	15	ロビーに出る	To Lobby	
+002FD0	22	23	ムッキーのビキニパンツ	Mukki's Bikini Briefs	
+002FE8	18	19	青春サークルの会報	Youth Club Bulletin	
+002FFC	24	27	蜜蜂嬢のファンデーション	Bee Girls' Makeup	
+003018	12	15	蜜蜂嬢の香水	Bee Girl Perfume	
+003028	12	15	蜜蜂嬢の口紅	Bee Girl Lipstick	
+003038	31	31	crc32:8921a8c3	Wall Market\n  To Exterior 3	
+003058	14	15	無人アイテム屋	Unmanned Shop	
+003068	22	23	アイテムディスペンサー	Item Dispenser	
+003080	16	19	プレミアムハート	Premium Heart	
+003094	12	15	ガトリング砲	Gatling Gun	
+0030A4	18	19	アルコール漬け標本	Pickled Specimen	
+0030B8	16	19	滋養強壮ドリンク	Energy Drink	
+0030CC	12	15	エネルギーＶ	Energy V	
+0030DC	14	15	埃まみれの鍋物	Dusty Hot Pot	
+0030EC	31	31	crc32:88e3c2f4	Wall Market\n  To Exterior 4	
+00310C	16	19	定食屋「めし処」	Diner	
+003120	16	19	マテリアショップ	Materia Shop	
+003134	10	11	ブティック	Boutique	
+003140	14	15	シルクのドレス	Silk Dress	
+003150	14	15	サテンのドレス	Satin Dress	
+003160	16	19	コットンのドレス	Cotton Dress	
+003174	10	11	タキシード	Tuxedo	
+003180	14	15	パーティドレス	Party Dress	
+003190	10	11	セーラー服	Sailor Suit	
+00319C	16	19	ダイヤのティアラ	Diamond Tiara	
+0031B0	16	19	ルビーのティアラ	Ruby Tiara	
+0031C4	16	19	ガラスのティアラ	Glass Tiara	
+0031D8	8	11	お品書き	Menu	
+0031E4	16	19	ビールのポスター	Beer Poster	
+0031F8	18	19	薬屋商品クーポン券	Pharmacy Coupon	
+00320C	31	31	crc32:8dacd471	Wall Market\n  To Exterior 5	
+00322C	16	19	ブロンドのかつら	Blonde Wig	
+003240	16	19	チャパツのかつら	Dyed Wig	
+003254	14	15	クセゲのかつら	Curly Wig	
+003264	18	19	ボクシンググローブ	Boxing Gloves	
+003278	18	19	伝説の格闘家の写真	Fighter's Photo	
+00328C	14	15	「燃える男心」	Burning Heart	
+00329C	16	19	パンチングボール	Punching Ball	
+0032B0	18	19	「男の中の男！！」	Man of Men	
+0032C4	12	15	「肉質剛健」	Iron Body	
+0032D4	12	15	「好色美男」	Lady Killer	
+0032E4	16	19	コルネオの館前へ	To Corneo's Mansion	
+0032F8	10	11	かき氷の旗	Ice Flag	
+003304	18	19	居酒屋「酔いどれ」	Bar "The Drunkard"	
+003318	14	15	使用中のトイレ	Occupied Toilet	
+003328	14	15	セクシーコロン	Sexy Cologne	
+003338	14	15	フラワーコロン	Flower Cologne	
+003348	10	11	大型冷蔵庫	Big Fridge	
+003354	10	11	てっちり鍋	Fugu Pot	
+003360	10	11	ちゃんこ鍋	Sumo Stew	
+00336C	18	19	カラオケ用モニター	Karaoke Monitor	
+003380	8	11	カラオケ	Karaoke	
+00338C	16	19	ジンクバッテリー	Zinc Battery	
+0033A0	16	19	プルトニウムの箱	Plutonium Box	
+0033B4	12	15	コルネオの館	Corneo's Mansion	
+0033C4	18	19	コルネオの館１階へ	To Mansion 1F	
+0033D8	16	19	ラーメンのスープ	Ramen Soup	
+0033EC	20	23	屋台ラーメン「香月」	Ramen Stall Kozuki	
+003404	20	23	屋台ラーメン「味一」	Ramen Stall Ajiichi	
+00341C	20	23	屋台ラーメン「万福」	Ramen Stall Manpuku	
+003434	10	11	ぷうの衝立	Screen	
+003440	22	23	しゅうまい(「終魔胃」)	Shumai (Pun)	
+003458	18	19	ぎょうざ(「業座」)	Gyoza (Pun)	
+00346C	14	15	コルネオの部屋	Corneo's Room	
+00347C	10	11	子分の部屋	Lackeys' Room	
+003488	12	15	おしおき部屋	Punishment Room	
+003498	12	15	おしおき椅子	Torture Chair	
+0034A8	10	11	おしおき台	Rack	
+0034B4	8	11	ろうそく	Candles	
+0034C0	8	11	やっとこ	Pliers	
+0034CC	8	11	焼けた石	Hot Stones	
+0034D8	8	11	三角木馬	Wooden Horse	
+0034E4	10	11	部屋を出る	Leave Room	
+0034F0	18	19	ラーメンの食べ残し	Leftover Ramen	
+003504	26	27	crc32:06b4ddbd	Clean Up！ (Pun)	
+003520	10	11	奥の部屋へ	To Back	
+00352C	20	23	みつばち嬢出勤リスト	Bee Girl Roster	
+003544	22	23	おしるこ(「尾視留古」)	Oshiruko (Pun)	
+00355C	18	19	ぜんざい(「善罪」)	Zenzai (Pun)	
+003570	10	11	ムード照明	Mood Lights	
+00357C	16	19	ふわふわのソファ	Fluffy Sofa	
+003590	18	19	コルネオの巨大提灯	Corneo's Lantern	
+0035A4	24	27	おとしあな(「音死阿奈」)	Trapdoor (Pun)	
+0035C0	12	15	「丼」ベッド	Rice Bowl Bed	
+0035D0	10	11	「天」布団	Tempura Bed	
+0035DC	12	15	ミラーボール	Mirror Ball	
+0035EC	14	15	神羅ビル１Ｆへ	To Shinra 1F	
+0035FC	8	11	階段２へ	To Stairs 2	
+003608	16	19	ベヒーモスホーン	Behemoth Horn	
+00361C	10	11	エリクサー	Elixir	
+003628	8	11	階段３へ	To Stairs 3	
+003634	8	11	階段１へ	To Stairs 1	
+003640	8	11	５９Ｆへ	To 59F	
+00364C	12	15	ｐＡ－１６式	pA-16 Type	added 2026-11-04 (missed by extractor)
+00365C	12	15	ｓＡ－４７式	sA-47 Type	added 2026-11-04 (missed by extractor)
+00366C	12	15	ｓＡ－１７式	sA-17 Type	added 2026-11-04 (missed by extractor)
+00367C	12	15	ｐＡ－８６式	pA-86 Type	added 2026-11-04 (missed by extractor)
+00368C	12	15	ｓＡ－３７式	sA-37 Type	added 2026-11-04 (missed by extractor)
+00369C	12	15	ｓＡ－２７式	sA-27 Type	added 2026-11-04 (missed by extractor)
+0036AC	28	31	crc32:07062ba0	Building Info Board	
+0036CC	8	11	フロント	Reception	
+0036D8	10	11	今週の標語	Motto of the Week	
+0036E4	18	19	亀道楽通信ＮＯ．２	Turtle's Paradise No.2	
+0036F8	12	15	強行突破！！	Break Through！	
+003708	10	11	ショップへ	To Shop	
+003714	14	15	パイルバンカー	Pile Banger	
+003724	16	19	マスターフィスト	Master Fist	
+003738	22	23	神羅製品ＣＭ用モニター	Shinra Ad Monitor	
+003750	8	11	神羅ＣＭ	Shinra Ad	
+00375C	14	15	マルチビジョン	Multivision	
+00376C	12	15	ｐＡ－５６式	pA-56 Type	added 2026-11-04 (missed by extractor)
+00377C	12	15	ｐＡ－３６式	pA-36 Type	added 2026-11-04 (missed by extractor)
+00378C	12	15	ｐＡ－６６式	pA-66 Type	added 2026-11-04 (missed by extractor)
+00379C	26	27	crc32:8cf12b2c	Hardy-Daytona	added 2026-11-04 (missed by extractor)
+0037B8	14	15	カードキー６０	Keycard 60	
+0037C8	10	11	非常階段へ	To Fire Stairs	
+0037D4	18	19	警備モニタールーム	Security Monitors	
+0037E8	8	11	ロッカー	Locker	
+0037F4	8	11	モニター	Monitor	
+003800	37	39	crc32:88bff552	Security\n  System Computer	
+003828	8	11	６１Ｆへ	To 61F	
+003834	14	15	カードキー６２	Keycard 62	
+003844	8	11	６２Ｆへ	To 62F	
+003850	8	11	６０Ｆへ	To 60F	
+00385C	29	31	crc32:26c01de7	Mayor Domino's\n  Office	
+00387C	16	19	資料管理ファイル	Archive Files	
+003890	14	15	カードキー６５	Keycard 65	
+0038A0	31	31	crc32:c93c9eda	Space Dept. Archive\n  To Archive 2	
+0038C0	46	47	crc32:cb92cb67	Public Safety and\nWeapons Archive\n  To Archive 2	
+0038F0	27	27	crc32:c3f6bb46	Science Dept. Archive\n  To Archive 1	
+00390C	31	31	crc32:facdbbf0	Urban Dev. Archive\n  To Archive 1	
+00392C	8	11	６３Ｆへ	To 63F	
+003938	162	163	crc32:f4f51a3d	“This is the Science Dept.\narchive. The other three\narchives hold files for\nUrban Development, Public\nSafety and Weapons, and\nSpace Development.”	
+0039DC	92	95	crc32:54884712	“No Removal！ No Files on\nThis Floor May Be Taken\nOutside.”	
+003A3C	113	115	crc32:f299bf36	“Space Dept. archive. See\nthe plate outside each\nroom for archive\nlocations.”	
+003AB0	140	143	crc32:d4e7893d	“Public Safety and Weapons\narchive. Keep it tidy and\ndo not mix up files from\nother departments！”	
+003B40	26	27	crc32:b20a6e8b	Key Check Computer	
+003B5C	10	11	Ｃクーポン	Coupon C	
+003B68	10	11	Ｂクーポン	Coupon B	
+003B74	10	11	Ａクーポン	Coupon a	
+003B80	8	11	６４Ｆへ	To 64F	
+003B8C	18	19	ランニングマシーン	Treadmill	
+003BA0	20	23	バイスクールマシーン	Exercise Bike	
+003BB8	10	11	腹筋ベッド	Sit-Up Bed	
+003BC4	16	19	バタフライアーム	Butterfly Arm	
+003BD8	8	11	シャワー	Shower	
+003BE4	10	11	仮眠ベッド	Nap Bed	
+003BF0	14	15	故障中のトイレ	Broken Toilet	
+003C00	20	23	神羅ジム特製ドリンク	Shinra Gym Drink	
+003C18	16	19	マーベラスチアー	Marvelous Cheer	
+003C2C	8	11	６５Ｆへ	To 65F	
+003C38	16	19	ミッドガルの模型	Midgar Model	
+003C4C	18	19	ミッドガルパーツ５	Midgar Part 5	
+003C60	18	19	ミッドガルパーツ４	Midgar Part 4	
+003C74	18	19	ミッドガルパーツ３	Midgar Part 3	
+003C88	18	19	ミッドガルパーツ２	Midgar Part 2	
+003C9C	18	19	ミッドガルパーツ１	Midgar Part 1	
+003CB0	14	15	カードキー６６	Keycard 66	
+003CC0	8	11	６６Ｆへ	To 66F	
+003CCC	10	11	重役会議室	Board Room	
+003CD8	16	19	魔晄炉制御ルーム	Reactor Control	
+003CEC	8	11	６７Ｆへ	To 67F	
+003CF8	27	27	crc32:e2bacb8f	Specimen\n  Monitoring Room	
+003D14	18	19	実験装置制御ルーム	Lab Control Room	
+003D28	14	15	ジェノバドーム	Jenova Dome	
+003D38	33	35	crc32:e7da2ec1	Specimen\n  Transport Elevator	
+003D5C	14	15	ジェノバの映像	Jenova Footage	
+003D6C	21	23	crc32:6417ce8c	Magic Materia:\n  Poison	
+003D84	8	11	６８Ｆへ	To 68F	
+003D90	30	31	crc32:5b948374	Inspection Walk\n  (Hallway)	
+003DB0	27	27	crc32:879cdc67	Cylinder\n  Remote Control	
+003DCC	10	11	監視ルーム	Monitoring	
+003DD8	31	31	crc32:1f463d7b	Specimen\n  Mixing Cylinder	
+003DF8	10	11	ポーション	Potion	
+003E04	14	15	カードキー６８	Keycard 68	
+003E14	8	11	６９Ｆへ	To 69F	
+003E20	29	31	crc32:d5f2d004	Instant Food\n  Vending Machine	
+003E40	16	19	珈琲の自動販売機	Coffee Machine	
+003E54	16	19	新聞の自動販売機	Newspaper Machine	
+003E68	18	19	たばこの自動販売機	Cigarette Machine	
+003E7C	8	11	７０Ｆへ	To 70F	
+003E88	20	23	プレジデントチェアー	President Chair	
+003EA0	12	15	ヘリポートへ	To Heliport	
+003EB0	10	11	ヘリポート	Heliport	
+003EBC	22	23	魔晄エネルギーメーター	Mako Energy Meter	
+003ED4	10	11	マテリア壷	Materia Jar	
+003EE0	14	15	酒の置かれた棚	Liquor Shelf	
+003EF0	8	11	メニュー	Menu	
+003EFC	20	23	魔晄エネルギー貯蔵庫	Mako Energy Storage	
+003F14	18	19	魔晄エネルギー焜炉	Mako Energy Stove	
+003F28	20	23	魔晄エネルギー冷蔵庫	Mako Energy Fridge	
+003F40	20	23	魔晄エネルギーテレビ	Mako Energy TV	
+003F58	12	15	ショーケース	Showcase	
+003F68	14	15	マテリアの模型	Materia Model	
+003F78	12	15	古びた柱時計	Old Clock	
+003F88	16	19	羽根の付いたペン	Feather Pen	
+003F9C	18	19	クラウドが蹴った跡	Where Cloud Kicked	
+003FB0	16	19	ラストエリクサー	Megalixir	
+003FC4	8	11	置き時計	Desk Clock	
+003FD0	8	11	犬の部屋	Dog Room	
+003FDC	14	15	鍵のかかった箱	Locked Box	
+003FEC	12	15	読みかけの本	Half-Read Book	
+003FFC	10	11	おもちゃ箱	Toy Box	
+004008	20	23	絵本「星達の語らい」	Storybook	
+004020	12	15	ガードアップ	Guard Source	
+004030	14	15	ピースメーカー	Peacemaker	
+004040	14	15	民家３の１階へ	To House 3, 1F	
+004050	8	11	帽子掛け	Hat Rack	
+00405C	35	35	crc32:e9e2e5ef	Summon Materia:\n  Choco/Mog	
+004080	12	15	風見チョコボ	Chocobo Vane	
+004090	12	15	チョコボ小屋	Chocobo Stable	
+0040A0	29	31	crc32:5024e990	Chocobo Drawing\n  By Billy	
+0040C0	24	27	グリン＆グリングリンの家	Bill and Billy's House	
+0040DC	12	15	チョコボ饅頭	Chocobo Bun	
+0040EC	18	19	カップリングルーム	Breeding Room	
+004100	10	11	チョコぼう	Chocobos	
+00410C	12	15	見張り小屋へ	To Lookout Hut	
+00411C	10	11	小型冷蔵庫	Small Fridge	
+004128	12	15	コンドル誕生	Condor Hatches	
+004138	16	19	コンドルの抜け殻	Condor Shell	
+00414C	29	31	crc32:c265eb91	Summon Materia:\n  Phoenix	
+00416C	8	11	入り江へ	To Inlet	
+004178	18	19	ジュノン空港通路へ	To Junon Airport	
+00418C	12	15	プリシラの家	Priscilla's House	
+00419C	23	23	crc32:1af92d74	High-Voltage\n  Pylon	
+0041B4	10	11	巨大魚の骨	Giant Fish Bones	
+0041C0	14	15	おばあさんの家	Old Woman's House	
+0041D0	20	23	高圧電流の流れる鉄塔	High-Voltage Pylon	
+0041E8	8	11	発電装置	Generator	
+0041F4	22	23	アンダージュノン全景へ	To Lower Junon	
+00420C	8	11	ソファー	Sofa	
+004218	16	19	タンス付きベッド	Bed with Dresser	
+00422C	18	19	ウサギのぬいぐるみ	Stuffed Rabbit	
+004240	18	19	プリシラが描いた絵	Priscilla's Drawing	
+004254	23	23	crc32:6032296a	Summon Materia:\n  Shiva	
+00426C	12	15	フランスパン	Baguette	
+00427C	8	11	星の衝立	Star Screen	
+004288	12	15	プリシラの靴	Priscilla's Shoes	
+004298	12	15	商品サンプル	Sample Goods	
+0042A8	8	11	控え室へ	To Lounge	
+0042B4	12	15	エアポートへ	To Airport	
+0042C4	14	15	アルジュノンへ	To Upper Junon	
+0042D4	18	19	アンダージュノンへ	To Lower Junon	
+0042E8	24	27	神羅輸送ユニットゲルニカ	Shinra Transport Gelnika	
+004304	10	11	エレベータ	Elevator	
+004310	14	15	神羅兵士の制服	Soldier Uniform	
+004320	8	11	リフトへ	To Lift	
+00432C	8	11	兵舎１へ	To Barracks 1	
+004338	8	11	道具屋へ	To Item Shop	
+004344	8	11	武器屋へ	To Weapon Shop	
+004350	12	15	マテリア屋へ	To Materia Shop	
+004360	31	31	crc32:1ac09c3b	Rufus Inaugural\n  Banner	
+004380	22	23	ディスプレイ用マテリア	Display Materia	
+004398	12	15	ＩＤセンサー	ID Sensor	
+0043A8	8	11	魔女の絵	Witch Art	
+0043B4	16	19	吸いかけのタバコ	Half-Smoked Cig	
+0043C8	10	11	酸素ボンベ	Oxygen Tank	
+0043D4	10	11	商品ケース	Goods Case	
+0043E0	18	19	神羅兵の２段ベッド	Soldier Bunk Bed	
+0043F4	14	15	神羅兵のベスト	Soldier Vest	
+004404	16	19	神羅兵のリュック	Soldier Rucksack	
+004418	16	19	神羅兵のライフル	Soldier Rifle	
+00442C	12	15	上級者の館へ	To Expert Hall	
+00443C	18	19	神羅兵のヘルメット	Soldier Helmet	
+004450	31	31	crc32:502547b4	Command Materia:\n  Enemy Skill	
+004470	16	19	立体映像発生装置	Hologram Projector	
+004484	14	15	ワールドマップ	World Map	
+004494	12	15	ラックアップ	Luck Source	
+0044A4	8	11	立入禁止	No Entry	
+0044B0	14	15	マインドアップ	Mind Source	
+0044C0	14	15	１／３５神羅兵	1/35 Shinra Soldier	added 2026-11-04 (missed by extractor)
+0044D0	10	11	エッチな本	Dirty Mag	
+0044DC	14	15	神羅兵のブーツ	Soldier Boots	
+0044EC	43	43	crc32:a7309d6d	SOLDIER 1st Class\n  Exam Study Guide	
+004518	14	15	神羅兵の勉強机	Soldier's Desk	
+004528	12	15	パワーアップ	Power Source	
+004538	29	31	crc32:61479f12	Shinra Junon\n  To Hallway 2	
+004558	29	31	crc32:9a554fac	Rufus Inaugural\n  Banner	
+004578	10	11	中央通路へ	To Main Corridor	
+004584	35	35	crc32:bea986b4	To Basement\n  (Construction)	
+0045A8	14	15	エルジュノンへ	To Lower Junon	
+0045B8	12	15	ジュノン港へ	To Junon Port	
+0045C8	10	11	武器屋２へ	To Weapon Shop 2	
+0045D4	8	11	兵舎２へ	To Barracks 2	
+0045E0	10	11	場末の安宿	Cheap Inn	
+0045EC	16	19	神羅会員制ＢＡＲ	Shinra Members' Bar	
+004600	10	11	ダーツの的	Dartboard	
+00460C	8	11	公衆電話	Pay Phone	
+004618	29	31	crc32:df08a332	Box of Staff\n  Belongings	
+004638	12	15	商品カタログ	Catalog	
+004648	18	19	神羅兵のマシンガン	Soldier Machine Gun	
+00465C	14	15	スピードアップ	Speed Source	
+00466C	10	11	神羅兵の銃	Soldier's Gun	
+004678	27	27	crc32:f60470bf	Manager\n  Leftover Drink	
+004694	10	11	仕入れ伝票	Order Slips	
+0046A0	16	19	武器屋のポスター	Weapon Shop Poster	
+0046B4	16	19	円型ショウケース	Round Showcase	
+0046C8	10	11	冷たい海水	Cold Sea	
+0046D4	14	15	きれいな夕焼け	Pretty Sunset	
+0046E4	18	19	ジュノン支社１階へ	To Shinra Junon 1F	
+0046F8	8	11	報道室へ	To Press Room	
+004704	8	11	ガス室へ	To Gas Room	
+004710	12	15	テレビカメラ	TV Camera	
+004720	8	11	通路２へ	To Hallway 2	
+00472C	14	15	ガス噴き出し口	Gas Vent	
+00473C	12	15	操作スイッチ	Switch	
+00474C	8	11	拘束椅子	Restraint Chair	
+004758	14	15	キャノン砲の絵	Cannon Picture	
+004768	18	19	ジュノン支社２階へ	To Shinra Junon 2F	
+00477C	14	15	ルーファウス像	Rufus's Statue	
+00478C	10	11	オフィスへ	To Office	
+004798	31	31	crc32:9900346d	Junon Defense\n  System Monitor	
+0047B8	14	15	砲台制御パネル	Gun Control	
+0047C8	20	23	キャノン砲制御パネル	Cannon Control Panel	
+0047E0	16	19	ルーファウスの席	Rufus's Seat	
+0047F4	12	15	砲台のモデル	Gun Model	
+004804	8	11	医務室へ	To Infirmary	
+004810	12	15	空調プロペラ	Air Fan	
+004820	10	11	監視カメラ	Camera	
+00482C	8	11	通路１へ	To Hallway 1	
+004838	10	11	通路１左へ	To Hallway 1, Left	
+004844	10	11	潜水艦　弐	Submarine 2	
+004850	8	11	入り口へ	To Entrance	
+00485C	10	11	潜水艦　壱	Submarine 1	
+004868	10	11	通路１右へ	To Hallway 1, Right	
+004874	8	11	通路３へ	To Hallway 3	
+004880	10	11	魔晄炉前へ	To the Reactor	
+00488C	16	19	潜水艦ドック１へ	To Sub Dock 1	
+0048A0	16	19	潜水艦ドック２へ	To Sub Dock 2	
+0048B4	10	11	突撃ラッパ	Bugle	
+0048C0	14	15	潜水艦・通路へ	To Sub Hallway	
+0048D0	14	15	水神様のウロコ	Water God Scale	
+0048E0	10	11	青龍偃月刀	Scimitar	
+0048EC	8	11	操舵室へ	To Bridge	
+0048F8	10	11	魚雷室前へ	To Torpedo Room	
+004904	8	11	副操縦席	Co-Pilot Seat	
+004910	14	15	クロノメーター	Chronometer	
+004920	12	15	水深レーダー	Depth Radar	
+004930	16	19	魚雷探査レーダー	Torpedo Radar	
+004944	29	31	crc32:8a7751a3	Main Viewer\n  Screen	
+004964	10	11	壊れた部品	Broken Part	
+004970	25	27	crc32:699e8252	Torpedo Room\n  (Dead End)	
+00498C	12	15	潜水艦通路へ	To Sub Hallway	
+00499C	10	11	観光案内所	Tourist Info	
+0049A8	12	15	中央エリアへ	To Center	
+0049B8	8	11	豪華客船	Cruise Ship	
+0049C4	21	23	コスタ・デル・ソル へ	To Costa del Sol	
+0049DC	14	15	ふかふかベッド	Soft Bed	
+0049EC	8	11	バスタブ	Bathtub	
+0049F8	8	11	地下室へ	To Basement	
+004A04	8	11	カンテラ	Lantern	
+004A10	14	15	管理人のよだれ	Janitor Drool	
+004A20	8	11	炎の指輪	Fire Ring	
+004A2C	16	19	モータードライブ	Motor Drive	
+004A40	10	11	物件管理帳	Property Ledger	
+004A4C	10	11	カモメの巣	Gull Nest	
+004A58	12	15	右側エリアへ	To Right Side	
+004A68	14	15	ジョニーの新居	Johnny's New Home	
+004A78	28	31	crc32:224b74f0	Tavern "Bar del Sol"	added 2026-11-04 (missed by extractor)
+004A98	12	15	左側エリアへ	To Left Side	
+004AA8	14	15	ウエットスーツ	Wetsuit	
+004AB8	12	15	ロングボード	Longboard	
+004AC8	14	15	ショートボード	Shortboard	
+004AD8	10	11	隠れ武器屋	Hidden Weapon Shop	
+004AE4	18	19	シティー・コーラル	City Coral	
+004AF8	28	31	crc32:4f3bb3bf	Long Island\nIced Tea	
+004B18	12	15	ブルーハワイ	Blue Hawaii	
+004B28	18	19	テキーラサンライズ	Tequila Sunrise	
+004B3C	24	27	ジョニーのライダースーツ	Johnny's Riding Suit	
+004B58	14	15	セクシーな下着	Sexy Undies	
+004B68	18	19	ブッチのアイテム屋	Butch's Item Shop	
+004B7C	8	11	ビーチへ	To Beach	
+004B88	24	27	コスタ・デル・ソル・イン	Costa del Sol Inn	
+004BA4	8	11	水兵の服	Sailor Suit	
+004BB0	8	11	澄んだ海	Clear Sea	
+004BBC	8	11	椰子の実	Coconut	
+004BC8	12	15	ビーチ右側へ	To Beach Right	
+004BD8	12	15	ビーチ左側へ	To Beach Left	
+004BE8	8	11	列車脱線	Derailed Train	
+004BF4	8	11	よろず屋	General Store	
+004C00	8	11	どうぐ屋	Item Shop	
+004C0C	25	27	crc32:7ffd4c42	Magic Materia:\n  Ultima	
+004C28	23	23	crc32:7dc52b4b	Old Mine Train\nDriver's House	
+004C40	20	23	ロープウェイ乗り場へ	To Ropeway Station	
+004C58	8	11	ボロ小屋	Shack	
+004C64	14	15	天然石の長椅子	Stone Bench	
+004C74	16	19	天然石のテーブル	Stone Table	
+004C88	8	11	崩れた壁	Rubble	
+004C94	14	15	カタストロフィ	Catastrophe	
+004CA4	10	11	堅いベッド	Hard Bed	
+004CB0	8	11	ヒーター	Heater	
+004CBC	8	11	壊れた壁	Broken Wall	
+004CC8	12	15	ロープウェイ	Ropeway	
+004CD8	21	23	crc32:726e9990	Bound for\n  Gold Saucer	
+004CF0	22	23	ゴールドソーサーの看板	Gold Saucer Sign	
+004D08	10	11	北コレルへ	To North Corel	
+004D14	18	19	ゴールドソーサーへ	To Gold Saucer	
+004D28	8	11	日本地図	Old Map	
+004D34	10	11	電子レンジ	Microwave	
+004D40	8	11	 時刻表 	Timetable	
+004D4C	33	35	crc32:9d322a5d	Black-Market GP\nRate: 1000gil:10GP	
+004D70	16	19	トリオ・ザ・モグ	Trio the Mog	
+004D84	35	35	crc32:f00522b5	Ticket Booth\n(Gold Ticket)	
+004DD8	22	23	ゴールドソーサー入り口	Gold Saucer Gate	
+004DF0	24	27	インフォメーションボード	Information Board	
+004E0C	18	19	イベントスクェアへ	To Event Square	
+004E20	18	19	スピードスクェアヘ	To Speed Square	
+004E34	18	19	ラウンドスクェアへ	To Round Square	
+004E48	16	19	ゴーストホテルヘ	To Ghost Hotel	
+004E5C	16	19	バトルスクェアへ	To Battle Square	
+004E70	18	19	ワンダースクェアへ	To Wonder Square	
+004E84	18	19	チョコボスクェアへ	To Chocobo Square	
+004E98	18	19	スピードスクェアへ	To Speed Square	
+004EAC	18	19	ターミナルフロアへ	To Station	
+004EC0	14	15	闘技場ロビーへ	To Arena Lobby	
+004ED0	18	19	ポケットティッシュ	Pocket Tissues	
+004EE4	24	27	バトルチャレンジャー入口	Challenger Entrance	
+004F00	16	19	バトル出場登録所	Battle Signup	
+004F14	16	19	裏バトル景品一覧	Special Prizes	
+004F28	34	35	crc32:6b45aae1	BP Prizes\n  (Post-Meteor)	
+004F4C	34	35	crc32:7d096927	BP Prizes\n  (Pre-Meteor)	
+004F70	16	19	ディオの展示場へ	To Dio's Exhibit	
+004F84	14	15	プロペラ飛行機	Propeller Plane	
+004F94	14	15	クラインのつぼ	Klein Bottle	
+004FA4	10	11	週末の時計	Doomsday Clock	
+004FB0	10	11	笑うなえぎ	Laughing Sprout	
+004FBC	16	19	スレイヤーのつぼ	Slayer Jar	
+004FD0	12	15	チサのカメン	Chisa Mask	
+004FE0	8	11	ディオ画	Dio's Art	
+004FEC	10	11	Ｄガタ装備	D-Armor	
+004FF8	10	11	ゾウゲの杯	Ivory Cup	
+005004	20	23	呼びかけるひょうたん	Calling Gourd	
+00501C	12	15	キーストーン	Keystone	
+00502C	18	19	チケットオフィスへ	To Ticket Office	
+005040	14	15	チョコボ券売場	Chocobo Tickets	
+005050	20	23	景品リスト(クラスＳ)	Prizes (Class S)	
+005068	20	23	景品リスト(クラスＡ)	Prizes (Class A)	
+005080	20	23	景品リスト(クラスＢ)	Prizes (Class B)	
+005098	20	23	景品リスト(クラスＣ)	Prizes (Class C)	
+0050B0	41	43	crc32:10a9c91b	Chocobo Racing\n  Control and Info	
+0050DC	20	23	レース案内スピーカー	Race Speaker	
+0050F4	14	15	レースモニター	Race Monitor	
+005104	24	27	チョコボレースのポスター	Chocobo Race Poster	
+005120	12	15	選手の更衣室	Locker Room	
+005130	16	19	選手の荷物置き場	Jockey Luggage	
+005144	23	23	crc32:00d23ec1	Summon Materia:\n  Ramuh	
+00515C	16	19	コレルプリズンへ	To Corel Prison	
+005170	27	27	crc32:e59a7698	Ghost Hotel\n  To Upper Area	
+00518C	14	15	ホテルロビーへ	To Hotel Lobby	
+00519C	27	27	crc32:095430d9	Ghost Hotel\n  To Lower Area	
+0051B8	14	15	こうもりの本棚	Bat Bookcase	
+0051C8	16	19	古びた振り子時計	Old Pendulum Clock	
+0051DC	16	19	モンスターの置物	Monster Figure	
+0051F0	18	19	亀道楽通信Ｎｏ．３	Turtle's Paradise No.3	
+005204	16	19	モンスターチェス	Monster Chess	
+005218	18	19	モンスターフラワー	Monster Flower	
+00522C	16	19	ホテルショップへ	To Hotel Shop	
+005240	37	39	crc32:0b815823	Monster Skull\n  Candlestand	
+005268	10	11	びっくり箱	Jack-In-Box	
+005274	14	15	モンスターの兜	Monster Helm	
+005284	20	23	内蔵のアルコール漬け	Pickled Innards	
+0052B8	20	23	モーグリ型スピーカー	Moogle Speaker	
+0052D0	12	15	デブチョコボ	Fat Chocobo	
+0052E0	14	15	チケット売り場	Ticket Booth	
+0052F0	16	19	プラットホームへ	To Platform	
+005304	10	11	景品交換所	Prize Exchange	
+005310	16	19	ゲーム結果掲示板	Results Board	
+005324	12	15	チケット売り	Ticket Seller	
+005334	16	19	マルチスクリーン	Multiscreen	
+005348	20	23	ＴＶ　Ｓｔａｔｉｏｎ	TV Station	added 2026-11-04 (missed by extractor)
+005360	22	23	ワンダースクェア１Ｆへ	To Wonder Sq. 1F	
+005378	8	11	渡り廊下	Walkway	
+005384	16	19	バスケットゲーム	Basketball Game	
+005398	16	19	スコープムービー	Scope Movie	
+0053AC	20	23	ワンダーキャッチャー	Wonder Catcher	
+0053C4	29	31	crc32:17285e4f	Arm Wrestling\n  Mega Sumo	
+0053E4	22	23	ワンダースクェア２Ｆへ	To Wonder Sq. 2F	
+0053FC	12	15	潜水艦ゲーム	Submarine Game	
+00540C	12	15	スノーゲーム	Snow Game	
+00541C	12	15	３Ｄバトラー	3D Battler	
+00542C	10	11	モグハウス	Mog House	
+005438	8	11	うらない	Fortunes	
+005444	8	11	Ｇバイク	G-Bike	
+005450	8	11	壊れた車	Wrecked Car	
+00545C	16	19	ダインのアジトへ	To Dyne's Hideout	
+005470	27	27	crc32:3a8265c9	Corel Prison\n  To Exterior 1	
+00548C	12	15	ダインの武器	Dyne Weapon	
+00549C	14	15	エレノアのお墓	Eleanor's Grave	
+0054AC	12	15	マリンのお墓	Marlene's Grave	
+0054BC	10	11	ペンダント	Pendant	
+0054C8	27	27	crc32:3b400ffe	Corel Prison\n  To Exterior 2	
+0054E4	16	19	モンスターの骸骨	Monster Skeleton	
+0054F8	8	11	古びた剣	Old Sword	
+005504	12	15	人間の頭蓋骨	Human Skull	
+005514	20	23	神羅カンパニーの看板	Shinra Company Sign	
+00552C	12	15	プリズンパブ	Prison Pub	
+00553C	10	11	旧村長の家	Old Mayor's House	
+005548	16	19	コーツのコンテナ	Coates Container	
+00555C	26	27	crc32:b30c3ff2	To Gold Saucer Lounge	
+005578	10	11	段ボール箱	Box	
+005584	12	15	エアーボンベ	Air Tank	
+005594	22	23	チョコボレーサーの名簿	Chocobo Jockey List	
+0055AC	12	15	壊れたタンス	Broken Dresser	
+0055BC	16	19	焼けこげたソファ	Scorched Sofa	
+0055D0	10	11	炭坑夫名簿	Miner Roster	
+0055DC	16	19	煮詰まったスープ	Overcooked Soup	
+0055F0	12	15	シフトレバー	Gear Lever	
+005600	8	11	ハンドル	Wheel	
+00560C	20	23	割れたフロントガラス	Cracked Windshield	
+005624	20	23	リクライニングシート	Reclining Seat	
+00563C	22	23	モンスターのマスコット	Monster Mascot	
+005654	12	15	壊れた魔晄炉	Ruined Reactor	
+005664	12	15	ザックスの家	Zack's House	
+005674	40	43	crc32:92a7031e	Weapon Shop\n 1F Accessories\n 2F Weapons	
+0056A0	8	11	村長の家	Mayor's House	
+0056AC	35	35	crc32:739773ca	Graves of\n  Reactor Victims	
+0056D0	12	15	魔除けのお面	Charm Mask	
+0056E0	14	15	２階　武器屋へ	To 2F Weapon Shop	
+0056F0	12	15	けものの敷物	Beast Rug	
+005700	16	19	武器屋・護身用剣	Weapon Shop: Swords	
+005714	14	15	酒入りとっくり	Sake Flask	
+005724	22	23	１階　アクセサリー屋へ	To 1F Accessory Shop	
+00573C	16	19	エクスポーション	X-Potion	
+005750	12	15	旧式ストーブ	Old Stove	
+005760	10	11	壊れた階段	Broken Step	
+00576C	16	19	ホワイトメガホン	White M-Phone	
+005780	12	15	飲み水貯蔵庫	Water Tank	
+005790	14	15	ザックスの手紙	Zack's Letter	
+0057A0	12	15	陶器屋の屋台	Pottery Stall	
+0057B0	10	11	番人の小屋	Guard Hut	
+0057BC	12	15	無用の扉前へ	To Sealed Door	
+0057CC	20	23	パブ「スターレット」	Pub Starlet	
+0057E4	14	15	テーブルゲーム	Table Game	
+0057F4	8	11	サボテン	Cactus	
+005800	18	19	亀道楽通信ＮＯ．５	Turtle's Paradise No.5	
+005814	16	19	ライフストリーム	Lifestream	
+005828	16	19	コスモキャンドル	Cosmo Candle	
+00583C	18	19	「シルドラ・イン」	Shildra Inn	
+005850	14	15	ナナキの部屋へ	To Nanaki's Room	
+005860	18	19	横縞織タペストリー	Striped Tapestry	
+005874	12	15	羽根の髪飾り	Feather Comb	
+005884	18	19	縦縞織タペストリー	Striped Tapestry	
+005898	25	27	crc32:88699d4b	Magic Materia:\n  Full Cure	
+0058B4	14	15	マジックアップ	Magic Source	
+0058C4	18	19	亀道楽通信Ｎｏ．４	Turtle's Paradise No.4	
+0058D8	12	15	斧のレプリカ	Replica Axe	
+0058E8	14	15	コラのレプリカ	Replica Club	
+0058F8	20	23	ブーメランのレプリカ	Replica Boomerang	
+005910	14	15	ヤリのレプリカ	Replica Spear	
+005920	18	19	長老ハーゴの部屋へ	To Elder Hargo	
+005934	18	19	「星誕生の謎」の本	Planet Birth Book	
+005948	12	15	扉のスイッチ	Door Switch	
+005958	8	11	セト像へ	To Seto	
+005964	29	31	crc32:6cfaf9e3	Outside\n(Upper Cosmo Canyon)	
+005984	29	31	crc32:8fa0b744	Outside\n(Lower Cosmo Canyon)	
+0059A4	16	19	無用の扉の部屋へ	To Sealed Door Room	
+0059B8	16	19	スープの飲み残し	Leftover Soup	
+0059CC	8	11	スコップ	Shovel	
+0059D8	8	11	ピッケル	Pickaxe	
+0059E4	14	15	巨大天体望遠鏡	Giant Telescope	
+0059F4	24	27	ブーゲンハーゲンの部屋へ	To Bugenhagen's	
+005A10	14	15	望遠鏡モニター	Scope Monitor	
+005A20	16	19	リミテッドムーン	Limited Moon	
+005A34	16	19	プラネタリウムへ	To Planetarium	
+005A48	27	27	crc32:b219dea0	Zeiss-Type\n  Planetarium	
+005A64	20	23	プラネタリウム操作盤	Planetarium Console	
+005A7C	8	11	オルガン	Organ	
+005A88	10	11	セトの石像	Seto Statue	
+005A94	8	11	セトの像	Seto Statue	
+005AA0	24	27	過去には煙突が２本あった	Once Had Two Chimneys	
+005ABC	14	15	思い出の給水塔	Old Water Tower	
+005ACC	14	15	ニブル魔晄炉へ	To Reactor	
+005ADC	8	11	神羅屋敷	Shinra Mansion	
+005AE8	18	19	小さな姉弟のいた家	Siblings' House	
+005AFC	12	15	ティファの家	Tifa's House	
+005B0C	20	23	炎に消えるセフィロス	Sephiroth in Flames	
+005B24	12	15	クラウドの家	Cloud's House	
+005B34	8	11	オーブン	Oven	
+005B40	14	15	焼き立てのパン	Fresh Bread	
+005B50	20	23	魔晄エネルギータンク	Mako Energy Tank	
+005B68	8	11	小物入れ	Small Box	
+005B74	14	15	子どもの落書き	Kids Doodles	
+005B84	14	15	エーテルターボ	Turbo Ether	
+005B94	16	19	プラチナフィスト	Platinum Fist	
+005BA8	20	23	ちょっと背伸びパンツ	Grown-Up Panties	
+005BC0	16	19	ティファのピアノ	Tifa's Piano	
+005BD4	16	19	ファイナルヘブン	Final Heaven	
+005BE8	22	23	セフィロスと撮った写真	Photo with Sephiroth	
+005C00	14	15	丸められた地図	Rolled-Up Map	
+005C10	12	15	ニブル魔晄炉	Nibel Reactor	
+005C20	12	15	魔晄炉内部へ	Into the Reactor	
+005C30	14	15	ニブルヘイムへ	To Nibelheim	
+005C40	14	15	魔晄エネルギー	Mako Energy	
+005C50	8	11	卵の間へ	To Egg Room	
+005C5C	10	11	魔晄エッグ	Mako Egg	
+005C68	16	19	ジェノバルームへ	To Jenova Room	
+005C7C	8	11	炉心部へ	To Core	
+005C88	8	11	プレート	Plate	
+005C94	18	19	ジェノバルーム２へ	To Jenova Room 2	
+005CA8	8	11	ジェノバ	Jenova	
+005CB4	16	19	ジェノバルーム１	Jenova Room 1	
+005CC8	12	15	宝条の書斎机	Hojo's Desk	
+005CD8	10	11	宝条の手紙	Hojo's Letter	
+005CE4	8	11	２階右へ	To 2F Right	
+005CF0	8	11	２階左へ	To 2F Left	
+005CFC	8	11	１階奥へ	To 1F Back	
+005D08	16	19	【２】…左　１０	(2) Left 10	added 2026-11-04 (missed by extractor)
+005D1C	14	15	グランドピアノ	Grand Piano	
+005D2C	16	19	ツインヴァイパー	Twin Viper	
+005D40	16	19	シルバーメガホン	Silver M-Phone	
+005D54	10	11	怪しい金庫	Odd Safe	
+005D60	16	19	エネミーランチャ	Enemy Launcher	
+005D74	10	11	地下室の鍵	Basement Key	
+005D80	14	15	コスモメモリー	Cosmo Memory	
+005D90	16	19	【１】…右　３６	(1) Right 36	added 2026-11-04 (missed by extractor)
+005DA4	29	31	crc32:c2d26fc9	Summon Materia:\n  Odin	
+005DC4	16	19	【３】…右　５９	(3) Right 59	added 2026-11-04 (missed by extractor)
+005DD8	10	11	床のきしみ	Creaky Step	
+005DE4	10	11	隠し階段へ	To Hidden Stairs	
+005DF0	18	19	ヴィンセントの棺桶	Vincent's Coffin	
+005E04	8	11	研究室へ	To Lab	
+005E10	39	39	crc32:6074663c	C-PROJ\n  Sample a (Code Z)	
+005E38	39	39	crc32:ad91f328	C-PROJ\n  Sample B (Code C)	
+005E60	28	31	crc32:3f88c4c8	“Feeding time... my chance...	
+005E80	20	23	「ここから逃げよう…	“Lets escape...	
+005E98	27	27	crc32:ceb12640	Magic Materia:\n  Destruct	
+005EB4	22	23	逃亡者に関する報告書４	Fugitive Report 4	
+005ECC	22	23	逃亡者に関する報告書３	Fugitive Report 3	
+005EE4	22	23	逃亡者に関する報告書２	Fugitive Report 2	
+005EFC	22	23	逃亡者に関する報告書１	Fugitive Report 1	
+005F14	16	19	ビーナスゴスペル	Venus Gospel	
+005F28	10	11	陸奥守吉行	Yoshiyuki	
+005F34	8	11	シドの家	Cid's House	
+005F40	12	15	上海亭の看板	Shanghai Inn Sign	
+005F50	12	15	武器屋の看板	Weapon Shop Sign	
+005F60	24	27	あるプロデューサーの写真	Photo of a Producer	
+005F7C	14	15	フォースブレス	Force Stealer	
+005F8C	20	23	脱いだままのセーター	Discarded Sweater	
+005FA4	16	19	ロケット村全景へ	To Rocket Town	
+005FB8	8	11	神羅26号	Shinra No. 26	
+005FC4	12	15	電気スタンド	Desk Lamp	
+005FD4	16	19	タイニーブロンコ	Tiny Bronco	
+005FE8	10	11	シドの家へ	To Cid's House	
+005FF4	14	15	神羅26号の模型	Shinra No. 26 model	
+006004	12	15	ドリルアーム	Drill Arm	
+006014	8	11	エンジン	Engine	
+006020	14	15	神羅26号設計図	Shinra No. 26 plans	
+006030	8	11	はちみつ	Honey	
+00603C	14	15	名画のレプリカ	Fake Painting	
+00604C	10	11	カウンター	Counter	
+006058	12	15	ボスの部屋へ	To Boss Room	
+006068	10	11	祭壇の間へ	To Altar	
+006074	18	19	ゲートキーパーの像	Gatekeeper Statue	
+006088	18	19	古代種の神殿外観へ	To Temple Exterior	
+00609C	12	15	黒耀石の祭壇	Obsidian Altar	
+0060AC	10	11	立体迷路へ	To the 3D Maze	
+0060B8	12	15	トライデント	Trident	
+0060C8	14	15	ロケットパンチ	Rocket Punch	
+0060D8	25	27	crc32:90163850	Indep. Materia:\n  Luck Plus	
+0060F4	12	15	コリント式柱	Old Column	
+006104	8	11	銀玉鉄砲	Silver Rifle	
+006110	8	11	釘バット	Spiked Bat	
+00611C	10	11	恐竜の壁画	Dinosaur Mural	
+006128	8	11	時の大穴	Time Pit	
+006134	27	27	crc32:6afa713e	Command Materia:\n  Morph	
+006150	10	11	知識の井戸	Well of Knowledge	
+00615C	8	11	扉部屋へ	To Door Room	
+006168	8	11	小部屋へ	To Small Room	
+006174	16	19	出入り口（閉）へ	To Exit (Closed)	
+006188	10	11	壁画の間へ	To Mural	
+006194	14	15	壁画の間・奥へ	To Mural (Back)	
+0061A4	12	15	古代種の壁画	Ancients' Mural	
+0061B4	16	19	壁画の間・入口へ	To Mural (Entrance)	
+0061C8	10	11	神殿の模型	Temple Model	
+0061D4	27	27	crc32:bf7c5484	Summon Materia:\n  Bahamut	
+0061F0	16	19	モンスタ－の化石	Monster Fossil	
+006204	12	15	戦闘機の残骸	Fighter Wreck	
+006214	12	15	発掘品の宝箱	Dig Site Chest	
+006224	20	23	化石で作られたテント	Fossil Tent	
+00623C	27	27	crc32:5c9f5e6a	Bone Village\n  To Exterior 2	
+006258	16	19	ワ－ルドマップへ	To World Map	
+00626C	16	19	伍番街ゲ－トの鍵	Sector 5 Gate Key	
+006280	10	11	ルナハ－プ	Lunar Harp	
+00628C	10	11	眠りの森へ	To Sleeping Forest	
+006298	27	27	crc32:5d5d345d	Bone Village\n  To Exterior 1	
+0062B4	24	27	crc32:4a75be8f	Summon Materia:\n  Kujata	
+0062D0	16	19	ボ－ンビレッジへ	To Bone Village	
+0062E4	18	19	忘らるる都外観３へ	To Forgotten Capital 3	
+0062F8	18	19	忘らるる都外観２へ	To Forgotten Capital 2	
+00630C	8	11	巨大珊瑚	Giant Coral	
+006318	10	11	青い回廊へ	To Blue Hall	
+006324	18	19	忘らるる都外観１へ	To Forgotten Capital 1	
+006338	10	11	貝の壁掛け	Shell Art	
+006344	10	11	巻き貝の家	Shell House	
+006350	8	11	白の間へ	To White Room	
+00635C	10	11	極光の腕輪	Aurora Armlet	
+006368	10	11	オルゴール	Music Box	
+006374	8	11	古代文字	Ancient Script	
+006380	46	47	crc32:6aee6d95	Chalk Note\n【Where No\n Light Goes】\n  【Key】	
+0063B0	8	11	マテリア	Materia	
+0063BC	12	15	サンゴの谷へ	To Coral Valley	
+0063CC	8	11	民家１ヘ	To House 1	
+0063D8	20	23	古代文字で書かれた本	Ancient Script Book	
+0063F0	17	19	忘らるる都外観2へ	To Forgotten Capital 2	
+006404	8	11	洞窟１へ	To Cave 1	
+006410	12	15	巻き貝の階段	Shell Stairs	
+006420	16	19	ヒュプノクラウン	Hypno Crown	
+006434	25	27	crc32:d98edd88	Indep. Mat.:\n  Magic Plus	
+006450	10	11	天雷の腕輪	Bolt Armlet	
+00645C	8	11	洞窟２へ	To Cave 2	
+006468	8	11	図書館へ	To Library	
+006474	8	11	聖なる泉	Holy Spring	
+006480	25	27	crc32:b3a5360c	Magic Materia:\n  Comet	
+00649C	10	11	水の祭壇へ	To Water Altar	
+0064A8	8	11	願いの鐘	Wish Bell	
+0064B4	8	11	祈りの間	Prayer Room	
+0064C0	10	11	ガストの家	Gast's House	
+0064CC	8	11	雪だるま	Snowman	
+0064D8	8	11	郵便受け	Mailbox	
+0064E4	29	31	crc32:840b5d30	Icicle Inn\n  Tourism Poster	
+006504	16	19	アヒルのおもちゃ	Rubber Duck	
+006518	16	19	子どものこうさく	Kids Craft	
+00652C	20	23	バハムートのポスター	Bahamut Poster	
+006544	8	11	木の列車	Toy Train	
+006550	16	19	クマのぬいぐるみ	Teddy Bear	
+006564	12	15	スノーボード	Snowboard	
+006574	16	19	お父さんの似顔絵	Portrait of Dad	
+006588	12	15	木炭ストーブ	Charcoal Stove	
+006598	12	15	大氷河の地図	Glacier Map	
+0065A8	8	11	英雄の薬	Hero Drink	
+0065B4	8	11	ワクチン	Vaccine	
+0065C0	18	19	ロッキングチェアー	Rocking Chair	
+0065D4	18	19	カモシカの頭の剥製	Mounted Antelope	
+0065E8	18	19	イファルナのベッド	Ifalna's Bed	
+0065FC	8	11	レコーダ	Recorder	
+006608	22	23	マテリア型シャンデリア	Materia Chandelier	
+006620	23	23	crc32:df8929a3	Research\nVCR	
+006638	14	15	天窓操作パネル	Skylight Panel	
+006648	16	19	モンスターライト	Monster Light	
+00665C	10	11	宿屋１階へ	To Inn 1F	
+006668	12	15	銃のポスター	Gun Poster	
+006678	14	15	ミディール崩壊	Mideel Collapse	
+006688	14	15	ボロボロのカギ	Rusty Key	
+006698	14	15	消毒用の洗面台	Scrub Sink	
+0066A8	12	15	患者用ベッド	Patient Bed	
+0066B8	12	15	検眼チャ－ト	Eye Chart	
+0066C8	14	15	カルテを置く棚	Chart Shelf	
+0066D8	12	15	頭蓋骨の標本	Skull Specimen	
+0066E8	12	15	ニブル山の絵	Mt. Nibel art	
+0066F8	20	23	アイテム屋(おばさん)	Lady's Item Shop	
+006710	20	23	マテリア屋(おばさん)	Lady's Materia Shop	
+006728	14	15	ミディ－ルの絵	Mideel Art	
+006738	10	11	エリクサ－	Elixir	
+006744	10	11	帆船の写真	Ship Photo	
+006750	10	11	帆船の模型	Ship Model	
+00675C	8	11	鯨の置物	Whale Toy	
+006768	14	15	帆船のポスタ－	Ship Poster	
+006778	14	15	ミディールの絵	Mideel Art	
+006788	14	15	アクセサリー屋	Accessory Shop	
+006798	12	15	タペストリー	Tapestry	
+0067A8	16	19	武器屋(おばさん)	Lady's Weapon Shop	
+0067BC	12	15	下に抜ける扉	Door Down	
+0067CC	18	19	壁に描かれた扉の絵	Painted Door	
+0067E0	25	27	crc32:b87dd4e3	Shooting\n  Target	
+0067FC	12	15	ダイナマイト	Dynamite	
+00680C	10	11	呪いの指輪	Cursed Ring	
+006818	10	11	おじじの家	Gramps	
+006824	8	11	ネコ屋敷	Cat House	
+006830	10	11	ユフィの家	Yuffie's Home	
+00683C	20	23	ダチャオ像・街遠望へ	To Da-chao View	
+006854	12	15	ダチャオ像へ	To Da-chao	
+006864	10	11	でっかい壷	Big Jar	
+006870	8	11	立て看板	Signboard	
+00687C	10	11	五強の塔へ	To Pagoda	
+006888	17	19	crc32:83b26f2a	Bar\nTurtle Par.	
+00689C	10	11	菖蒲の盆栽	Iris Bonsai	
+0068A8	10	11	かめの敷物	Turtle Rug	
+0068B4	18	19	豪華景品７点セット	7-prize Gift Set	
+0068C8	10	11	巨大生け花	Giant Flower Vase	
+0068D4	8	11	鉄の急須	Iron Teapot	
+0068E0	33	35	crc32:15af84a1	Support Materia:\n  MP Absorb	
+006904	14	15	丸撃印の風呂敷	Wrapping Cloth	
+006914	8	11	弁天布団	Fancy Futon	
+006920	8	11	鶴の敷物	Crane Rug	
+00692C	12	15	「忍」の絨毯	Ninja Carpet	
+00693C	18	19	艦の仕掛けスイッチ	Trick Switch	
+006950	12	15	「忍びの心」	Ninja Spirit	
+006960	20	23	かめ道楽通信Ｎｏ．６	Turtle's Paradise No.6	
+006978	8	11	ネコの糞	Cat Poop	
+006984	8	11	石の金庫	Stone Safe	
+006990	12	15	隠し通路３へ	To Secret Path 3	
+0069A0	10	11	ネコ屋敷へ	To Cat House	
+0069AC	33	35	crc32:cb5b225f	Support Materia:\n  HP Absorb	
+0069D0	8	11	赤の鳥居	Red Gate	
+0069DC	12	15	五強聖の塔へ	To Pagoda	
+0069EC	14	15	ウ－タイ全景へ	To Wutai View	
+0069FC	10	11	隠し部屋へ	To Hidden Room	
+006A08	8	11	森羅万象	All Creation	
+006A14	12	15	隠し通路１へ	To Secret Path 1	
+006A24	8	11	マンダラ	Mandala	
+006A30	10	11	ししおどし	Deer Scarer	
+006A3C	10	11	風魔手裏剣	Magic Shuriken	
+006A48	12	15	「三日天下」	Three-Day Rule	
+006A58	12	15	ゴドーの布団	Godo's Futon	
+006A68	12	15	隠し通路２へ	To Secret Path 2	
+006A78	8	11	かんざし	Hairpin	
+006A84	12	15	「剣」の敷物	Sword Rug	
+006A94	18	19	「一攫千金」の敷物	Jackpot Rug	
+006AA8	16	19	ダチャオ像・顔へ	To Da-chao: Face	
+006ABC	18	19	ダチャオ像・左手へ	To Da-chao: Left Hand	
+006AD0	20	23	ダチャオ像・右半身へ	To Da-chao: Right Side	
+006AE8	20	23	ダチャオ像・左半身へ	To Da-chao: Left Side	
+006B00	18	19	ダチャオ像・右手へ	To Da-chao: Right Hand	
+006B14	14	15	ウータイ全景へ	To Wutai View	
+006B24	18	19	ダチャオ像・全景へ	To Da-chao: Overview	
+006B38	31	31	crc32:a7e569bd	Support Mat.:\n  Steal As Well	
+006B58	16	19	ドラグーンランス	Dragoon Lance	
+006B6C	12	15	古えの森２へ	To Old Forest 2	
+006B7C	12	15	古えの森３へ	To Old Forest 3	
+006B8C	12	15	古えの森１へ	To Old Forest 1	
+006B9C	16	19	巨大モウセンゴケ	Giant Sundew	
+006BB0	14	15	ハイブロウＳＴ	Supershot ST	
+006BC0	18	19	スプリガンクリップ	Spring Gun Clip	
+006BD4	12	15	古えの森４へ	To Old Forest 4	
+006BE4	33	35	crc32:470d3904	Command Materia:\n  Slash-All	
+006C08	12	15	古えの森５へ	To Old Forest 5	
+006C18	14	15	ミネルバブレス	Minerva Band	
+006C28	10	11	ラフレシア	Rafflesia	
+006C34	12	15	古えの森６へ	To Old Forest 6	
+006C44	12	15	古えの森７へ	To Old Forest 7	
+006C54	10	11	カエルの巣	Frog Nest	
+006C60	12	15	アポカリプス	Apocalypse	
+006C70	12	15	古えの森８へ	To Old Forest 8	
+006C80	27	27	crc32:21e3f7cb	Summon Materia:\n  Typhon	
+006C9C	9	11	天の叢雲 	Heavens Cl.	
+006CA8	14	15	セ－ブポイント	Save Point	
+006CB8	16	19	エスコ－トガ－ド	Escort Guard	
+006CCC	33	35	crc32:1b947845	Command Materia:\n  Double Cut	
+006CF0	16	19	魔晄ジェネレ－タ	Mako Generator	
+006D04	8	11	不倶戴天	Conformer	
+006D10	14	15	カ－ゴルームへ	To Cargo Room	
+006D20	10	11	ロンギヌス	Longinus	
+006D2C	15	15	壊れた新羅B1A式	Wrecked B1A	
+006D3C	16	19	壊れた新羅B1β式	Wrecked B1-Beta	
+006D50	25	27	crc32:68a674a4	Summon Materia:\n  Hades	
+006D6C	14	15	こぼれたオイル	Spilled Oil	
+006D7C	14	15	アウトサイダ－	Outsider	
+006D8C	16	19	ラストエリクサ－	Megalixir	
+006DA0	35	35	crc32:48f68b24	Summon Materia:\n  Knights of Round	
+006DC4	33	35	crc32:e89c9bdb	Indep. Materia:\n  HP to MP swap	
+006DE8	33	35	crc32:632fe49b	Support Materia:\n  Quadra Magic	
+006E0C	29	31	crc32:e22585c7	Command Materia:\n  Mime	
+006E2C	8	11	雷の指輪	Bolt Ring	
+006E38	8	11	ミスリル	Mythril	
+006E44	14	15	デスペナルティ	Death Penalty	
+006E54	18	19	ルクレツィアの椅子	Lucrecia's Chair	
+006E68	8	11	金の腕輪	Gold Armlet	
+006E74	12	15	武器の作り方	Weapon Guide	
+006E84	12	15	材料置き戸棚	Supply Shelf	
+006E94	12	15	大いなる福音	Great Gospel	
+006EA4	12	15	チョコボムチ	Chocobo Whip	
+006EB4	10	11	チョコボ鞍	Saddle	
+006EC0	14	15	海チョコボの絵	Sea Chocobo Art	
+006ED0	8	11	水のみ場	Fountain	
+007174	16	19	外観エレベーター	Outer Lift	
+007188	12	15	エレベーター	Lift	
+007198	14	19	セーブポイント	Save Point	
+0074D8	21	23	@グﾗｽﾗﾝ@ドｴﾘｱ(湿地帯)	Grassland (Marsh)	
+0074F0	16	19	魔晄ｷｬﾉﾝ(ｼｽﾀｰﾚｲ)	Sister Ray Cannon	added 2026-11-04 (missed by extractor)
+007540	9	11	名前　{~f04}	Name   {~f04}	
+00754C	8	11	レベル　	Level  	
+007558	8	11	経験値　	Exp. 	
+007564	10	11	出現地域　	Found in 	
+007570	16	19	無効ステータス　	Immune 	
+007598	10	11	あやつり　	Manip. 	
+0075B4	11	11	{~f0F}　年齢　	{~f0F}  Age 	
+0075C0	11	11	crc32:f82feaf7	 \nHeight 	
+0075CC	14	15	ｃｍ　血液型　	cm  Blood 	
+0075DC	12	15	型　誕生日　	  Birthday 	
+0075EC	13	15	crc32:52964567	 \nFrom     	
+0075FC	13	15	crc32:4290b0ae	 \nWeapon   	
+007668	10	11	crc32:5fdc0a76	{~f0F}\nAttack 	
+007674	11	11	crc32:309df5b2	\nMP     	
+007680	14	15	　基本攻撃力　	   Base Atk 	
+007818	16	23	モデリングテスト	Modeling test	
+070D08	295	295	crc32:0b35d41f	Buster Sword        Mythril Saber\nHardedge            Butterfly Edge\nEnhance Sword       Organics\nCrystal Sword       Force Stealer\nRune Blade          Murasame\nNail Bat            Yoshiyuki\nApocalypse          Heavens Cloud\nRagnarok            Ultima Weapon	
+070E30	295	295	crc32:a5214d8d	Leather Glove       Metal Knuckle\nMythril Claw        Grand Glove\nTiger Fang          Diamond Knuckle\nDragon Claw         Crystal Glove\nMotor Drive         Platinum Fist\nKaiser Knuckle      Work Glove\nPowersoul           Master Fist\nGod Hand            Premium Heart	
+070F58	295	295	crc32:0cf5a7ec	Gatling Gun         Assault Gun\nCannon Ball         Atomic Scissors\nHeavy Vulcan        Chainsaw\nMicrolaser          A-M Cannon\nW Machine Gun       Drill Arm\nSolid Bazooka       Rocket Punch\nEnemy Launcher      Pile Banger\nMax Ray             Missing Score	
+071080	258	259	crc32:6f953c4e	Mythril Clip        Diamond Pin\nSilver Barrette     Gold Barrette\nAdaman Clip         Crystal Comb\nMagic Comb          Plat. Barrette\nCentclip            Hairpin\nSeraph Comb         Behemoth Horn\nSpring Gun Clip     Limited Moon	
+071184	201	203	crc32:b9f92abd	Guard Stick         Mythril Rod\nFull Metal Staff    Striking Staff\nPrism Staff         Aurora Rod\nWizard Staff        Wizer Staff\nFairy Tale          Umbrella\nPrincess Guard	
+071250	258	259	crc32:9643758a	Spear               Slash Lance\nTrident             Mast Ax\nPartisan            Viper Halberd\nJavelin             Grow Lance\nMop                 Dragoon Lance\nScimitar            Flayer\nSpirit Lance        Venus Gospel	
+071354	230	231	crc32:17f84f54	4-point Shuriken    Boomerang\nPinwheel            Razor Ring\nHawkeye             Crystal Cross\nWind Slash          Twin Viper\nSpiral Shuriken     Superball\nMagic Shuriken      Rising Sun\nConformer	
+07143C	238	239	crc32:eaeaafc1	Yellow M-phone      Green M-phone\nBlue M-phone        Red M-phone\nCrystal M-phone     White M-phone\nBlack M-phone       Silver M-phone\nTrumpet Shell       Gold M-phone\nBattle Trumpet      Starlight Phone\nHP Shout	
+07152C	236	239	crc32:80a5261a	Quicksilver         Shotgun\nShortbarrel         Lariat\nWinchester          Peacemaker\nBuntline            Long Barrel R\nSilver Rifle        Sniper CR\nSupershot ST        Outsider\nDeath Penalty	
+07161C	20	25	ブロンズバングル　　	Bronze Bangle       	
+071636	20	25	アイアンバングル　　	Iron Bangle         	
+071650	20	25	チタンバングル　　　	Titan Bangle        	
+07166A	20	25	ミスリルの腕輪　　　	Mythril Armlet      	
+071684	20	25	カーボンバングル　　	Carbon Bangle       	
+07169E	20	25	銀の腕輪　　　　　　	Silver Armlet       	
+0716B8	20	25	金の腕輪　　　　　　	Gold Armlet         	
+0716D2	20	25	ダイヤバングル　　　	Diamond Bangle      	
+0716EC	20	25	クリスタルバングル　	Crystal Bangle      	
+071706	20	25	プラチナバングル　　	Platinum Bangle     	
+071720	20	25	ルーンの腕輪　　　　	Rune Armlet         	
+07173A	20	25	エジンコート　　　　	Edincoat            	
+071754	20	25	ウィザードブレス　　	Wizard Bracelet     	
+07176E	20	25	アダマンバングル　　	Adaman Bangle       	
+071788	20	25	ギガースの腕輪　　　	Gigas Armlet        	
+0717A2	20	25	インペリアルガード　	Imperial Guard      	
+0717BC	20	25	エイジスの腕輪　　　	Aegis Armlet        	
+0717D6	20	25	フォースブレス　　　	Fourth Bracelet     	
+0717F0	20	25	ウォーリアバングル　	Warrior Bangle      	
+07180A	20	25	神羅安式防具　　　　	Shinra Beta         	
+071824	20	25	神羅甲式防具改　　　	Shinra Alpha        	
+07183E	20	25	フォウスロット　　　	Four Slots          	
+071858	20	25	烈火の腕輪　　　　　	Fire Armlet         	
+071872	20	25	極光の腕輪　　　　　	Aurora Armlet       	
+07188C	20	25	天雷の腕輪　　　　　	Bolt Armlet         	
+0718A6	20	25	ドラゴンの腕輪　　　	Dragon Armlet       	
+0718C0	20	25	ミネルバブレス　　　	Minerva Band        	
+0718DA	20	25	エスコートガード　　	Escort Guard        	
+0718F4	20	25	ミスティール　　　　	Mystile             	
+07190E	20	25	ザイドリッツ　　　　	Ziedrich            	
+071928	20	25	高級腕時計　　　　　	Precious Watch      	
+071942	20	25	チョコボの腕輪　　　	Chocobracelet       	
+07195C	20	25	パワーリスト　　　　	Power Wrist         	
+071976	20	25	防弾チョッキ　　　　	Protect Vest        	
+071990	20	25	イヤリング　　　　　	Earring             	
+0719AA	20	25	タリスマン　　　　　	Talisman            	
+0719C4	20	25	チョコボのはね　　　	Choco Feather       	
+0719DE	20	25	お守り　　　　　　　	Amulet              	
+0719F8	20	25	チャンピオンベルト　	Champion Belt       	
+071A12	20	25	ポイズンリング　　　	Poison Ring         	
+071A2C	20	25	タフネスリング　　　	Tough Ring          	
+071A46	20	25	サークレット　　　　	Circlet             	
+071A60	20	25	星のペンダント　　　	Star Pendant        	
+071A7A	20	25	銀縁メガネ　　　　　	Silver Glasses      	
+071A94	20	25	ハチマキ　　　　　　	Headband            	
+071AAE	20	25	フェアリーリング　　	Fairy Ring          	
+071AC8	20	25	ジュエルリング　　　	Jem Ring            	
+071AE2	20	25	ホワイトケープ　　　	White Cape          	
+071AFC	20	25	エルメスの靴　　　　	Sprint Shoes        	
+071B16	20	25	安らぎの指輪　　　　	Peace Ring          	
+071B30	20	25	リボン　　　　　　　	Ribbon              	
+071B4A	20	25	炎の指輪　　　　　　	Fire Ring           	
+071B64	20	25	冷気の指輪　　　　　	Ice Ring            	
+071B7E	20	25	雷の指輪　　　　　　	Bolt Ring           	
+071B98	20	25	テトラエレメンタル　	Tetra Elemental     	
+071BB2	20	25	セーフティビット　　	Safety Bit          	
+071BCC	20	25	怒りの指輪　　　　　	Fury Ring           	
+071BE6	20	25	呪いの指輪　　　　　	Curse Ring          	
+071C00	20	25	守りの指輪　　　　　	Protect Ring        	
+071C1A	20	25	タマのすず　　　　　	Cat Bell            	
+071C34	20	25	リフレクトリング　　	Reflect Ring        	
+071C4E	20	25	水の指輪　　　　　　	Water Ring          	
+071C68	20	25	盗賊の小手　　　　　	Sneak Glove         	
+071C82	20	25	ヒュプノクラウン　　	HypnoCrown          	
+071C9C	20	25	ポーション　　　　　	Potion              	
+071CB6	20	25	ハイポーション　　　	Hi-Potion           	
+071CD0	20	25	エクスポーション　　	X-Potion            	
+071CEA	20	25	エーテル　　　　　　	Ether               	
+071D04	20	25	エーテルターボ　　　	Turbo Ether         	
+071D1E	20	25	エリクサー　　　　　	Elixir              	
+071D38	20	25	ラストエリクサー　　	Megalixir           	
+071D52	20	25	フェニックスの尾　　	Phoenix Down        	
+071D6C	20	25	毒消し　　　　　　　	Antidote            	
+071D86	20	25	金の針　　　　　　　	Soft                	
+071DA0	20	25	乙女のキッス　　　　	Maiden Kiss         	
+071DBA	20	25	うちでのこづち　　　	Cornucopia          	
+071DD4	20	25	やまびこえんまく　　	Echo Screen         	
+071DEE	20	25	興奮剤　　　　　　　	Hyper               	
+071E08	20	25	鎮静剤　　　　　　　	Tranquilizer        	
+071E22	20	25	万能薬　　　　　　　	Remedy              	
+071E3C	20	25	けむりだま　　　　　	Smoke Bomb          	
+071E56	20	25	スピードドリンク　　	Speed Drink         	
+071E70	20	25	英雄の薬　　　　　　	Hero Drink          	
+071E8A	20	25	ワクチン　　　　　　	Vaccine             	
+071EA4	20	25	手榴弾　　　　　　　	Grenade             	
+071EBE	20	25	ボムのかけら　　　　	Shrapnel            	
+071ED8	20	25	ボムの右腕　　　　　	Right Arm           	
+071EF2	20	25	金の砂時計　　　　　	Hourglass           	
+071F0C	20	25	死神のキッス　　　　	Kiss of Death       	
+071F26	20	25	クモの糸　　　　　　	Spider Web          	
+071F40	20	25	ドリームパウダー　　	Dream Powder        	
+071F5A	20	25	サイレントマスク　　	Mute Mask           	
+071F74	20	25	戦いのゴング　　　　	War Gong            	
+071F8E	20	25	惑わし草　　　　　　	Loco Weed           	
+071FA8	20	25	火龍の牙　　　　　　	Fire Fang           	
+071FC2	20	25	火とん　　　　　　　	Fire Veil           	
+071FDC	20	25	南極の風　　　　　　	Antarctic Wind      	
+071FF6	20	25	冷気の結晶　　　　　	Ice Crystal         	
+072010	20	25	電撃鳥の角　　　　　	Bolt Plume          	
+07202A	20	25	雷迅　　　　　　　　	Swift Bolt          	
+072044	20	25	大地のドラム　　　　	Earth Drum          	
+07205E	20	25	大地のハンマー　　　	Earth Mallet        	
+072078	20	25	有害物質　　　　　　	Deadly Waste        	
+072092	20	25	モルボルの触手　　　	M-Tentacles         	
+0720AC	20	25	星の砂　　　　　　　	Stardust            	
+0720C6	20	25	バンパイアの牙　　　	Vampire Fang        	
+0720E0	20	25	ゴーストハンド　　　	Ghost Hand          	
+0720FA	20	25	バジリスクの爪　　　	Vagyrisk Claw       	
+072114	20	25	光のカーテン　　　　	Light Curtain       	
+07212E	20	25	月のカーテン　　　　	Lunar Curtain       	
+072148	20	25	反射ミラー　　　　　	Mirror              	
+072162	20	25	聖なるトーチ　　　　	Holy Torch          	
+07217C	20	25	巨鳥のハネ　　　　　	Bird Wing           	
+072196	20	25	海龍のウロコ　　　　	Dragon Scales       	
+0721B0	20	25	モズのはやにえ　　　	Impaler             	
+0721CA	20	25	チヂマール　　　　　	Shrivel             	
+0721E4	20	25	目薬　　　　　　　　	Eye Drop            	
+0721FE	20	25	ファイアカクテル　　	Molotov             	
+072218	20	25	Ｓマイン　　　　　　	S-mine              	
+072232	20	25	２０３ミリ砲弾　　　	8-inch Cannon       	
+07224C	20	25	重力球　　　　　　　	Graviball           	
+072266	20	25	時空弾　　　　　　　	T/S Bomb            	
+072280	20	25	イカスミ　　　　　　	Ink                 	
+07229A	20	25	しびれ針　　　　　　	Dazers              	
+0722B4	20	25	双龍の牙　　　　　　	Dragon Fang         	
+0722CE	20	25	魔女の大釜　　　　　	Cauldron            	
+0722E8	20	25	シルキスの野菜　　　	Sylkis Greens       	
+072302	20	25	レイゲンの野菜　　　	Reagan Greens       	
+07231C	20	25	ミメットの野菜　　　	Mimett Greens       	
+072336	20	25	クリーエの野菜　　　	Curiel Greens       	
+072350	20	25	パサーナの野菜　　　	Pahsana Greens      	
+07236A	20	25	タンタルの野菜　　　	Tantal Greens       	
+072384	20	25	カラッカの野菜　　　	Krakka Greens       	
+07239E	20	25	ギサールの野菜　　　	Gysahl Greens       	
+0723B8	20	25	テント　　　　　　　	Tent                	
+0723D2	20	25	パワーアップ　　　　	Power Source        	
+0723EC	20	25	ガードアップ　　　　	Guard Source        	
+072406	20	25	マジックアップ　　　	Magic Source        	
+072420	20	25	マインドアップ　　　	Mind Source         	
+07243A	20	25	スピードアップ　　　	Speed Source        	
+072454	20	25	ラックアップ　　　　	Luck Source         	
+07246E	20	25	ゼイオの実　　　　　	Zeio Nut            	
+072488	20	25	カラブの実　　　　　	Carob Nut           	
+0724A2	20	25	ポロフの実　　　　　	Porov Nut           	
+0724BC	20	25	パラムの実　　　　　	Pram Nut            	
+0724D6	20	25	ラサンの実　　　　　	Lasan Nut           	
+0724F0	20	25	サラハの実　　　　　	Saraha Nut          	
+07250A	20	25	ルチルの実　　　　　	Luchile Nut         	
+072524	20	25	ピピオの実　　　　　	Pepio Nut           	
+07253E	20	25	ジンクバッテリー　　	Battery             	
+072558	20	25	ポケットティッシュ　	Pocket Tissue       	
+072572	20	25	超究武神覇斬　　　　	Omnislash           	
+07258C	20	25	カタストロフィ　　　	Catastrophe         	
+0725A6	20	25	ファイナルヘヴン　　	Final Heaven        	
+0725C0	20	25	大いなる福音　　　　	Great Gospel        	
+0725DA	20	25	コスモメモリー　　　	Cosmo Memory        	
+0725F4	20	25	森羅万象　　　　　　	All Creation        	
+07260E	20	25	カオス　　　　　　　	Chaos               	
+072628	20	25	ハイウインド　　　　	Highwind            	
+072642	20	25	１／３５神羅兵　　　	1/35 soldier        	
+07265C	20	25	超合金スイーパー　　	Super Sweeper       	
+072676	20	25	マサムネブレード　　	Masamune Blade      	
+072690	20	25	セーブクリスタル　　	Save Crystal        	
+0726AA	20	25	ディオ激闘戦記　　　	Combat Diary        	
+0726C4	20	25	サイン色紙　　　　　	Autograph           	
+0726DE	20	25	人生バクチ打ち　　　	Gambler             	
+0726F8	20	25	コットンのドレス　　	Cotton Dress        	
+072712	20	25	サテンのドレス　　　	Satin Dress         	
+07272C	20	25	シルクのドレス　　　	Silk Dress          	
+072746	20	25	クセゲのかつら　　　	Curly Wig           	
+072760	20	25	チャパツのかつら　　	Dyed Wig            	
+07277A	20	25	ブロンドのかつら　　	Blonde Wig          	
+072794	20	25	ガラスのティアラ　　	Glass Tiara         	
+0727AE	20	25	ルビーのティアラ　　	Ruby Tiara          	
+0727C8	20	25	ダイヤのティアラ　　	Diamond Tiara       	
+0727E2	20	25	コロン　　　　　　　	Cologne             	
+0727FC	20	25	フラワーコロン　　　	Flower Cologne      	
+072816	20	25	セクシーコロン　　　	Sexy Cologne        	
+072830	20	25	会員カード　　　　　	Member Card         	
+07284A	20	25	ランジェリー　　　　	Lingerie            	
+072864	20	25	ビキニパンツ　　　　	Bikini Briefs       	
+07287E	20	25	薬屋商品クーポン　　	Pharmacy Coupon     	
+072898	20	25	消毒薬　　　　　　　	Disinfectant        	
+0728B2	20	25	消臭薬　　　　　　　	Deodorant           	
+0728CC	20	25	消化薬　　　　　　　	Digestive           	
+0728E6	20	25	カードキー　　　　　	Keycard             	
+072900	20	25	ミッドガルパーツ　　	Midgar Parts        	
+07291A	20	25	ＰＨＳ　　　　　　　	PHS                 	
+072934	20	25	ゴールドチケット　　	Gold Ticket         	
+07294E	20	25	キーストーン　　　　	Keystone            	
+072968	20	25	水神様のウロコ　　　	Leviathan Scales    	
+072982	20	25	大氷河の地図　　　　	Glacier Map         	
+07299C	20	25	Ａ，Ｂ，Ｃクーポン　	Coupons A, B, C     	
+0729B6	20	25	黒マテリア　　　　　	Black Materia       	
+0729D0	20	25	ミスリル　　　　　　	Mythril             	
+0729EA	20	25	スノーボート　　　　	Snowboard           	
+072A04	20	25	ヒュージマテリア１　	Huge Materia 1      	
+072A1E	20	25	ヒュージマテリア２　	Huge Materia 2      	
+072A38	20	25	ヒュージマテリア３　	Huge Materia 3      	
+072A52	20	25	ヒュージマテリア４　	Huge Materia 4      	
+072A6C	20	25	古代種の鍵　　　　　	Key to Ancients     	
+072A86	20	25	ルナハープ　　　　　	Lunar Harp          	
+072AA0	20	25	地下室の鍵　　　　　	Basement Key        	
+072ABA	20	25	伍番街ゲートの鍵　　	Sector 5 Gate Key   	
+072AD4	444	447	crc32:a709a7ea	Restore             Heal\nRevive              Fire\nIce                 Lightning\nEarth               Poison\nGravity             Seal\nMystify             Transform\nTime                Barrier\nDestruct            Comet\nContain             Exit\nFull Cure           Shield\nUltima              Master Magic	
+072C94	264	267	crc32:9b932616	All                 Elemental\nAdded Effect        HP Absorb\nMP Absorb           MP Turbo\nAdded Cut           Steal as well\nSneak Attack        Quadra Magic\nMagic Counter       Command Counter\nFinal Attack	
+072DA0	282	283	crc32:f4602d6f	Steal               Sense\nThrow               Morph\nDeathblow           Manipulate\nMime                Enemy Skill\nSlash-All           Double Cut\nW-Magic             W-Summon\nW-Item              Master Command	
+072EBC	323	323	crc32:ca793919	HP Plus             MP Plus\nHP-MP               Speed Plus\nMagic Plus          Luck Plus\nGil Plus            EXP Plus\nLong Range          Pre-Emptive\nEnemy Away          Enemy Lure\nChocobo Lure        Cover\nCounter Attack      Mega All	
+073000	346	347	crc32:f2ba8cee	Choco/Mog           Shiva\nIfrit               Ramuh\nTitan               Odin\nLeviathan           Bahamut\nKujata              Alexander\nPhoenix             Neo Bahamut\nHades               Typhon\nBahamut ZERO        Knights of Round\nMaster Summon	
+073300	95	95	crc32:fa3d1578	Cloud\nTifa\nBarret\nRed XIII\nAeris\nCid\nYuffie\nCait Sith\nVincent\nSephiroth	
+073360	384	387	crc32:f5019e06	Choco/Mog 1           Choco/Mog 2\nShiva                 Ifrit\nRamuh                 Titan\nOdin 1                Odin 2\nLeviathan             Bahamut\nKujata                Alexander\nPhoenix               Neo Bahamut\nHades                 Typhon\nBahamut ZERO          Knights of the Round	
+075D30	148	151	crc32:57659500	Tifa and the others, caught by Rufus, are rescued just in time by the airship Highwind with Cid aboard. Now free, it flies to protect the Planet.	
+075DC8	70	71	crc32:40140153	Talk to the crew to save, restore HP/MP or use the PHS.	
+075E10	154	155	crc32:6f7bfa9a	A city built by Shinra, a company grown rich on Mako drawn from the Planet. At the center of the pizza-shaped city stands the 70-floor Shinra HQ.	
+075EAC	104	107	crc32:dc05b993	Where Cloud first meets Aeris, selling flowers in the busy streets as passersby shove her aside.	
+075F18	184	187	crc32:113b4d19	After blowing up Reactor 1, AVALANCHE rides the train to Sector 7. At 7th Heaven Cloud meets his childhood friend Tifa, and the team plans the Reactor 5 raid.	
+075FD4	16	19	宿泊料金：10ギル	Inn: 10 gil	
+075FE8	90	91	crc32:72d39400	Tifa runs this bar. Under the pinball machine is the AVALANCHE hideout.	
+076044	108	111	crc32:1a95f6d6	AVALANCHE secret base, formed to fight Shinra. After Reactor 1, the next mission is to blow up Reactor 5.	
+0760B4	230	231	crc32:bc92335f	A church in the ruined slums. Cloud falls from above and wakes to the voice of Aeris, whom he met in Sector 8. When Reno of the Turks comes for her, Cloud agrees to be her bodyguard and they escape over the roof.	
+07619C	100	103	crc32:159c7806	Cloud falls from Reactor 5 into a sunlit church, where he meets Aeris again.	
+076204	170	171	crc32:e250fc07	After falling from Reactor 5, Cloud meets Aeris again in the Sector 5 church. Hunted by the Turks, she hires him as a bodyguard to take her home.	
+0762B0	74	75	crc32:a4a414db	A man with a number 2 tattoo on his arm sits silently, staring into space.	
+0762FC	120	123	crc32:45496ac5	A boy has hidden 5 gil on the shelf behind the bed. Leave it alone and he will later give you a Turbo Ether.	
+076378	130	131	crc32:2bfb30d3	A house ringed by flowers, where Aeris mother Elmyra waits anxiously for her. Later we learn Aeris is not her real daughter.	
+0763FC	14	15	宿泊料金：無料	Inn: free	
+07640C	146	147	crc32:86830ab2	On top of the slide, Aeris talks about her first love. Then they see Tifa being carried off in a chocobo carriage. The fall of Sector 7 badly damaged this park too.	
+0764A0	176	179	crc32:627a796d	Cloud and Aeris follow Tifa’s carriage to Wall Market. To rescue her from Don Corneo, the rich man who runs the town, they plan to sneak into his mansion.	
+076554	82	83	crc32:d3a15131	Inn: 10 gil (300 gil)\nStay the night to check the vending machine for the materia shop.	
+0765A8	148	151	crc32:72930ee6	Inside the room Cloud sees himself huddled in a corner. He blacks out and Mukki wakes him up. A girl gives him Lingerie.	
+076640	86	87	crc32:9177cfc8	Bathe with Mukki and his pals to wash off the grime. They give you Bikini Briefs.	
+076698	74	75	crc32:d19e6e1a	The bee trio carefully do their makeup, and do Cloud’s too before he dresses up.	
+0766E4	46	47	crc32:378ecf2b	This unmanned shop holds only broken machines.	
+076714	104	107	crc32:a6efb979	Hand over the pharmacy coupon from the diner to get Disinfectant, Deodorant or Digestive.	
+076780	90	91	crc32:97c6ed35	For Aeris’s rescue plan Cloud dresses as a woman, in a long purple dress.	
+0767DC	94	95	crc32:ba1d5978	You are asked to find out what the inn’s vending machine sells. You get a Tiara as thanks.	
+07683C	136	139	crc32:41b138d1	Cooks set meals to order. Pay in advance, during the promotion you get a pharmacy coupon.	
+0768C8	86	87	crc32:148c7a5d	You are challenged to a squat contest. Depending on the result, the pretty guy gives you a wig.	
+076920	154	155	crc32:a1d52473	The boutique owner’s favorite bar. Give the pharmacy medicine to the man stuck in the toilet to get Cologne, Flower Cologne or Sexy Cologne.	
+0769BC	84	87	crc32:7ea6bb15	Buy a battery from the junk-hoarding weapon shop and climb the broken plate.	
+076A14	84	87	crc32:ac62f0f4	The room where Tifa is held. Aeris and Tifa meet here for the first time.	
+076A6C	98	99	crc32:da31ee3f	The girls Corneo did not pick are brought here, surrounded by his leering lackeys.	
+076AD0	108	111	crc32:a28cc46d	Womanizer Corneo picks his date for the night from Aeris, Cloud and Tifa, watched by his two men.	
+076B40	76	79	crc32:ba855a00	Where Corneo spends his nights. A trapdoor drops straight into the sewers.	
+076B90	204	207	crc32:b8c9759e	Shinra’s stronghold. Keycards guard every floor and low-level staff may go no higher than 59F. Cloud and the others clear each checkpoint for keycards and head upstairs.	
+076C60	60	63	crc32:026f1aba	Hide behind the statues to slip past the guards and climb higher.	
+076CA0	116	119	crc32:5ec3a89d	A male employee gives Keycard 62. A woman by the elevator explains the security system.	
+076D18	124	127	crc32:d1da29f5	Answer Mayor Domino’s password to get Keycard 65. His greedy deputy Hart sells hints outside.	
+076D98	102	103	crc32:da0a3fea	Open the doors on this floor only three times. Use the air ducts to get every item.	
+076E00	167	167	crc32:8583e402	Work out on the gym treadmill. The Shinra gym drink never comes out of the broken machine.\nRest here to restore HP and MP.	
+076EA8	74	75	crc32:d438b5cb	Find the missing parts of the giant Midgar model to get Keycard 66.	
+076EF4	102	103	crc32:25483f8c	Eavesdrop on the meeting below through the toilet vent and learn Hojo plans to experiment on Aeris.	
+076F5C	140	143	crc32:d1221d8c	Following Hojo, you find Red XIII and Jenova kept as specimens. Later you are locked in a cell on this floor.	
+076FEC	70	71	crc32:ef8c62ba	Rescue Aeris from Hojo’s breeding experiment with Red XIII.	
+077034	180	183	crc32:f071d51e	You are taken to President Shinra on 70F. After you are jailed, the building fills with blood and bodies, and the President is found dead, run through by Sephiroth’s long sword.	
+0770EC	198	199	crc32:0cf93fd8	Escaping Shinra HQ, the party finally reaches the outside world. They split up and agree to meet again in the town of Kalm. Gathered at the inn, Cloud slowly begins to tell the others about his past with Sephiroth.	
+0771B4	78	79	crc32:594f9337	Cloud tells everyone what happened in Nibelheim five years ago, and about Sephiroth.	
+077204	204	207	crc32:4bb19185	Following Sephiroth’s trail, you reach a chocobo ranch. Choco Billy says you need a chocobo to cross the serpent’s marsh, so you buy Chocobo Lure for 2000 gil.	
+0772D4	131	131	crc32:22e17feb	Inn: 100 gil\nChocobo Bill explains how to cross the marsh and lends you Chocobo stalls.\nStall: 10000 gil each (up to 6)	
+077358	90	91	crc32:971383b9	Choco Billy sells greens for chocobo feed. His sister Chloe is a genius at judging chocobos.	
+0773B4	192	195	crc32:ed92ee32	Locals protecting the condor clash with the Shinra army trying to remove it. Short of fighters, they ask Cloud for money and help.\nYou can also stay here.\nInn: free	
+077478	64	67	crc32:fee3ffbb	Choose between funding or fighting to defend the reactor from Shinra.	
+0774BC	204	207	crc32:614cc4c7	Right after meeting Priscilla playing with a dolphin, a monster attacks. She has swallowed seawater and is not breathing. An old man teaches Cloud CPR and he saves her.	
+07758C	132	135	crc32:44eb5870	A monster appears in the dolphins’ cove. Revive drowned Priscilla with CPR, then ride a dolphin jump up to Rufus’s town.	
+077614	48	51	crc32:f3eabb3d	After you save Priscilla, they let you stay for free.	
+077648	94	95	crc32:52062b7f	Change into a Shinra uniform from the locker and rehearse the parade welcoming Rufus.	
+0776A8	180	183	crc32:9f31cb00	Call the dolphin with Priscilla’s whistle and jump up to Junon’s airport. Mistaken for a new recruit, Cloud is pulled into the welcome ceremony for President Rufus.	
+077760	172	175	crc32:8b3dab6c	Still taken for a recruit, Cloud also joins the send-off for Rufus at the harbor, then boards the Shinra cargo ship and leaves Junon.	
+077810	27	27	crc32:7644fa14	Inn: 30 gil (400 gil)	
+07782C	128	131	crc32:7a6638b5	You are brought to the press room for a public execution. Tifa is tied up in the gas room inside. As it begins, Weapon attacks.	
+0778B0	98	99	crc32:bdd6b259	Gas floods the room around bound Tifa. Use the buttons to escape.	
+077914	76	79	crc32:da36cdb6	Captured by Shinra, Tifa and Barret are sentenced to death by Rufus.	
+077964	180	183	crc32:cacd4530	You head to the undersea reactor below Junon for the Huge Materia, but it is loaded onto a submarine during the fight. Cloud’s team chases it in a stolen sub.	
+077A1C	78	79	crc32:851b52bf	Aboard the sub are the officer and troops from Rufus’s parade.	
+077A6C	204	207	crc32:236c10e6	The cargo ship docks at Costa del Sol, a world-class resort. On the beach you meet Hojo of Shinra’s science dept. He says Sephiroth is heading west over Mt. Corel, so the party follows.	
+077B3C	172	175	crc32:86c020f7	Inn: free\n   (only if you buy it)\nPresident Shinra’s old villa is for sale at 300,000 gil. Once bought it becomes Cloud’s Villa and you can stay any time.	
+077BEC	36	39	crc32:c113f07b	The villa’s caretaker is always asleep.	
+077C14	60	63	crc32:709984e3	Mukki from the Honey Bee Inn is on holiday with his club.	
+077C54	86	87	crc32:d8258049	Johnny from the Sector 7 slums lives here with his new girlfriend. She is in the shower.	
+077CAC	80	83	crc32:37b84b10	Inn: 200 gil (free)\nA cozy hotel where you fall asleep to the sound of the waves.	
+077D00	112	115	crc32:88f1568e	Hojo sunbathes surrounded by girls. Onto something about Sephiroth, he heads west to Corel.	
+077D74	210	211	crc32:8b758b11	Past the Corel reactor, the mine railway leads to Barret’s hometown, North Corel. The villagers curse and even attack Barret. The town’s tragic past, he explains, involves a dirty Shinra plot.	
+077E48	24	27	宿泊料金：50ギル（無料）	Inn: 50 gil (free)	
+077E64	74	75	crc32:67d8f150	Barret tells of his hometown, burned by Shinra four years ago, and of his best friend Dyne.	
+077EB0	210	211	crc32:38dcafcb	Chasing Sephiroth, the party rides the ropeway to the Gold Saucer. Before they can relax they are caught up in a massacre, framed, and thrown into Corel Prison in the desert.	
+077F84	146	147	crc32:9a1d3c36	In the lobby, visited with Cait Sith, lie many shot bodies. Taken for the killers, Cloud’s group is dropped into Corel Prison by owner Dio.	
+078018	118	119	crc32:2802b668	Dio’s treasures from around the world are shown here, including the Keystone Cloud’s group is after.	
+078090	169	171	crc32:53999546	Bookmaker’s office\n(betting signup 200 gil)\n - C rank ... 100 gil\n - B rank ... 200 gil\n - A rank ... 300 gil\n - S rank ... 500 gil	
+07813C	96	99	crc32:c744547c	Taught to ride by Ester, Cloud enters the chocobo race to free his friends.	
+0781A0	127	127	crc32:989eb70a	Inn: 5 GP\nThe ropeway breaks down, so you must stay. In the lobby Cloud sums up the journey so far.	
+078220	78	79	crc32:724f1d89	Chosen as the 100th couple of the day, the two appear in the show that follows.	
+078270	54	55	crc32:b75485e1	Dio, owner of the Gold Saucer, tells you about the Black Materia.	
+0782A8	94	95	crc32:d927a6f9	Meet Cait Sith, a fortune-telling cat. Unhappy with his reading, he insists on joining you.	
+078308	210	211	crc32:49c00342	Barret tells of another man with a gun-arm behind the massacre: Dyne, his old friend and Marlene’s real father. Barret seeks to settle the past, but Dyne, now the prison’s boss, turns his gun on him.	
+0783DC	116	119	crc32:1be28ca5	Coates, who runs Corel Prison, tells you how to get out. After Dyne falls, he lets you enter the chocobo race.	
+078454	90	91	crc32:5215682f	Barret reveals the truth about the arena killings, and that Dyne is Marlene’s real father.	
+0784B0	14	15	宿泊料金：無料	Inn: free	
+0784C0	244	247	crc32:d275829e	The buggy takes you to Gongaga, a village scarred by a reactor explosion. An old couple wait for their son, who left to join SOLDIER. His name is Zack: Aeris’s first love and someone Tifa knew. No one knows where he is.	
+0785B8	27	27	crc32:a7af83c7	Inn: 80 gil (300 gil)	
+0785D4	118	119	crc32:8bf9e26e	The home of Zack, Aeris’s first love. A letter to his parents six or seven years ago says he found a girlfriend.	
+07864C	204	207	crc32:00e976e4	Red XIII’s hometown. Bugenhagen reveals his real name is Nanaki and tells of his brave mother and coward father. But a cave Bugenhagen leads them to shows the true form of Nanaki’s father, the warrior Seto.	
+07871C	17	19	宿泊料金：100ギル	Inn: 100 gil	
+078730	72	75	crc32:13a52365	Open the sealed door to show Red XIII, who hates his father, who his father really was.	
+07877C	124	127	crc32:01dc3751	Bugenhagen says Red XIII is like a human of 15 or 16. Hearing the Planet’s cries echo in the room, you learn it is in danger.	
+0787FC	120	123	crc32:462b9896	Experience the cosmos in a 3D hologram. Shooting stars and the Lifestream reveal the mysteries of Planet Life.	
+078878	109	111	crc32:13259e7e	Cosmo Candle:\nAround the fire, each ponders\nquestions, doubts, the truth,\nand Red XIII’s anger at his father	
+0788E8	138	139	crc32:9361c778	Nibelheim, supposedly burned to the ground by Sephiroth five years ago. Men in black cloaks wander about, and the townspeople seem strange.	
+078974	60	63	crc32:27e15544	Five years ago Cloud came home for the first time in years and saw his mother again.	
+0789B4	102	103	crc32:3f566bcb	Inn: 100 gil\nZangan, a martial artist and Tifa’s teacher, cheers Cloud on as he sets off to fight monsters.	
+078A1C	128	131	crc32:02b32880	Five years ago Cloud played this piano from sheet music. Return later to get Tifa’s ultimate Limit Break, left by Zangan.	
+078AA0	50	51	crc32:7e229d02	Shinra soldiers stop Tifa from entering the reactor.	
+078AD4	114	115	crc32:461fcf52	In Hojo’s experiment tanks are eerie humans soaked in Mako. Seeing them, Sephiroth goes berserk with his sword.	
+078B48	66	67	crc32:f3799132	In the coffin sleeps Vincent, still bound by the sins of his past.	
+078B8C	146	147	crc32:f26f9c30	Sephiroth shut himself away here reading every book to learn the secret of his birth. Learning the truth, he left, saying he was going to see his mother.	
+078C20	214	215	crc32:cce17023	A leaning rocket stands as the town’s symbol, from the days Shinra invested in space. Cid, unable to give up his dream of space, maintains it. Shinra returns to take back Cid’s beloved Tiny Bronco.	
+078CF8	94	95	crc32:6d90c667	Cid’s assistant Shera keeps the house. Their past around the rocket launch comes out.	
+078D58	26	27	crc32:ace1a8eb	Inn: 100 gil (300 gil)	
+078D74	114	115	crc32:a4ccd9fc	A temple filled with the minds of the Ancients. Beyond the door opened by the Keystone is Sephiroth, seeking Meteor, the ultimate destructive magic.	
+078DE8	114	115	crc32:b5d78724	Tseng of the Turks lies wounded by Sephiroth. Placing the Keystone on the altar opens the way into the temple.	
+078E5C	30	31	crc32:a38490f3	HP/MP restore: free (sleepy)	
+078E7C	90	91	crc32:1029c13b	Cait Sith, with his made-up body, sacrifices himself to release the Black Materia sealed in the temple.	
+078ED8	158	159	crc32:9970f603	Bone Village, famed for digging. Tell the crew where to dig and they leave the finds in the box by the entrance. You can also dig up the Lunar Harp, which wakes the Sleeping Forest.	
+078F78	150	151	crc32:6f023bc8	As if guided, Aeris goes to the Ancients’ city to stop Sephiroth. As she prays calmly at the altar below the Forgotten Capital, Sephiroth’s sword...	
+079010	104	107	crc32:9d320358	Use the Key to the Ancients from the seabed to see Aeris’s last image in the waterfall, and learn what she wanted to tell you.	
+07907C	14	15	宿泊料金：無料	Inn: free	
+07908C	54	55	crc32:adf584a7	Where the fish swim, stairs to the water altar appear at night.	
+0790C4	144	147	crc32:ba58e430	Controlled by Sephiroth, Cloud turns his sword on Aeris. Cloud comes to and Aeris smiles at him. Then Sephiroth drives his sword into her back.	
+079158	136	139	crc32:5ba02758	Icicle Inn, a northern town where Dr. Gast and Ifalna once hid from Shinra. With a map and snowboard, you head for the Great Glacier.	
+0791E4	17	19	宿泊料金：200ギル	Inn: 200 gil	
+0791F8	48	51	crc32:72540d99	A boy who just moved in gives you a Snowboard.	
+07922C	48	51	crc32:93e67848	Take the Glacier Map from the wall.	
+079260	142	143	crc32:4c01ef8f	Play the video to see old records of Dr. Gast and Ifalna, Aeris’s mother: happy memories, and Hojo at his worst.	
+0792F0	160	163	crc32:5cf47b3b	Mideel, a quiet hot-spring village. Its clinic treats Cloud, who went missing in the Northern Crater. Weapon attacks the town where Cloud lies with severe Mako poisoning.	
+079394	65	67	crc32:349b8e39	Inn: free\nCloud is treated here for severe Mako poisoning.	
+0793D8	78	79	crc32:2a2f080f	You try the rusty key in the back door, only to find it is a painting by the weapon shop owner.	
+079428	164	167	crc32:ecfa8e0a	Wutai, with the guardian Da-chao statue carved into the mountain. Yuffie hid here in her hometown with the stolen materia. After you save her from Corneo, she gives it back.	
+0794D0	98	99	crc32:58889b79	Where Yuffie first hides with the stolen materia. She takes your MP Absorb materia too.	
+079534	88	91	crc32:bfc831da	You run into the Turks on vacation. True pros, they won’t fight even an enemy on their day off.	
+079590	46	47	crc32:7fa4637a	Yuffie, who stole the materia, hides behind the folding screen.	
+0795C0	116	119	crc32:50ab739f	Catch Yuffie and ask where the materia is. Pull the lever as she says and a cage drops from the ceiling.	
+079638	42	43	crc32:4bed37f9	First foe in the Pagoda: Gorki, master of strength.	
+079664	30	31	crc32:552c0fef	2F foe: Shake, master of speed.	
+079684	30	31	crc32:a66ba762	3F foe: Chekhov, master of magic.	
+0796A4	30	31	crc32:4dbf8d7f	4F foe: Staniv, master of arms.	
+0796C4	72	75	crc32:60a2738b	Waiting at the top is the final foe: Godo, Yuffie’s father and master of all.	
+079710	14	15	宿泊料金：無料	Inn: free	
+079720	72	75	crc32:5fb5515e	Corneo hangs Yuffie and Elena upside down from Da-chao’s face.	
+07976C	134	135	crc32:81ff58dd	The Ancient Forest, southeast of Cosmo Canyon. Plants that eat bugs and frogs grow here, and deep inside lie powerful weapons and materia.	
+0797F4	120	123	crc32:97d8b109	On the seabed lies a Shinra Gelnika airship sunk by Weapon. Aboard is materia built to fight Sephiroth.	
+079870	104	107	crc32:d08b00d3	You run into Reno and Rude, sent to recover the anti-Sephiroth materia and weapons from the Gelnika.	
+0798DC	68	71	crc32:c3e947d5	With luck, the old man who is always asleep wakes up and gives you Mythril.	
+079924	194	195	crc32:3bafde0a	In the cave Vincent finds Lucrecia, Sephiroth’s mother and the woman he loved. Jenova cells have left her unable even to die, and Vincent appears before her once more.	
+0799E8	48	51	crc32:6c03fd20	Hand over Mythril, the weapon material, to receive one treasure.	
+079A1C	102	103	crc32:b52075ac	A sage with deep knowledge of chocobos, but he forgets things fast. It takes him a long time to remember.	
+079AAC	16	19	ワールドマップへ	To World Map	
+079AC0	16	19	ミッドガル全景へ	To Midgar View	
+079AD4	10	11	マテリア屋	Materia Shop	
+079AE0	10	11	アイテム屋	Item Shop	
+079DF0	10	11	各種計器類	Gauges and Meters	added 2026-11-04 (scene label missed by extractor)
+079EEC	16	19	チョコボの飼育法	Chocobo Breeding Guide	added 2026-11-04 (scene label missed by extractor)
+079F00	16	19	チョコボの抜け羽	Chocobo Feather	
+07A094	41	43	crc32:ca51ce1e	Poster for the\n Musical LOVELESS	added 2026-11-04 (scene label missed by extractor)
+07A0C0	14	15	ＣＤのポスター	CD Poster	
+07A1A0	33	35	crc32:70d3fd60	Shinra Railway\n Muka 100 Type 90 Model 600	added 2026-11-04 (scene label missed by extractor)
+07A3A4	8	11	射的の的	Shooting Targets	added 2026-11-04 (scene label missed by extractor)
+07A490	8	11	爆弾の箱	Box of Bombs	added 2026-11-04 (scene label missed by extractor)
+07A9BC	14	15	不発のロケット	Dud Rocket	added 2026-11-04 (scene label missed by extractor)
+07AAEC	16	19	煙突のカウンター	Chimney Counter	added 2026-11-04 (scene label missed by extractor)
+07ABE0	22	23	ロケットランチャーの箱	Rocket Launcher Crate	added 2026-11-04 (scene label missed by extractor)
+07ACF8	39	39	crc32:9680d833	Cups and Trophies\nFrom Many Sports	added 2026-11-04 (scene label missed by extractor)
+07AF50	24	27	目覚ましランプ付きベッド	Bed with Alarm Lamp	added 2026-11-04 (scene label missed by extractor)
+07B4BC	29	31	crc32:a784b6cb	Honey Bee Inn\nMascot	added 2026-11-04 (scene label missed by extractor)
+07BC4C	12	15	ビールケース	Beer Crates	added 2026-11-04 (scene label missed by extractor)
+07BDBC	12	15	サンドバッグ	Punching Bag	added 2026-11-04 (scene label missed by extractor)
+07BF1C	14	15	兵器のジャンク	Weapon Scrap	added 2026-11-04 (scene label missed by extractor)
+07C1FC	8	11	おかもち	Delivery Box	added 2026-11-04 (scene label missed by extractor)
+07C2E8	10	11	どでかい壺	Huge Pot	added 2026-11-04 (scene label missed by extractor)
+07C564	22	23	コルネオが集めた骨董品	Corneo's Antiques	added 2026-11-04 (scene label missed by extractor)
+07C760	12	15	エレベーター	Lift	
+07CAB0	16	19	製品ディスプレイ	Product Display	added 2026-11-04 (scene label missed by extractor)
+07CBD4	24	27	魔晄エンジンディスプレイ	Mako Engine Display	added 2026-11-04 (scene label missed by extractor)
+07CBF0	20	23	神羅製品ディスプレイ	Shinra Product Display	
+07CC08	10	11	ヘルメット	Helmet	
+07CEA4	14	15	神羅一族の銅像	Shinra Family Statue	added 2026-11-04 (scene label missed by extractor)
+07CF94	18	19	リフレッシュツリー	Refresh Tree	added 2026-11-04 (scene label missed by extractor)
+07D1C8	10	11	通気ダクト	Air Duct	added 2026-11-04 (scene label missed by extractor)
+07D2A4	26	27	crc32:10a19581	Weight Bench	added 2026-11-04 (scene label missed by extractor)
+07D770	10	11	休憩ルーム	Break Room	added 2026-11-04 (scene label missed by extractor)
+07D8FC	12	15	神羅Ｂ１Ａ式	Shinra B1A	added 2026-11-04 (scene label missed by extractor)
+07D99C	29	31	crc32:1563a468	Home Mako\nEnergy Tank	added 2026-11-04 (scene label missed by extractor)
+07D9BC	20	23	魔晄エネルギータンク	Mako Energy Tank	
+07DB34	14	15	商品の入った箱	Boxes of Goods	added 2026-11-04 (scene label missed by extractor)
+07DCA4	10	11	レジスター	Cash Register	added 2026-11-04 (scene label missed by extractor)
+07DCB0	14	15	商品のサンプル	Sample Goods	
+07E270	14	15	酒の置かれた棚	Liquor Shelf	added 2026-11-04 (scene label missed by extractor)
+080C60	14	15	ビリヤードの台	Pool Table	added 2026-11-04 (scene label missed by extractor)
+080D90	14	15	ビーチパラソル	Beach Umbrella	added 2026-11-04 (scene label missed by extractor)
+080DA0	14	15	ビーチサンダル	Beach Sandals	
+080DB0	18	19	トロピカルジュース	Tropical Juice	
+080DC4	12	15	サーフボード	Surfboard	
+080DD4	12	15	デッキチェア	Deck Chair	
+083344	50	51	crc32:77f09233	Weapon Shop\n"Tiger Lily\n Arms Shop"	added 2026-11-04 (scene label missed by extractor)
+083A54	8	11	ボイラー	Boiler	
+083A60	22	23	過去には案内板があった	Once Had a Signboard	
+083A78	16	19	過去は土であった	Once Was Dirt	
+08424C	10	11	魔晄エッグ	Mako Egg	added 2026-11-04 (scene label missed by extractor)
+084428	10	11	１階正面へ	To 1F Front	added 2026-11-04 (scene label missed by extractor)
+0845B4	8	11	観葉植物	Houseplant	added 2026-11-04 (scene label missed by extractor)
+084770	14	15	サンプルの棺桶	Sample Coffin	added 2026-11-04 (scene label missed by extractor)
+0849A0	8	11	テーブル	Table	added 2026-11-04 (scene label missed by extractor)
+0849AC	8	11	バスタブ	Bathtub	
+0849B8	16	19	ロケット発射台へ	To Rocket Launch Pad	
+0850CC	18	19	神羅モータモービル	Shinra Motormobile	added 2026-11-04 (scene label missed by extractor)
+085550	10	11	時の大穴へ	To the Hole of Time	added 2026-11-04 (scene label missed by extractor)
+085F3C	12	15	古代種の言葉	Words of the Ancients	added 2026-11-04 (scene label missed by extractor)
+08605C	10	11	石のベッド	Stone Bed	added 2026-11-04 (scene label missed by extractor)
+086278	16	19	壊れた巻き貝の家	Broken Shell House	added 2026-11-04 (scene label missed by extractor)
+0867DC	8	11	ストーブ	Stove	added 2026-11-04 (scene label missed by extractor)
+086A38	8	11	ミニカー	Toy Car	added 2026-11-04 (scene label missed by extractor)
+086BD4	8	11	スキー板	Skis	added 2026-11-04 (scene label missed by extractor)
+086D40	12	15	護身用の武器	Self-Defense Weapon	added 2026-11-04 (scene label missed by extractor)
+087670	8	11	お品書き	Menu	added 2026-11-04 (scene label missed by extractor)
+08767C	8	11	松の盆栽	Bonsai Pine	
+087688	20	23	総本山・十六夜部屋へ	To Pagoda: Moon Room	
+0876A0	14	15	総本山・本堂へ	To Pagoda: Main Hall	
+0876B0	14	15	総本山・客室へ	To Pagoda: Guest Room	
+087880	18	19	ビタミンＵの垂れ幕	Vitamin U Banner	added 2026-11-04 (scene label missed by extractor)
+087B14	8	11	自在かぎ	Pot Hook	added 2026-11-04 (scene label missed by extractor)
+087C30	10	11	弁天の衝立	Benten Screen	added 2026-11-04 (scene label missed by extractor)
+087D3C	10	11	お稲荷さん	Inari Fox Shrine	added 2026-11-04 (scene label missed by extractor)
+087D48	10	11	十方手裏剣	Oritsuru	
+087D54	10	11	忍法秘術書	Ninja Scroll	
+087D60	8	11	忍び熊手	Ninja Rake	
+0882AC	14	15	お客さま用布団	Guest Futon	added 2026-11-04 (scene label missed by extractor)
+0883FC	12	15	「天下無敵」	"Unbeatable" Scroll	added 2026-11-04 (scene label missed by extractor)
+088A6C	16	19	巨大うつぼかずら	Giant Pitcher Plant	added 2026-11-04 (scene label missed by extractor)
+089370	14	15	武器職人の作品	Weaponsmith's Work	added 2026-11-04 (scene label missed by extractor)
+08F5D8	68	75	crc32:2a835b33	Magic\nSupport\nCommand\nIndependent\nSummon	
+08FE30	44	47	crc32:510ac189	Area    Name    Level   EXP     HP      MP	
+08FE60	10	12	昇順　降順	Asc.  Desc.	
+0AB19C	4	7	正宗	Sword	
+0AB22C	4	7	外へ	Go Outside	added 2026-11-04 (scene label missed by extractor)
+0AB234	6	7	武器屋	Weapon Shop	
+0AB23C	6	7	ベッド	Bed	
+0AB244	4	7	焜炉	Stove	
+0AB25C	6	7	大空洞	North Crater	
+0AB264	6	7	カーム	Kalm	
+0AB26C	4	11	甲板	Deck	
+0AB278	6	7	甲板へ	To Deck	
+0AB280	2	3	舵	Helm	added 2026-11-04 (missed by extractor)
+0AB284	4	7	ワラ	Straw	
+0AB28C	6	7	飲み水	Water	
+0AB294	4	7	えさ	Feed	
+0AB29C	4	7	寝室	Bedroom	
+0AB2A4	6	7	道具屋	Item Shop	
+0AB2AC	6	7	消火栓	Hydrant	
+0AB2B4	4	7	外へ	Go Outside	
+0AB2BC	6	7	腕ソウ	Arm Saw	
+0AB2C4	4	7	上へ	Go Up	
+0AB2CC	6	7	だるま	Daruma Doll	
+0AB2D4	6	7	ラジオ	Radio	
+0AB2DC	6	7	テレビ	TV	
+0AB2E4	6	7	トイレ	Toilet	
+0AB2EC	6	7	調理場	Kitchen	
+0AB2F4	6	7	冷蔵庫	Fridge	
+0AB2FC	4	7	礼拝	Prayer	
+0AB304	4	7	民家	House	
+0AB30C	6	7	ドカン	Pipe	
+0AB314	4	7	金庫	Safe	
+0AB31C	6	7	置き薬	Medicine Box	
+0AB324	2	3	壺	Pot	added 2026-11-04 (missed by extractor)
+0AB328	6	7	運転席	Driver Seat	
+0AB330	4	7	打刀	Katana	
+0AB338	6	7	タオル	Towel	
+0AB340	6	7	消火器	Extinguisher	
+0AB348	6	7	２階へ	To 2F	
+0AB350	4	7	碁盤	Go Board	
+0AB358	6	7	茶布団	Brown Futon	
+0AB360	6	7	１階へ	To 1F	
+0AB368	4	7	花壇	Flower Bed	
+0AB370	6	7	食器棚	Cupboard	
+0AB378	6	7	ソファ	Sofa	
+0AB380	4	7	砂場	Sandbox	
+0AB388	6	7	滑り台	Slide	
+0AB390	4	7	宿屋	Inn	
+0AB398	4	7	物置	Shed	
+0AB3A0	4	7	便器	Toilet	
+0AB3A8	4	7	宿帳	Guest Book	
+0AB3B0	4	7	看板	Sign	
+0AB3B8	6	7	お風呂	Bath	
+0AB3C0	6	7	洗面器	Basin	
+0AB3C8	4	7	椅子	Chair	
+0AB3D0	6	7	ごみ箱	Trash Can	
+0AB3D8	4	7	薬屋	Pharmacy	
+0AB3E0	6	7	招き猫	Lucky Cat	
+0AB3E8	6	7	商品棚	Shelves	
+0AB3F0	6	7	消化薬	Digestive	
+0AB3F8	6	7	消臭薬	Deodorant	
+0AB400	6	7	消毒薬	Disinfectant	
+0AB408	6	7	カガミ	Mirror	
+0AB410	6	7	スーツ	Suit	
+0AB418	4	7	軍服	Uniform	
+0AB420	6	7	ミシン	Sewing Machine	
+0AB428	6	7	試着室	Fitting Room	
+0AB430	6	7	座布団	Cushion	
+0AB438	6	7	水晶玉	Crystal Ball	
+0AB440	4	7	薬棚	Medicine Shelf	
+0AB448	6	7	流し台	Sink	
+0AB450	6	7	調理台	Counter	
+0AB458	4	7	焜炉	Stove	
+0AB460	6	7	貯水池	Reservoir	
+0AB468	6	7	男の館	Men's Hall	
+0AB470	6	7	ゴング	Gong	
+0AB478	6	7	リング	Ring	
+0AB480	6	7	体重計	Scale	
+0AB488	6	7	男の唄	Men's Song	
+0AB490	6	7	コロン	Cologne	
+0AB498	6	7	団子汁	Dumpling Soup	
+0AB4A0	6	7	戦国幟	War Banner	
+0AB4A8	4	7	砲塔	Turret	
+0AB4B0	4	7	砲弾	Shells	
+0AB4B8	4	7	ドラ	Gong	
+0AB4C0	4	7	受付	Reception	
+0AB4C8	4	7	鉄球	Iron Ball	
+0AB4D0	4	7	ムチ	Whip	
+0AB4D8	6	7	下駄箱	Shoe Rack	
+0AB4E0	6	7	万年床	Unmade Futon	
+0AB4E8	4	7	雀卓	Mahjong Table	
+0AB4F0	4	7	火鉢	Brazier	
+0AB4F8	4	7	香炉	Incense	
+0AB500	4	7	衝立	Screen	
+0AB508	6	7	興奮剤	Hyper	
+0AB510	6	7	裏口へ	To Back Door	
+0AB518	6	7	階段へ	To Stairs	
+0AB520	6	7	正面へ	To Front	
+0AB528	6	7	２Ｆへ	To 2F	
+0AB530	6	7	３Ｆへ	To 3F	
+0AB538	6	7	１Ｆへ	To 1F	
+0AB540	6	7	操作盤	Controls	
+0AB548	6	7	秘書室	Secretary	
+0AB550	4	7	倉庫	Storeroom	
+0AB558	4	7	独房	Cell	
+0AB560	6	7	ベッド	Bed	
+0AB568	6	7	ラジオ	Radio	
+0AB570	2	3	塔	Tower	added 2026-11-04 (missed by extractor)
+0AB574	6	7	民家４	House 4	
+0AB57C	6	7	民家３	House 3	
+0AB584	6	7	民家２	House 2	
+0AB58C	6	7	民家１	House 1	
+0AB594	4	7	酒場	Bar	
+0AB59C	6	7	商品棚	Shelves	
+0AB5A4	6	7	製薬機	Drug Maker	
+0AB5AC	6	7	干し肉	Jerky	
+0AB5B4	2	3	箱	Box	added 2026-11-04 (missed by extractor)
+0AB5B8	6	7	化粧箱	Makeup Box	
+0AB5C0	6	7	古新聞	Old Papers	
+0AB5C8	4	7	鏡台	Dresser	
+0AB5D0	4	7	本棚	Bookcase	
+0AB5D8	4	7	塔へ	To Tower	
+0AB5E0	4	7	井戸	Well	
+0AB5E8	6	7	サイロ	Silo	
+0AB5F0	4	7	石窯	Stone Oven	
+0AB5F8	6	7	えさ箱	Feed Box	
+0AB600	6	7	もぐら	Mole	
+0AB608	4	7	下へ	Go Down	
+0AB610	6	7	頂上へ	To Summit	
+0AB618	6	7	覗き窓	Peephole	
+0AB620	4	7	木箱	Crate	
+0AB628	4	7	暖炉	Fireplace	
+0AB630	6	7	柱時計	Wall Clock	
+0AB638	6	7	監視塔	Watchtower	
+0AB640	6	7	防護壁	Barrier	
+0AB648	6	7	酒場へ	To Bar	
+0AB650	4	7	弾丸	Bullets	
+0AB658	6	7	猫の糞	Cat Poop	
+0AB660	6	7	３階へ	To 3F	
+0AB668	6	7	犬の糞	Dog Poop	
+0AB670	2	3	傘	Umbrella	added 2026-11-04 (missed by extractor)
+0AB674	6	7	リフト	Lift	
+0AB67C	4	7	商品	Goods	
+0AB684	6	7	換気扇	Vent Fan	
+0AB68C	6	7	高い壁	High Wall	
+0AB694	6	7	マイク	Mic	
+0AB69C	4	7	照明	Lights	
+0AB6A4	6	7	調整室	Control Room	
+0AB6AC	6	7	電導床	Shock Floor	
+0AB6B4	6	7	無影灯	Surgery Lamp	
+0AB6BC	6	7	診察台	Exam Table	
+0AB6C4	6	7	魔晄炉	Reactor	
+0AB6CC	6	7	艦長席	Captain Seat	
+0AB6D4	6	7	操縦席	Pilot Seat	
+0AB6DC	6	7	速度計	Speedometer	
+0AB6E4	6	7	傾斜計	Inclinometer	
+0AB6EC	6	7	売り家	For Sale	
+0AB6F4	4	7	港へ	To Harbor	
+0AB6FC	4	7	灯台	Lighthouse	
+0AB704	6	7	飛行艇	Flying Boat	
+0AB70C	6	7	ヨット	Yacht	
+0AB714	6	7	化粧台	Vanity	
+0AB71C	6	7	鳩時計	Cuckoo Clock	
+0AB724	6	7	洗面台	Sink	
+0AB72C	4	7	タル	Barrel	
+0AB734	6	7	案内板	Guide Board	
+0AB73C	6	7	扇風機	Fan	
+0AB744	6	7	ビール	Beer	
+0AB74C	6	7	キュー	Cue	
+0AB754	4	7	電話	Phone	
+0AB75C	6	7	ヒトデ	Starfish	
+0AB764	6	7	カヌー	Canoe	
+0AB76C	6	7	テント	Tent	
+0AB774	6	7	ポット	Pot	
+0AB77C	6	7	信号機	Signal	
+0AB784	4	7	改札	Ticket Gate	
+0AB78C	6	7	殺虫剤	Bug Spray	
+0AB794	6	7	水炊き	Hot Pot	
+0AB79C	6	7	炊飯器	Rice Cooker	
+0AB7A4	4	7	水筒	Canteen	
+0AB7AC	6	7	安全柵	Safety Rail	
+0AB7B4	4	7	看板	Sign	
+0AB7BC	4	7	階段	Stairs	
+0AB7C4	6	7	熱気球	Balloon	
+0AB7CC	4	7	星杯	Star Cup	
+0AB7D4	6	7	頭蓋骨	Skull	
+0AB7DC	4	7	蜘蛛	Spider	
+0AB7E4	6	7	ミイラ	Mummy	
+0AB7EC	6	7	ねずみ	Rat	
+0AB7F4	4	7	台本	Script	
+0AB7FC	6	7	観覧車	Ferris Wheel	
+0AB804	6	7	ベンチ	Bench	
+0AB80C	4	7	化石	Fossil	
+0AB814	4	7	血痕	Bloodstain	
+0AB81C	2	3	扉	Door	added 2026-11-04 (missed by extractor)
+0AB820	6	7	タンス	Dresser	
+0AB828	4	7	書斎	Study	
+0AB830	4	7	風車	Windmill	
+0AB838	6	7	見晴台	Lookout	
+0AB840	4	7	酒樽	Sake Barrel	
+0AB848	6	7	畜電器	Battery	
+0AB850	6	7	洞窟へ	To Cave	
+0AB858	6	7	パブへ	To Pub	
+0AB860	6	7	麻の枕	Hemp Pillow	
+0AB868	4	7	奥へ	Go Inside	
+0AB870	2	3	薪	Firewood	added 2026-11-04 (missed by extractor)
+0AB874	6	7	在庫品	Stock	
+0AB87C	4	7	麻縄	Rope	
+0AB884	6	7	食堂へ	To Dining	
+0AB88C	6	7	はしご	Ladder	
+0AB894	4	7	布団	Futon	
+0AB89C	6	7	洗面所	Washroom	
+0AB8A4	4	7	書棚	Bookshelf	
+0AB8AC	6	7	鹿の角	Antlers	
+0AB8B4	6	7	天文台	Observatory	
+0AB8BC	6	7	畜電気	Battery	
+0AB8C4	6	7	ドーム	Dome	
+0AB8CC	6	7	録音機	Recorder	
+0AB8D4	2	3	月	Moon	added 2026-11-04 (missed by extractor)
+0AB8D8	6	7	ベッド	Bed	
+0AB8E0	6	7	流し台	Sink	
+0AB8E8	4	7	焜炉	Stove	
+0AB8F0	6	7	化粧台	Vanity	
+0AB8F8	4	7	時計	Clock	
+0AB900	6	7	惑星儀	Orrery	
+0AB908	6	7	貯蔵庫	Storage	
+0AB910	4	7	商品	Goods	
+0AB918	4	7	洞窟	Cave	
+0AB920	6	7	地下へ	To Basement	
+0AB928	6	7	廊下へ	To Hallway	
+0AB930	6	7	書斎へ	To Study	
+0AB938	6	7	ベッド	Bed	
+0AB940	6	7	ソファ	Sofa	
+0AB948	2	3	銃	Gun	added 2026-11-04 (missed by extractor)
+0AB94C	4	7	便器	Toilet	
+0AB954	6	7	冷蔵庫	Fridge	
+0AB95C	6	7	上海亭	Shanghai Inn	
+0AB964	6	7	民家１	House 1	
+0AB96C	6	7	発射台	Launch Pad	
+0AB974	6	7	タイヤ	Tire	
+0AB97C	6	7	裏庭へ	To Backyard	
+0AB984	6	7	ラード	Lard	
+0AB98C	2	3	棚	Shelf	added 2026-11-04 (missed by extractor)
+0AB990	4	7	酒瓶	Bottle	
+0AB998	6	7	祭壇へ	To Altar	
+0AB9A0	6	7	リボン	Ribbon	
+0AB9A8	6	7	穴底へ	To Pit Floor	
+0AB9B0	6	7	法螺貝	Trumpet Shell	
+0AB9B8	4	7	軍手	Work Glove	
+0AB9C0	6	7	メテオ	Meteor	
+0AB9C8	6	7	貝の壷	Shell Jar	
+0AB9D0	4	7	珊瑚	Coral	
+0AB9D8	4	7	滝へ	To Falls	
+0AB9E0	4	7	滝壷	Plunge Pool	
+0AB9E8	4	7	珊瑚	Coral	
+0AB9F0	2	3	宿	Inn	added 2026-11-04 (missed by extractor)
+0AB9F4	4	7	ブイ	Buoy	
+0AB9FC	4	7	蛇矛	Viper Halberd	
+0ABA04	4	7	泉へ	To Spring	
+0ABA0C	2	3	箱	Box	added 2026-11-04 (missed by extractor)
+0ABA10	6	7	除雪車	Snowplow	
+0ABA18	4	7	宿屋	Inn	
+0ABA20	6	7	ベンチ	Bench	
+0ABA28	6	7	室外機	AC Unit	
+0ABA30	4	7	戸棚	Cabinet	
+0ABA38	6	7	カバン	Bag	
+0ABA40	6	7	ボール	Ball	
+0ABA48	4	7	木馬	Rocking Horse	
+0ABA50	4	7	人形	Doll	
+0ABA58	6	7	バケツ	Bucket	
+0ABA60	6	7	救急箱	First Aid Kit	
+0ABA68	4	7	そり	Sled	
+0ABA70	4	7	つえ	Cane	
+0ABA78	4	7	天窓	Skylight	
+0ABA80	4	7	酒棚	Liquor Shelf	
+0ABA88	6	7	物入れ	Closet	
+0ABA90	6	7	治療所	Clinic	
+0ABA98	4	7	大砲	Cannon	
+0ABAA0	6	7	ガーゼ	Gauze	
+0ABAA8	6	7	トレー	Tray	
+0ABAB0	4	7	薬品	Chemicals	
+0ABAB8	4	7	点滴	IV Drip	
+0ABAC0	6	7	温泉水	Spa Water	
+0ABAC8	2	3	盾	Shield	added 2026-11-04 (missed by extractor)
+0ABACC	6	7	かぶと	Helmet	
+0ABAD4	4	7	パン	Bread	
+0ABADC	4	7	浮輪	Float Ring	
+0ABAE4	2	3	的	Target	added 2026-11-04 (missed by extractor)
+0ABAE8	2	3	矢	Arrow	added 2026-11-04 (missed by extractor)
+0ABAEC	4	7	火力	Firepower	
+0ABAF4	4	7	美刀	Fine Sword	
+0ABAFC	4	7	機銃	Machine Gun	
+0ABB04	2	3	壷	Jar	added 2026-11-04 (missed by extractor)
+0ABB08	6	7	卒塔婆	Grave Post	
+0ABB10	6	7	忍術書	Ninja Scroll	
+0ABB18	4	7	厨房	Kitchen	
+0ABB20	6	7	お会計	Cashier	
+0ABB28	6	7	しめ縄	Sacred Rope	
+0ABB30	6	7	いろり	Hearth	
+0ABB38	6	7	つづら	Wicker Box	
+0ABB40	4	7	屏風	Folding Screen	
+0ABB48	4	7	神棚	Shrine Shelf	
+0ABB50	6	7	野菜汁	Veggie Soup	
+0ABB58	4	7	行燈	Lamp	
+0ABB60	6	7	かがみ	Mirror	
+0ABB68	2	3	机	Desk	added 2026-11-04 (missed by extractor)
+0ABB6C	6	7	水ぐも	Water Shoes	
+0ABB74	6	7	鉄びし	Caltrops	
+0ABB7C	6	7	たんす	Dresser	
+0ABB84	4	7	茶瓶	Teapot	
+0ABB8C	4	7	仏像	Buddha Statue	
+0ABB94	4	7	土鍋	Clay Pot	
+0ABB9C	6	7	釣り鐘	Temple Bell	
+0ABBA4	6	7	総本山	Pagoda	
+0ABBAC	6	7	４階へ	To 4F	
+0ABBB4	6	7	５階へ	To 5F	
+0ABBBC	6	7	抜け穴	Secret Exit	
+0ABBC4	6	7	石灯篭	Stone Lantern	
+0ABBCC	4	7	コイ	Carp	
+0ABBD4	6	7	蓮の池	Lotus Pond	
+0ABBDC	4	7	書棚	Bookshelf	
+0ABBE4	6	7	虎の絵	Tiger Painting	
+0ABBEC	2	3	硯	Inkstone	added 2026-11-04 (missed by extractor)
+0ABBF0	2	3	筆	Brush	added 2026-11-04 (missed by extractor)
+0ABBF4	6	7	アンカ	Bed Warmer	
+0ABBFC	4	7	茶釜	Tea Kettle	
+0ABC04	4	7	仏壇	Altar	
+0ABC0C	6	7	水墨画	Ink Painting	
+0ABC14	6	7	御本尊	Main Idol	
+0ABC1C	6	7	千両箱	Money Chest	
+0ABC24	4	7	雷迅	Swift Bolt	
+0ABC2C	6	7	折り鶴	Rising Sun	
+0ABC34	6	7	通路へ	To Passage	
+0ABC3C	6	7	カオス	Chaos	
+0ABC44	4	7	砥石	Whetstone	
+0ABC4C	6	7	作業机	Workbench	
+0ABC54	6	7	やおや	Grocer	
+0ABD5C	6	7	ＨＰ　	HP   	
+0ABD64	6	7	ＡＰ　	AP   	
+0ABD6C	6	7	ＭＰ　	MP   	
+0ABD74	6	7	ギル　	Gil  	
+0ABD80	6	7	お宝　	Drop   	
+0ABD88	6	7	盗む　	Steal  	
+0ABD90	6	7	変化　	Morph  	
+0ABD98	6	7	属性　	Elem.  	
+0ABDAC	4	7	なし	None	
+0ABDC4	7	7	crc32:1c18df9e	\nElem. 	added 2026-11-04 (scene label missed by extractor)

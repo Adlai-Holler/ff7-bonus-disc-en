@@ -1,0 +1,1382 @@
+{
+"0": [
+"Highwind",
+"Deck"
+],
+"1": [
+"Highwind",
+"Center Hall"
+],
+"2": [
+"Highwind",
+"Cockpit"
+],
+"3": [
+"Highwind",
+"Operations Room"
+],
+"4": [
+"Highwind",
+"Chocobo Stable"
+],
+"5": [
+"Midgar",
+"Full View"
+],
+"6": [
+"",
+"Sector 8"
+],
+"338": [
+"",
+"Materia Cave 1"
+],
+"341": [
+"",
+"Materia Cave 1"
+],
+"339": [
+"",
+"Materia Cave 2"
+],
+"340": [
+"",
+"Materia Cave 3"
+],
+"343": [
+"",
+"Lucrecia's Cave"
+],
+"344": [
+"",
+"Weaponsmith's House"
+],
+"345": [
+"",
+"Chocobo Sage's House"
+],
+"7": [
+"Sector 7 Slums",
+"Sector 7 Station"
+],
+"9": [
+"Sector 7 Slums",
+"Full View"
+],
+"10": [
+"Sector 7 Slums",
+"Item Shop"
+],
+"11": [
+"Sector 7 Slums",
+"Weapon Shop 1F"
+],
+"12": [
+"Sector 7 Slums",
+"Beginners' Hall"
+],
+"13": [
+"Sector 7 Slums",
+"Weapon Shop 3F"
+],
+"14": [
+"Sector 7 Slums",
+"Johnny's Room"
+],
+"15": [
+"Sector 7 Slums",
+"Seventh Heaven"
+],
+"16": [
+"Sector 7 Slums",
+"Avalanche Hideout"
+],
+"17": [
+"Slum Church",
+"Full View"
+],
+"18": [
+"Slum Church",
+"Chapel"
+],
+"19": [
+"Slum Church",
+"Church, Back"
+],
+"20": [
+"Sector 5 Slums",
+"Full View"
+],
+"21": [
+"Sector 5 Slums",
+"Item Shop"
+],
+"22": [
+"Sector 5 Slums",
+"Weapon Shop"
+],
+"23": [
+"Sector 5 Slums",
+"Big Pipe"
+],
+"24": [
+"Sector 5 Slums",
+"Materia Shop"
+],
+"25": [
+"Sector 5 Slums",
+"House 1F"
+],
+"26": [
+"Sector 5 Slums",
+"House 2F"
+],
+"27": [
+"Aeris's House",
+"Full View"
+],
+"28": [
+"Aeris's House",
+"1F"
+],
+"29": [
+"Aeris's House",
+"2F"
+],
+"30": [
+"Sector 6",
+"Midori Park"
+],
+"31": [
+"Wall Market",
+"Exterior 1"
+],
+"38": [
+"Wall Market",
+"Exterior 2"
+],
+"41": [
+"Wall Market",
+"Exterior 3"
+],
+"45": [
+"Wall Market",
+"Exterior 4"
+],
+"47": [
+"Wall Market",
+"Exterior 5"
+],
+"32": [
+"Wall Market",
+"Inn"
+],
+"33": [
+"Wall Market",
+"Honey Bee Inn Front"
+],
+"39": [
+"Wall Market",
+"Self-Serve Shop"
+],
+"40": [
+"Wall Market",
+"Pharmacy"
+],
+"42": [
+"Wall Market",
+"Dress Shop"
+],
+"43": [
+"Wall Market",
+"Materia Shop"
+],
+"44": [
+"Wall Market",
+"Diner"
+],
+"46": [
+"Wall Market",
+"Gym"
+],
+"48": [
+"Wall Market",
+"Bar"
+],
+"49": [
+"Wall Market",
+"Weapon Shop"
+],
+"50": [
+"Wall Market",
+"Corneo's Front"
+],
+"34": [
+"Honey Bee Inn",
+"Lobby"
+],
+"35": [
+"Honey Bee Inn",
+"Lovers' Nest"
+],
+"36": [
+"Honey Bee Inn",
+"Group Nest"
+],
+"37": [
+"Honey Bee Inn",
+"Dressing Room"
+],
+"51": [
+"Corneo's Mansion",
+"Entrance"
+],
+"52": [
+"Corneo's Mansion",
+"1F"
+],
+"53": [
+"Corneo's Mansion",
+"Punishment Room"
+],
+"54": [
+"Corneo's Mansion",
+"Henchmen's Room"
+],
+"55": [
+"Corneo's Mansion",
+"Corneo's Room"
+],
+"56": [
+"Corneo's Mansion",
+"Corneo's Bedroom"
+],
+"57": [
+"Shinra Building",
+"Main Entrance"
+],
+"58": [
+"Shinra Building",
+"Back Entrance"
+],
+"59": [
+"Shinra Building",
+"Stairs 1"
+],
+"60": [
+"Shinra Building",
+"Stairs 2"
+],
+"61": [
+"Shinra Building",
+"Stairs 3"
+],
+"62": [
+"Shinra Building",
+"1F"
+],
+"63": [
+"Shinra Building",
+"2F"
+],
+"64": [
+"Shinra Building",
+"2F Shop"
+],
+"65": [
+"Shinra Building",
+"3F"
+],
+"66": [
+"Shinra Building",
+"59F"
+],
+"67": [
+"Shinra Building",
+"60F"
+],
+"68": [
+"Shinra Building",
+"61F"
+],
+"69": [
+"Shinra Building",
+"62F"
+],
+"70": [
+"Shinra Building",
+"62F Archives 1"
+],
+"71": [
+"Shinra Building",
+"62F Archives 2"
+],
+"72": [
+"Shinra Building",
+"63F"
+],
+"73": [
+"Shinra Building",
+"64F"
+],
+"74": [
+"Shinra Building",
+"65F"
+],
+"75": [
+"Shinra Building",
+"66F"
+],
+"76": [
+"Shinra Building",
+"67F"
+],
+"77": [
+"Shinra Building",
+"68F"
+],
+"78": [
+"Shinra Building",
+"69F"
+],
+"79": [
+"Shinra Building",
+"70F"
+],
+"80": [
+"Shinra Building",
+"70F Heliport"
+],
+"81": [
+"Kalm",
+"Full View"
+],
+"82": [
+"Kalm",
+"Item Shop"
+],
+"83": [
+"Kalm",
+"Pub"
+],
+"84": [
+"Kalm",
+"Weapon/Materia Shop"
+],
+"85": [
+"Kalm",
+"Inn 1F"
+],
+"86": [
+"Kalm",
+"Inn 2F"
+],
+"87": [
+"Kalm",
+"House 1, 1F"
+],
+"88": [
+"Kalm",
+"House 1, 2F"
+],
+"89": [
+"Kalm",
+"House 2, 1F"
+],
+"90": [
+"Kalm",
+"House 2, 2F"
+],
+"91": [
+"Kalm",
+"House 3, 1F"
+],
+"92": [
+"Kalm",
+"House 3, 2F"
+],
+"93": [
+"Kalm",
+"Tower"
+],
+"94": [
+"Kalm",
+"House 4, 1F"
+],
+"95": [
+"Kalm",
+"House 4, 2F"
+],
+"96": [
+"Chocobo Farm",
+"Full View"
+],
+"97": [
+"Chocobo Farm",
+"Bill & Grinnin' House"
+],
+"98": [
+"Chocobo Farm",
+"Chocobo Stable"
+],
+"99": [
+"Fort Condor",
+"Interior"
+],
+"100": [
+"Fort Condor",
+"Lookout Hut"
+],
+"101": [
+"Fort Condor",
+"Summit"
+],
+"102": [
+"Under Junon",
+"Full View"
+],
+"103": [
+"Under Junon",
+"Inlet"
+],
+"104": [
+"Under Junon",
+"Grandma's House"
+],
+"105": [
+"Under Junon",
+"Priscilla's House"
+],
+"106": [
+"Under Junon",
+"Weapon Shop"
+],
+"107": [
+"Junon Airport",
+"Airport Walkway"
+],
+"108": [
+"Junon Airport",
+"Airport"
+],
+"109": [
+"Junon Airport",
+"Waiting Room"
+],
+"110": [
+"Upper Junon",
+"Full View"
+],
+"112": [
+"Upper Junon",
+"Weapon Shop"
+],
+"111": [
+"Upper Junon",
+"Materia Shop"
+],
+"113": [
+"Upper Junon",
+"Pub"
+],
+"114": [
+"Upper Junon",
+"Item Shop"
+],
+"115": [
+"Upper Junon",
+"Barracks 1, 1F"
+],
+"116": [
+"Upper Junon",
+"Officers' Quarters"
+],
+"117": [
+"Upper Junon",
+"Barracks 1, 2F"
+],
+"118": [
+"Upper Junon",
+"Barracks 1, 3F"
+],
+"119": [
+"Upper Junon",
+"Lift"
+],
+"120": [
+"Junon",
+"Main Street"
+],
+"129": [
+"Junon",
+"Junon Harbor"
+],
+"121": [
+"Lower Junon",
+"Full View"
+],
+"128": [
+"Lower Junon",
+"Weapon Shop"
+],
+"122": [
+"Lower Junon",
+"Shinra Members' Bar"
+],
+"123": [
+"Lower Junon",
+"Cheap Inn"
+],
+"124": [
+"Lower Junon",
+"General Store"
+],
+"125": [
+"Lower Junon",
+"Accessory Shop"
+],
+"126": [
+"Lower Junon",
+"Barracks 2, 1F"
+],
+"127": [
+"Lower Junon",
+"Barracks 2, 2F"
+],
+"130": [
+"Junon Branch",
+"Corridor"
+],
+"131": [
+"Junon Branch",
+"Press Room"
+],
+"132": [
+"Junon Branch",
+"Gas Room"
+],
+"133": [
+"Junon Branch",
+"1F"
+],
+"134": [
+"Junon Branch",
+"2F"
+],
+"135": [
+"Junon Branch",
+"Office"
+],
+"136": [
+"Junon Branch",
+"Infirmary"
+],
+"137": [
+"Underwater Reactor",
+"Entrance"
+],
+"138": [
+"Underwater Reactor",
+"Corridor 1, Right"
+],
+"139": [
+"Underwater Reactor",
+"Corridor 1, Left"
+],
+"140": [
+"Underwater Reactor",
+"Corridor 2"
+],
+"141": [
+"Underwater Reactor",
+"Corridor 3"
+],
+"142": [
+"Underwater Reactor",
+"Reactor Entrance"
+],
+"143": [
+"Underwater Reactor",
+"Submarine Dock"
+],
+"144": [
+"Underwater Reactor",
+"Submarine Dock 2"
+],
+"145": [
+"Submarine",
+"Corridor"
+],
+"146": [
+"Submarine",
+"Control Room"
+],
+"147": [
+"Submarine",
+"Torpedo Room"
+],
+"148": [
+"Costa del Sol",
+"Right"
+],
+"152": [
+"Costa del Sol",
+"Center"
+],
+"155": [
+"Costa del Sol",
+"Left"
+],
+"149": [
+"Costa del Sol",
+"Costa del Sol Harbor"
+],
+"150": [
+"Costa del Sol",
+"House for Sale"
+],
+"151": [
+"Costa del Sol",
+"House for Sale, Basement"
+],
+"153": [
+"Costa del Sol",
+"Bar & Weapon Shop"
+],
+"154": [
+"Costa del Sol",
+"Johnny's New Home"
+],
+"156": [
+"Costa del Sol",
+"Costa del Sol Inn"
+],
+"157": [
+"Costa del Sol",
+"Beach, Right"
+],
+"158": [
+"Costa del Sol",
+"Beach, Left"
+],
+"159": [
+"North Corel",
+"Full View"
+],
+"160": [
+"North Corel",
+"Shack"
+],
+"161": [
+"North Corel",
+"Inn"
+],
+"162": [
+"North Corel",
+"Ropeway Station"
+],
+"163": [
+"North Corel",
+"Tent"
+],
+"164": [
+"North Corel",
+"Driver's Tent"
+],
+"165": [
+"Gold Saucer",
+"Ropeway Station"
+],
+"166": [
+"Gold Saucer",
+"Terminal Floor"
+],
+"167": [
+"Gold Saucer",
+"Battle Square"
+],
+"168": [
+"Gold Saucer",
+"Arena Lobby"
+],
+"169": [
+"Gold Saucer",
+"Dio's Showroom"
+],
+"170": [
+"Gold Saucer",
+"Chocobo Square"
+],
+"171": [
+"Gold Saucer",
+"Ticket Office"
+],
+"172": [
+"Gold Saucer",
+"Racers' Waiting Room"
+],
+"173": [
+"Gold Saucer",
+"Ghost Hotel"
+],
+"174": [
+"Gold Saucer",
+"Ghost Hotel"
+],
+"175": [
+"Gold Saucer",
+"Ghost Hotel Lobby"
+],
+"176": [
+"Gold Saucer",
+"Ghost Hotel Shop"
+],
+"177": [
+"Gold Saucer",
+"Event Square"
+],
+"178": [
+"Gold Saucer",
+"Round Square"
+],
+"179": [
+"Gold Saucer",
+"Speed Square"
+],
+"180": [
+"Gold Saucer",
+"Platform"
+],
+"181": [
+"Gold Saucer",
+"Wonder Square"
+],
+"182": [
+"Gold Saucer",
+"Wonder Square 1F"
+],
+"183": [
+"Gold Saucer",
+"Wonder Square 2F"
+],
+"184": [
+"Corel Prison",
+"Exterior 1"
+],
+"185": [
+"Corel Prison",
+"Dyne's Hideout"
+],
+"186": [
+"Corel Prison",
+"Basement"
+],
+"187": [
+"Corel Prison",
+"Exterior 2"
+],
+"188": [
+"Corel Prison",
+"Coates's Container"
+],
+"189": [
+"Corel Prison",
+"Old Mayor's House"
+],
+"190": [
+"Corel Prison",
+"Prison Pub"
+],
+"191": [
+"Corel Prison",
+"Driver's Seat"
+],
+"192": [
+"Gongaga",
+"Full View"
+],
+"193": [
+"Gongaga",
+"Accessory Shop"
+],
+"194": [
+"Gongaga",
+"Weapon Shop"
+],
+"195": [
+"Gongaga",
+"Inn"
+],
+"196": [
+"Gongaga",
+"Item Shop"
+],
+"197": [
+"Gongaga",
+"Mayor's House"
+],
+"198": [
+"Gongaga",
+"Zack's Family Home"
+],
+"199": [
+"Cosmo Canyon",
+"Full View, Lower"
+],
+"200": [
+"Cosmo Canyon",
+"Pub \"Starlet\""
+],
+"201": [
+"Cosmo Canyon",
+"Shildra Inn"
+],
+"202": [
+"Cosmo Canyon",
+"Cave"
+],
+"203": [
+"Cosmo Canyon",
+"Nanaki's Room"
+],
+"204": [
+"Cosmo Canyon",
+"Item Shop"
+],
+"205": [
+"Cosmo Canyon",
+"Item Shop, Back"
+],
+"206": [
+"Cosmo Canyon",
+"Weapon Shop"
+],
+"207": [
+"Cosmo Canyon",
+"Elder Hargo's Room"
+],
+"208": [
+"Cosmo Canyon",
+"Before the Sealed Door"
+],
+"209": [
+"Cosmo Canyon",
+"Materia Shop"
+],
+"210": [
+"Cosmo Canyon",
+"Dining Hall"
+],
+"211": [
+"Cosmo Canyon",
+"Full View, Upper"
+],
+"212": [
+"Cosmo Canyon",
+"Bugenhagen's Room"
+],
+"213": [
+"Cosmo Canyon",
+"Planetarium"
+],
+"214": [
+"Cosmo Canyon",
+"Seto's Statue"
+],
+"215": [
+"Nibelheim",
+"Full View"
+],
+"216": [
+"Nibelheim",
+"Sisters' House 1F"
+],
+"217": [
+"Nibelheim",
+"Sisters' House 2F"
+],
+"218": [
+"Nibelheim",
+"Cloud's House"
+],
+"219": [
+"Nibelheim",
+"Inn 1F"
+],
+"220": [
+"Nibelheim",
+"Inn 2F"
+],
+"221": [
+"Nibelheim",
+"Tifa's House 1F"
+],
+"222": [
+"Nibelheim",
+"Tifa's House 2F"
+],
+"223": [
+"Nibelheim",
+"General Store"
+],
+"224": [
+"Nibel Reactor",
+"Full View"
+],
+"225": [
+"Nibel Reactor",
+"Reactor Core"
+],
+"226": [
+"Nibel Reactor",
+"Egg Room"
+],
+"227": [
+"Nibel Reactor",
+"Jenova Room 1"
+],
+"228": [
+"Nibel Reactor",
+"Jenova Room 2"
+],
+"229": [
+"Shinra Mansion",
+"1F Front"
+],
+"230": [
+"Shinra Mansion",
+"1F Back"
+],
+"231": [
+"Shinra Mansion",
+"2F Left"
+],
+"232": [
+"Shinra Mansion",
+"2F Right"
+],
+"233": [
+"Shinra Mansion",
+"Hidden Stairs"
+],
+"234": [
+"Shinra Mansion",
+"Basement"
+],
+"235": [
+"Shinra Mansion",
+"Laboratory"
+],
+"236": [
+"Shinra Mansion",
+"Corridor"
+],
+"237": [
+"Shinra Mansion",
+"Study"
+],
+"238": [
+"Rocket Town",
+"Full View"
+],
+"239": [
+"Rocket Town",
+"Item Shop"
+],
+"240": [
+"Rocket Town",
+"Weapon Shop"
+],
+"241": [
+"Rocket Town",
+"Rocket Launch Pad"
+],
+"242": [
+"Rocket Town",
+"House 1"
+],
+"243": [
+"Rocket Town",
+"House 2"
+],
+"244": [
+"Rocket Town",
+"Backyard"
+],
+"245": [
+"Rocket Town",
+"Cid's House"
+],
+"246": [
+"Rocket Town",
+"Shanghai Inn 1F"
+],
+"247": [
+"Rocket Town",
+"Shanghai Inn 2F"
+],
+"248": [
+"Temple of the Ancients",
+"Exterior"
+],
+"249": [
+"Temple of the Ancients",
+"Altar Room"
+],
+"250": [
+"Temple of the Ancients",
+"3D Maze"
+],
+"251": [
+"Temple of the Ancients",
+"Item Shop"
+],
+"252": [
+"Temple of the Ancients",
+"Bottom of the Pit"
+],
+"253": [
+"Temple of the Ancients",
+"Corridor"
+],
+"254": [
+"Temple of the Ancients",
+"Great Hole of Time"
+],
+"255": [
+"Temple of the Ancients",
+"Boss Room"
+],
+"256": [
+"Temple of the Ancients",
+"Entrance"
+],
+"257": [
+"Temple of the Ancients",
+"Small Room"
+],
+"258": [
+"Temple of the Ancients",
+"Door Room"
+],
+"259": [
+"Temple of the Ancients",
+"Mural Room, Left"
+],
+"260": [
+"Temple of the Ancients",
+"Mural Room, Right"
+],
+"261": [
+"Bone Village",
+"Exterior 1"
+],
+"262": [
+"Bone Village",
+"Exterior 2"
+],
+"263": [
+"Sleeping Forest",
+"Full View"
+],
+"264": [
+"Forgotten Capital",
+"Exterior 1"
+],
+"265": [
+"Forgotten Capital",
+"Exterior 3"
+],
+"266": [
+"Forgotten Capital",
+"House 2"
+],
+"267": [
+"Forgotten Capital",
+"Waterfall"
+],
+"268": [
+"Forgotten Capital",
+"White Room"
+],
+"269": [
+"Forgotten Capital",
+"Exterior 2"
+],
+"270": [
+"Forgotten Capital",
+"House 1"
+],
+"271": [
+"Forgotten Capital",
+"Lodging"
+],
+"272": [
+"Forgotten Capital",
+"Coral Valley"
+],
+"273": [
+"Forgotten Capital",
+"Cave 1, Lower"
+],
+"274": [
+"Forgotten Capital",
+"Cave 1, Lower"
+],
+"275": [
+"Forgotten Capital",
+"Cave 2"
+],
+"276": [
+"Forgotten Capital",
+"Blue Corridor"
+],
+"277": [
+"Forgotten Capital",
+"Library"
+],
+"278": [
+"Forgotten Capital",
+"Spring"
+],
+"279": [
+"Forgotten Capital",
+"Water Altar"
+],
+"280": [
+"Icicle Inn",
+"Full View"
+],
+"281": [
+"Icicle Inn",
+"Inn 1F"
+],
+"282": [
+"Icicle Inn",
+"Inn 2F"
+],
+"283": [
+"Icicle Inn",
+"House 1"
+],
+"284": [
+"Icicle Inn",
+"House 2"
+],
+"285": [
+"Icicle Inn",
+"Gast's House 1F"
+],
+"286": [
+"Icicle Inn",
+"Gast's House 2F"
+],
+"287": [
+"Icicle Inn",
+"Pub"
+],
+"288": [
+"Icicle Inn",
+"Weapon Shop"
+],
+"289": [
+"Mideel",
+"Full View"
+],
+"290": [
+"Mideel",
+"Clinic"
+],
+"291": [
+"Mideel",
+"Item Shop"
+],
+"292": [
+"Mideel",
+"Materia Shop"
+],
+"293": [
+"Mideel",
+"House 2"
+],
+"294": [
+"Mideel",
+"House 1"
+],
+"295": [
+"Mideel",
+"Weapon Shop"
+],
+"296": [
+"Wutai",
+"Full View"
+],
+"297": [
+"Wutai",
+"Weapon Shop"
+],
+"298": [
+"Wutai",
+"Item Shop"
+],
+"299": [
+"Wutai",
+"Turtle's Paradise"
+],
+"300": [
+"Wutai",
+"Grandpa's House"
+],
+"301": [
+"Wutai",
+"Yuffie's House 1F"
+],
+"302": [
+"Wutai",
+"Yuffie's House, Basement"
+],
+"303": [
+"Wutai",
+"Cat Manor"
+],
+"304": [
+"Wutai",
+"Secret Passage 3"
+],
+"305": [
+"Wutai",
+"Pagoda"
+],
+"312": [
+"Wutai",
+"Secret Passage 1"
+],
+"314": [
+"Wutai",
+"Secret Passage 2"
+],
+"316": [
+"Wutai",
+"Hidden Room"
+],
+"306": [
+"Pagoda",
+"1F"
+],
+"307": [
+"Pagoda",
+"2F"
+],
+"308": [
+"Pagoda",
+"3F"
+],
+"309": [
+"Pagoda",
+"4F"
+],
+"310": [
+"Pagoda",
+"5F"
+],
+"311": [
+"Head Temple",
+"Guest Room"
+],
+"313": [
+"Head Temple",
+"Izayoi Room"
+],
+"315": [
+"Head Temple",
+"Main Hall"
+],
+"317": [
+"Da-chao Statue",
+"Full View"
+],
+"318": [
+"Da-chao Statue",
+"Right Hand"
+],
+"319": [
+"Da-chao Statue",
+"Right Side"
+],
+"320": [
+"Da-chao Statue",
+"Left Hand"
+],
+"321": [
+"Da-chao Statue",
+"Left Side"
+],
+"322": [
+"Da-chao Statue",
+"View of the Town"
+],
+"323": [
+"Da-chao Statue",
+"Cave"
+],
+"324": [
+"Da-chao Statue",
+"Face"
+],
+"325": [
+"Ancient Forest",
+"Exterior 1"
+],
+"326": [
+"Ancient Forest",
+"Exterior 2"
+],
+"327": [
+"Ancient Forest",
+"Exterior 3"
+],
+"328": [
+"Ancient Forest",
+"Exterior 4"
+],
+"329": [
+"Ancient Forest",
+"Exterior 5"
+],
+"330": [
+"Ancient Forest",
+"Exterior 6"
+],
+"331": [
+"Ancient Forest",
+"Cave"
+],
+"332": [
+"Ancient Forest",
+"Exterior 7"
+],
+"333": [
+"Ancient Forest",
+"Exterior 8"
+],
+"334": [
+"Gelnika",
+"Passage 1"
+],
+"335": [
+"Gelnika",
+"Laboratory"
+],
+"336": [
+"Gelnika",
+"Passage 2"
+],
+"337": [
+"Gelnika",
+"Cargo Room"
+],
+"342": [
+"Old Man's Hut",
+""
+]
+}
