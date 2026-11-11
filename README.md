@@ -1,5 +1,5 @@
 # FF7 Bonus Disc (Perfect Guide) — English Translation
-The first-ever (as far as I know) English translation of this gem. Adds in an optional sparkle on clickable items so you don't have to spend all day clicking every inch of the screen. Runs on real PS1s! Part slop -- I used AI but I worked a little bit too. I'm aiming for perfection so I welcome feedback.
+The first-ever (as far as I know) English translation of this gem. It was a bonus disc in the Japanese enhanced re-release of FF7. This patch also adds  an optional sparkle on clickable items so you don't have to spend all day clicking every inch of the screen. Runs on real PS1s! Part slop -- I used AI but I worked a little bit too. I'm aiming for perfection so I welcome feedback.
 
 ## What's in FF7 Perfect Guide?
 Look it up, but basically a ton of exclusive environmental detail images, flavor text, and *CG renders of every item and piece of equipment.* High-def inspectable models of all the vehicles in the game including the snowboard. Videos from FF7 pre-production builds. The timeline of Midgar/Shinra/AVALANCHE leading up to the game's opening. CG cutscenes.
@@ -21,7 +21,7 @@ Look it up, but basically a ton of exclusive environmental detail images, flavor
 | ![90](https://github.com/user-attachments/assets/649fb49d-b182-44e5-8a1e-b8d3f46ea607) | ![100](https://github.com/user-attachments/assets/3761eb6c-4ded-4912-9659-a0d53f0547c0) |
 | ![110](https://github.com/user-attachments/assets/80a5256e-8fb0-4719-9357-1fe156e88e68) | ![120](https://github.com/user-attachments/assets/6e2c00c3-30a9-4831-ae75-7907427a6029) |
 | ![130](https://github.com/user-attachments/assets/83976741-2f59-4677-8e17-0748d88a6d6c) | ![140](https://github.com/user-attachments/assets/e51f1173-17f2-41c5-a0a1-e28fe8c9d026) |
-| ![145](https://github.com/user-attachments/assets/93659c11-d4dc-4149-8919-1337c7a1310f) | ![150](https://github.com/user-attachments/assets/3a45c271-336e-442a-aaba-10e9ea328c2c) |
+| ![141](https://github.com/user-attachments/assets/93659c11-d4dc-4149-8919-1337c7a1310f) | ![142](https://github.com/user-attachments/assets/3a45c271-336e-442a-aaba-10e9ea328c2c) |
 | ![145](https://github.com/user-attachments/assets/7e4ea9cb-b0e2-44f4-8191-cee42990fa2b) | ![150](https://github.com/user-attachments/assets/db81519e-c32a-4ed3-9737-ef1b0045829c) |
 
 ## What's translated
