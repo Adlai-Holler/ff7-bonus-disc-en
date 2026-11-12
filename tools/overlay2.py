@@ -18,6 +18,7 @@ FX, FY = int(os.environ.get('FX', '512'), 0), int(os.environ.get('FY', '240'), 0
 CX, CY = int(os.environ.get('CX', '512'), 0), int(os.environ.get('CY', '496'), 0)     # 3 CLUTs at CX, CX+16, CX+32
 LAYER = int(os.environ.get('LAYER', '1'))
 WX, WY, WW = 268, 28, 184
+WX2, WY2, WW2 = 28, 28, 456     # wide box for field close-up / instructions tips (text set 5), under the name box
 PADX, PADY, LH, TABX = 6, 5, 13, 62
 INK_TOP, INK_BOT, BASE_BOT = 1, 15, 12      # first/last inked row of a glyph cell (cap top / descender+shadow)
 TABY, TABH = 8, 19
@@ -101,13 +102,14 @@ class Asm:
 
 # state block at EXT
 S_ON, S_PREV, S_ALIVE, S_FRAME, S_TXT, S_OFFX, S_OFFY, S_LAY = 4, 16, 20, 24, 28, 32, 36, 40
-S_SPK, S_KPREV, S_TIPTAB = 44, 48, 52
+S_SPK, S_KPREV, S_TIPTAB, S_WIDE = 44, 48, 52, 56
 
-INST_TIP = ('{g}Sparkles\n'
+TIP_INLINE_TITLE = set(range(8)) | {12, 13, 14, 15}   # close-ups whose picture has a printed heading but no name card: flyers, notice, weekly motto, escapee reports
+INST_TIP = ('{g}-\n{g}Sparkles\n'
             '{w}Press {g}SELECT{w} on a field screen to make the spots you can open sparkle. '
             'Press it again to turn them off.\n\n'
             'Sparkles only mark close-up views. Some other spots, like a bed or a muffler, '
-            'just show a name label when you point at them.')
+            'just show a name label when you click them.')
 SPKBTN = int(os.environ.get('SPKBTN', '0x100'), 0)   # Select (was L1 0x04)
 SPKLAYER = int(os.environ.get('SPKLAYER', '2'))
 SPKOPS = (23, 48)   # item-book (96) and shop LIST (81) hotspots already show an icon; op-96 rects are not the hotspot                              # close-up, shop LIST, item-book link
@@ -265,12 +267,12 @@ def build(exe, texts):
     #   field screen (gp+4036 == 0x8009D1C4), hovered record gp+2992 is a close-up hotspot (op 48) whose picture is up
     #   (halfword 0x800BBB32 == arg+1); its label pointer is looked up in TIPKEYS -> text set 5.
     a.L('stubP')
-    a.li('t9', ST); a.addiu('t0', 'zero', LAYER); a.sw('t0', S_LAY, 't9'); a.sw('zero', S_TIPTAB, 't9')
+    a.li('t9', ST); a.addiu('t0', 'zero', LAYER); a.sw('t0', S_LAY, 't9'); a.sw('zero', S_TIPTAB, 't9'); a.sw('zero', S_WIDE, 't9')
     # instructions screen (0x8009C530), controller page (halfword 0x800BBB32 == 0): "Tip" about sparkles, last entry of set 5
     a.lw('t0', 4036, 'gp'); a.li('t1', 0x8009C530); a.bne('t0', 't1', 'P_fld'); a.nop()
     a.li('t4', 0x800BBB32); a.lh('t4', 0, 't4'); a.bne('t4', 'zero', 'P_out'); a.nop()
     a.addiu('t7', 'zero', 5); a.la('t1', 'INSTTIP'); a.lw('t1', 0, 't1')
-    a.addiu('t0', 'zero', 1); a.sw('t0', S_TIPTAB, 't9')
+    a.addiu('t0', 'zero', 1); a.sw('t0', S_TIPTAB, 't9'); a.sw('t0', S_WIDE, 't9')
     a.addiu('t0', 'zero', TIPLAYER); a.sw('t0', S_LAY, 't9')
     tail('I_')
     a.jr('ra'); a.nop()
@@ -288,6 +290,7 @@ def build(exe, texts):
     a.addiu('t3', 't3', 8); a.b('P_find'); a.addiu('t1', 't1', 1)
     a.L('P_hit')
     a.li('t9', ST); a.addiu('t7', 'zero', 5)
+    a.addiu('t0', 'zero', 1); a.sw('t0', S_WIDE, 't9')
     a.addiu('t0', 'zero', TIPLAYER); a.sw('t0', S_LAY, 't9')
     tail('P_')
     a.L('P_out')
@@ -416,13 +419,14 @@ def build(exe, texts):
     # main text (if on and present)
     a.lw('t0', S_ON, 's6'); a.beq('t0', 'zero', 'C_tab'); a.nop()
     a.lw('a0', S_TXT, 's6'); a.beq('a0', 'zero', 'C_tab'); a.nop()
-    a.lbu('t1', 2, 'a0'); a.addiu('a0', 'a0', 3); a.addu('a0', 'a0', 't1')      # body follows [bh][nh][namelen][name]
-    a.lw('a1', S_OFFX, 's6'); a.addiu('a1', 'a1', WX + PADX)
-    a.lw('a2', S_OFFY, 's6'); a.addiu('a2', 'a2', WY + PADY - INK_TOP)
+    a.lbu('t1', 2, 'a0'); a.addiu('a0', 'a0', 4); a.addu('a0', 'a0', 't1')      # body follows [bh][nh][namelen][bw][name]
+    a.lw('t2', S_WIDE, 's6'); a.sll('t2', 't2', 4); a.la('t3', 'GEOM'); a.addu('t3', 't3', 't2')   # t3 -> [x, y, w]
+    a.lw('a1', S_OFFX, 's6'); a.lw('t4', 0, 't3'); a.addu('a1', 'a1', 't4'); a.addiu('a1', 'a1', PADX)
+    a.lw('a2', S_OFFY, 's6'); a.lw('t4', 4, 't3'); a.addu('a2', 'a2', 't4'); a.addiu('a2', 'a2', PADY - INK_TOP)
     a.jal_l('text'); a.nop()
     # item name over the Japanese title
     a.lw('a0', S_TXT, 's6'); a.lbu('t1', 2, 'a0'); a.beq('t1', 'zero', 'C_tab'); a.nop()   # no name box
-    a.addiu('a0', 'a0', 3)
+    a.addiu('a0', 'a0', 4)
     a.lw('a1', S_OFFX, 's6'); a.addiu('a1', 'a1', NX + PADX)
     a.lw('a2', S_OFFY, 's6'); a.addiu('a2', 'a2', NY + (NH - (BASE_BOT - INK_TOP + 1)) // 2 - INK_TOP)
     a.jal_l('text'); a.nop()
@@ -439,7 +443,10 @@ def build(exe, texts):
     a.lw('t0', S_ON, 's6'); a.beq('t0', 'zero', 'C_box2'); a.nop()
     a.lw('t0', S_TXT, 's6'); a.beq('t0', 'zero', 'C_box2'); a.nop()
     a.lbu('a3', 0, 't0')
-    a.lw('a0', S_OFFX, 's6'); a.addiu('a0', 'a0', WX); a.lw('a1', S_OFFY, 's6'); a.addiu('a1', 'a1', WY); a.addiu('a2', 'zero', WW)
+    a.lw('t2', S_WIDE, 's6'); a.sll('t2', 't2', 4); a.la('t3', 'GEOM'); a.addu('t3', 't3', 't2')
+    a.lw('a0', S_OFFX, 's6'); a.lw('t4', 0, 't3'); a.addu('a0', 'a0', 't4')
+    a.lw('a1', S_OFFY, 's6'); a.lw('t4', 4, 't3'); a.addu('a1', 'a1', 't4')
+    a.lw('t0', S_TXT, 's6'); a.lbu('a2', 3, 't0'); a.sll('a2', 'a2', 1)          # per-text box width
     a.jal_l('box'); a.nop()
     a.lw('a0', S_OFFX, 's6'); a.addiu('a0', 'a0', NX); a.lw('a1', S_OFFY, 's6'); a.addiu('a1', 'a1', NY)
     a.lw('t0', S_TXT, 's6'); a.lbu('t1', 2, 't0'); a.beq('t1', 'zero', 'C_box2'); a.nop()
@@ -478,6 +485,7 @@ def build(exe, texts):
     put('FONT', ovfont.pack4(sheet))
     NSF = os.environ.get('NAMESORT', '/home/claude/mlist/namesort.bin')
     put('NAMESORT', open(NSF, 'rb').read())
+    put('GEOM', struct.pack('<8I', WX, WY, WW, 0, WX2, WY2, WW2, 0))
     put('MASAMUNE', b'Masamune\0')      # Sephiroth's weapon; original slot is 7 bytes
     put('SELEM', b'\nElem.  \0')     # summon page: widened label (original slot can't grow)
     def kglyph(rows):
@@ -519,23 +527,29 @@ def build(exe, texts):
         for i, s in enumerate(lst):
             if not s: strs.append((c, i, None)); continue
             name, s = s.split('\n', 1)
+            if c == 5:                 # close-up tips have no title box (the Japanese close-ups show none)...
+                if i in TIP_INLINE_TITLE and name.replace('{g}', '').strip():
+                    s = '{g}' + name.replace('{g}', '') + '\n' + s   # ...but flyers carry a printed heading: show it as the first line
+                name = ''
             name = name.replace('\\n', '\n').replace('{g}', '')
             if name: name = ovtext.wrap('{g}' + name, table, NW - 2 * PADX, TABX)[3:]
             nameb = ovtext.encode('{g}' + name) if name else b''
             if name: assert ovtext.layout(nameb, table, 0, 0, TABX, LH)[1] <= NW - 2 * PADX, ('name too wide', name)
             nh = NH + LH * name.count('\n')
             if not name: nameb = b''
-            s = ovtext.wrap(s, table, WW - 2 * PADX, TABX)
+            ww, wy = (WW2, WY2) if c == 5 else (WW, WY)
+            s = ovtext.wrap(s, table, ww - 2 * PADX, TABX)
             b = ovtext.encode(s)
             glyphs, tw, th = ovtext.layout(b, table, 0, 0, TABX, LH)
             nl = b.count(10) + 1
             last = s.split('\n')[-1]
             bot = BASE_BOT          # pad from the baseline; descenders may hang into the bottom padding
             bh = (nl - 1) * LH + (bot - INK_TOP + 1) + 2 * PADY
-            if tw > WW - 2 * PADX or WY + bh > MAXBOT:
+            if tw > ww - 2 * PADX or wy + bh > MAXBOT:
                 report.append((c, i, nl, tw, bh, s.split('\n')[0]))
                 if not os.environ.get('OVLAX'): continue
-            strs.append((c, i, bytes([bh, nh, len(nameb)]) + nameb + b))
+            bw = WW // 2 if c != 5 else (min(WW2, tw + 2 * PADX + 2) + 1) // 2   # box width / 2: wide tips hug their longest line
+            strs.append((c, i, bytes([bh, nh, len(nameb), bw]) + nameb + b))
     if report:
         print('DOES NOT FIT:'); [print('  ', r) for r in report]
         if not os.environ.get('OVLAX'): raise SystemExit(1)
@@ -562,14 +576,14 @@ def build(exe, texts):
     import tokcomp
     keys = [(c, i) for c, i, b in strs if b is not None]
     raws = [b for c, i, b in strs if b is not None]
-    heads = [r[:3] for r in raws]
-    name_body = [r[3:] for r in raws]
+    heads = [r[:4] for r in raws]
+    name_body = [r[4:] for r in raws]
     toks, comp = tokcomp.build(name_body, 0x100 - TOK0)
     # name length byte must reflect the compressed name (name ends at its own terminator)
     newraw = []
     for h, cb in zip(heads, comp):
         nlen = cb.index(0) + 1 if h[2] else 0
-        newraw.append(bytes([h[0], h[1], nlen]) + cb)
+        newraw.append(bytes([h[0], h[1], nlen, h[3]]) + cb)
     labels['TOKOFS'] = pos + len(blob); offs = []; tb = b''
     for t in toks: offs.append(len(tb)); tb += t + b'\0'
     blob += struct.pack('<%dH' % max(1, len(offs)), *(offs or [0])); blob += b'\0' * ((-len(blob)) % 4)
