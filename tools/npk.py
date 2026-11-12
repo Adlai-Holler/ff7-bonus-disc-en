@@ -257,3 +257,79 @@ def encode_stream(data, cands_max=512):
                 flags |= 1 << bit; out.append(data[i]); i += 1
         out[fpos] = flags
     return bytes(out)
+
+def chain_blocks(d, o):
+    """[(block_offset, bytes_actually_decoded)] for a block chain at d[o].
+    The header's 'produced' field is not reliable in the original files, so decode to measure."""
+    n = struct.unpack_from('<I', d, o)[0]; res = []
+    out = bytearray()
+    for k in range(n):
+        before = len(out); _decode_block(d, o + k * 1024, out); res.append((o + k * 1024, len(out) - before))
+    return res
+
+def _decode_block(d, b, out):
+    rem, end, dec = struct.unpack_from('<IHH', d, b)
+    s = d[b+8:b+end]; p = 0; flags = 0
+    while p < len(s):
+        flags >>= 1
+        if not flags & 0x100: flags = s[p] | 0xff00; p += 1
+        if p >= len(s): break
+        if flags & 1: out.append(s[p]); p += 1
+        else:
+            b0, b1 = s[p], s[p+1]; p += 2; pos = b0 | ((b1 & 0xf0) << 4); ln = (b1 & 0xf) + 3
+            v1 = len(out) + 4078; v0 = (v1 & ~0xfff) + pos
+            if not v0 < v1: v0 -= 4096
+            src = v0 - 4078
+            for i in range(ln): out.append(out[src + i] if src + i >= 0 else 0)
+
+def game_decode_n(d, o, nblocks):
+    """game_decode limited to the first `nblocks` blocks of the chain."""
+    out = bytearray()
+    for k in range(nblocks): _decode_block(d, o + k * 1024, out)
+    return bytes(out)
+
+def encode_tail(data, P, nblocks_left, cands_max=512, block=1024):
+    """Encode data[P:] as `nblocks_left` blocks that continue a chain whose earlier blocks produced data[:P].
+    Matches may reach back into data[:P] (the decoder's ring buffer already holds it). Returns bytes."""
+    fast = _fast_parse(data, cands_max)
+    assert fast, 'C match finder required'
+    ml, mp, choice = fast
+    toks = []; i = P
+    while i < len(data):
+        l = choice[i]
+        if l >= 3: toks.append((l, mp[i])); i += l
+        else: toks.append((1, data[i])); i += 1
+    def pack(maxs):
+        blocks = []; t = 0
+        while t < len(toks):
+            s = bytearray(); produced = 0
+            while t < len(toks) and len(s) + 1 + (2 if toks[t][0] >= 3 else 1) <= maxs:
+                fpos = len(s); s.append(0); flags = 0
+                for bit in range(8):
+                    if t >= len(toks): break
+                    l, v = toks[t]; room = maxs - len(s)
+                    if l >= 3:
+                        if room < 2: break
+                        p = (v + 4078) & 0xfff
+                        s += bytes([p & 0xff, ((p >> 4) & 0xf0) | (l - 3)]); produced += l
+                    else:
+                        if room < 1: break
+                        flags |= 1 << bit; s.append(v); produced += 1
+                    t += 1
+                s[fpos] = flags
+            blocks.append((s, produced))
+        return blocks
+    lo, hi = 16, block - 8
+    blocks = pack(hi)
+    if len(blocks) > nblocks_left: raise ValueError(f'tail needs {len(blocks)} blocks > {nblocks_left}')
+    if len(blocks) < nblocks_left:              # spread over exactly nblocks_left blocks
+        while lo < hi:
+            mid = (lo + hi + 1) // 2
+            if len(pack(mid)) >= nblocks_left: lo = mid
+            else: hi = mid - 1
+        blocks = pack(lo)
+        assert len(blocks) == nblocks_left, (len(blocks), nblocks_left)
+    out = bytearray()
+    for k, (s, produced) in enumerate(blocks):
+        out += struct.pack('<IHH', nblocks_left - k, len(s) + 8, min(produced, 0xffff)) + s + b'\0' * (block - 8 - len(s))
+    return bytes(out)

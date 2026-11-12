@@ -101,7 +101,13 @@ class Asm:
 
 # state block at EXT
 S_ON, S_PREV, S_ALIVE, S_FRAME, S_TXT, S_OFFX, S_OFFY, S_LAY = 4, 16, 20, 24, 28, 32, 36, 40
-S_SPK, S_KPREV = 44, 48          # hotspot sparkles on/off, previous L1 state
+S_SPK, S_KPREV, S_TIPTAB = 44, 48, 52
+
+INST_TIP = ('{g}Sparkles\n'
+            '{w}Press {g}SELECT{w} on a field screen to make the spots you can open sparkle. '
+            'Press it again to turn them off.\n\n'
+            'Sparkles only mark close-up views. Some other spots, like a bed or a muffler, '
+            'just show a name label when you point at them.')
 SPKBTN = int(os.environ.get('SPKBTN', '0x100'), 0)   # Select (was L1 0x04)
 SPKLAYER = int(os.environ.get('SPKLAYER', '2'))
 SPKOPS = (23, 48)   # item-book (96) and shop LIST (81) hotspots already show an icon; op-96 rects are not the hotspot                              # close-up, shop LIST, item-book link
@@ -259,7 +265,16 @@ def build(exe, texts):
     #   field screen (gp+4036 == 0x8009D1C4), hovered record gp+2992 is a close-up hotspot (op 48) whose picture is up
     #   (halfword 0x800BBB32 == arg+1); its label pointer is looked up in TIPKEYS -> text set 5.
     a.L('stubP')
-    a.li('t9', ST); a.addiu('t0', 'zero', LAYER); a.sw('t0', S_LAY, 't9')
+    a.li('t9', ST); a.addiu('t0', 'zero', LAYER); a.sw('t0', S_LAY, 't9'); a.sw('zero', S_TIPTAB, 't9')
+    # instructions screen (0x8009C530), controller page (halfword 0x800BBB32 == 0): "Tip" about sparkles, last entry of set 5
+    a.lw('t0', 4036, 'gp'); a.li('t1', 0x8009C530); a.bne('t0', 't1', 'P_fld'); a.nop()
+    a.li('t4', 0x800BBB32); a.lh('t4', 0, 't4'); a.bne('t4', 'zero', 'P_out'); a.nop()
+    a.addiu('t7', 'zero', 5); a.la('t1', 'INSTTIP'); a.lw('t1', 0, 't1')
+    a.addiu('t0', 'zero', 1); a.sw('t0', S_TIPTAB, 't9')
+    a.addiu('t0', 'zero', TIPLAYER); a.sw('t0', S_LAY, 't9')
+    tail('I_')
+    a.jr('ra'); a.nop()
+    a.L('P_fld')
     a.lw('t0', 4036, 'gp'); a.li('t1', 0x8009D1C4); a.bne('t0', 't1', 'P_out'); a.nop()
     a.lw('t0', 2992, 'gp'); a.sll('t0', 't0', 4); a.li('t1', 0x801EF3C8); a.addu('t1', 't1', 't0')
     a.lh('t2', 0, 't1'); a.addiu('t2', 't2', -48); a.bne('t2', 'zero', 'P_out'); a.nop()
@@ -413,7 +428,8 @@ def build(exe, texts):
     a.jal_l('text'); a.nop()
     a.L('C_tab')
     # tab text
-    a.lw('t0', S_ON, 's6'); a.la('a0', 'TABOFF'); a.beq('t0', 'zero', 'C_tab2'); a.nop(); a.la('a0', 'TABON')
+    a.lw('t0', S_ON, 's6'); a.la('a0', 'TABON'); a.bne('t0', 'zero', 'C_tab2'); a.nop()
+    a.lw('t0', S_TIPTAB, 's6'); a.la('a0', 'TABOFF'); a.beq('t0', 'zero', 'C_tab2'); a.nop(); a.la('a0', 'TABTIP')
     a.L('C_tab2')
     a.lbu('t1', 0, 'a0'); a.addiu('a0', 'a0', 1)
     a.lw('a1', S_OFFX, 's6'); a.addu('a1', 'a1', 't1'); a.addiu('a1', 'a1', 256)
@@ -462,6 +478,7 @@ def build(exe, texts):
     put('FONT', ovfont.pack4(sheet))
     NSF = os.environ.get('NAMESORT', '/home/claude/mlist/namesort.bin')
     put('NAMESORT', open(NSF, 'rb').read())
+    put('MASAMUNE', b'Masamune\0')      # Sephiroth's weapon; original slot is 7 bytes
     put('SELEM', b'\nElem.  \0')     # summon page: widened label (original slot can't grow)
     def kglyph(rows):
         out = b''
@@ -477,10 +494,13 @@ def build(exe, texts):
         '.###########....', '..#...#...#.....', '..#...#...#.....', '..#...#...#.....', '..#...#...#.....',
         '..#...#...#.....', '..#...#...#.....', '..#...#...#.....', '..#...#...#.....', '..#...#...#.....',
         '..#...#...#.....', '..#...#...#.....', '.###########....']))
+    # instructions-screen tip: appended to text set 5 (after the field tooltips, which are matched via TIPKEYS)
+    texts = dict(texts); texts['5'] = list(texts['5']) + [INST_TIP]
+    put('INSTTIP', struct.pack('<I', len(texts['5']) - 1))
     # tab strings: first byte = x offset of text
-    ton, toff = '{g}△{w} Hide', '{g}△{w} English'
-    bon, boff = ovtext.encode(ton), ovtext.encode(toff)
-    wmax = max(ovtext.layout(b, table, 0, 0, TABX, LH)[1] for b in (bon, boff))
+    ton, toff, ttip = '{g}△{w} Hide', '{g}△{w} English', '{g}△{w} Tip'
+    bon, boff, btip = ovtext.encode(ton), ovtext.encode(toff), ovtext.encode(ttip)
+    wmax = max(ovtext.layout(b, table, 0, 0, TABX, LH)[1] for b in (bon, boff, btip))
     tabw = wmax + 10; tabx = WX + WW - tabw
     data = [(l, b) if l != 'TABBOX' else (l, struct.pack('<HH', tabx, tabw)) for l, b in data]
     # texts
@@ -527,7 +547,7 @@ def build(exe, texts):
     for lbl, b in data:
         labels[lbl] = pos + len(blob); blob += b
     # tab strings with absolute x as first byte relative to 256
-    for lbl, b in (('TABON', bon), ('TABOFF', boff)):
+    for lbl, b in (('TABON', bon), ('TABOFF', boff), ('TABTIP', btip)):
         w = ovtext.layout(b, table, 0, 0, TABX, LH)[1]
         x = tabx + 5                        # left-aligned: icon stays put when the label changes
         assert 256 <= x < 512
@@ -601,6 +621,11 @@ def build(exe, texts):
     poke(0x8002E128, 0x24a50000 | (se & 0xffff))
     assert struct.unpack_from('<I', d, 0x8006AD78 - 0x80010200 + 0x800)[0] == 0x240A00B0
     if os.environ.get('KROMHOOK'): poke(0x8006AD78, (2 << 26) | ((a.labels['stubR'] >> 2) & 0x3ffffff)); poke(0x8006AD7C, 0)   # off: had no visible effect
+    assert struct.unpack_from('<I', d, 0x80023948 - 0x80010200 + 0x800)[0] == 0x3c02800c
+    assert struct.unpack_from('<I', d, 0x8002394C - 0x80010200 + 0x800)[0] == 0x2442ab9c
+    ms = a.labels['MASAMUNE']
+    poke(0x80023948, 0x3c020000 | (((ms >> 16) + (1 if ms & 0x8000 else 0)) & 0xffff))
+    poke(0x8002394C, 0x24420000 | (ms & 0xffff))
     poke(SHOOK2, (2 << 26) | ((a.labels['stubS2'] >> 2) & 0x3ffffff)); poke(SHOOK2 + 4, 0)
     poke(SHOOK, (2 << 26) | ((a.labels['stubS'] >> 2) & 0x3ffffff)); poke(SHOOK + 4, 0)
     poke(FHOOK, (2 << 26) | ((a.labels['stubF'] >> 2) & 0x3ffffff)); poke(FHOOK + 4, 0)

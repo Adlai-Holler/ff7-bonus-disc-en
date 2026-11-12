@@ -159,9 +159,11 @@ for box in cp:
     a = do_pill(a, items, box, 'button', tc, keep_left=int(os.environ.get('KEEPL', '15')))
 a = bg_fill(a, (155, 231, 20, 500), (232, 240))
 SZ = 10.0; XL, XR = 73, 271
+SZ = 9.5
 for i, (l, r) in enumerate((('○ button', 'Confirm'), ('× button', 'Cancel'),
-                            ('L1 / R1 buttons', 'Switch screens'), ('D-pad', 'Move cursor'))):
-    y = (157, 171, 185, 198)[i]; top, ih = ink_top('Mg', SZ)
+                            ('L1 / R1 buttons', 'Switch screens'), ('D-pad', 'Move cursor'),
+                            ('SELECT button', 'Sparkles (field screens)'))):
+    y = (155, 166, 177, 188, 199)[i]; top, ih = ink_top('Mg', SZ)
     leader_line(items, y - top, l, r, SZ, XL, XR, cyan(y, 10))
 FS = 9.5
 for i, ln in enumerate(('Press ○ on the controller or the left mouse button',

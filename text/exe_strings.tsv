@@ -84,12 +84,12 @@ offset	jplen	slot	jp	en	note
 0021AC	387	387	crc32:4fd61c39	         {~f06}Hardy-Daytona{~f0F} \n   {~f04}Length:{~f0F} 2,300mm\n    {~f04}Width:{~f0F}   785mm\n   {~f04}Height:{~f0F} 1,175mm\n   {~f04}Displ.:{~f0F} 1,160cc\n   {~f04}Engine:{~f0F} VE4-Ge\n           (oil-cooled V4 DOHC){~f0E} \nDATA:{~f0F} \n The newest Shinra bike engine\n and its first V-type DOHC. Low\n durability and a narrow power\n band make it a monster for\n experts only.	
 002330	466	467	crc32:13b530b4	     {~f06}Shinra B1A Helicopter{~f0F} \n   {~f04}Length:{~f0F}  9.14m (excl. rotor)\n    {~f04}Width:{~f0F}  3.05m (excl. rotor)\n   {~f04}Height:{~f0F}  2.89m (excl. rotor)\n   {~f04}Weight:{~f0F} 1,230kg\n{~f04}Top speed:{~f0F}   150kt\n   {~f04}Cruise:{~f0F}    43kt{~f0E} \nDATA:{~f0F} \n Shinra multipurpose helicopter\n used by the Turks and other\n Shinra staff for all kinds of\n jobs. Often flown in dark\n Midgar, many carry a pair of\n very bright fog lamps on the\n nose.	
 002504	20	23	チョコボせんにんの家	Chocobo Sage	
-00251C	14	15	武器職人の小屋	Smith Hut	
+00251C	14	15	武器職人の小屋	Weapon Seller's House	
 00252C	20	23	ルクレツィアのほこら	Lucrecia	
 002544	10	11	オヤジ小屋	Old Hut	
 002550	14	15	マテリアの洞窟	Materia Cave	
 002560	14	15	飛空艇ゲルニカ	Gelnika	
-002570	8	11	古えの森	Old Forest	
+002570	8	11	古えの森	Ancient Forest	
 00257C	8	11	ウータイ	Wutai	
 002588	10	11	ミディール	Mideel	
 002594	16	19	アイシクルロッジ	Icicle Inn	
@@ -103,7 +103,7 @@ offset	jplen	slot	jp	en	note
 002610	16	19	ゴールドソーサー	Gold Saucer	
 002624	8	11	北コレル	North Corel	
 002630	18	19	コスタ・デル・ソル	Costa del Sol	
-002644	10	11	海底魔晄炉	Undersea	
+002644	10	11	海底魔晄炉	Underwater Reactor	
 002650	8	11	ジュノン	Junon	
 00265C	16	19	コンドルフォート	Fort Condor	
 002670	16	19	チョコボファーム	Chocobo Farm	
@@ -516,9 +516,9 @@ offset	jplen	slot	jp	en	note
 0044EC	43	43	crc32:a7309d6d	SOLDIER 1st Class\n  Exam Study Guide	
 004518	14	15	神羅兵の勉強机	Soldier's Desk	
 004528	12	15	パワーアップ	Power Source	
-004538	29	31	crc32:61479f12	Shinra Junon\n  To Hallway 2	
+004538	29	31	crc32:61479f12	Shinra Junon\n  To Passage 2	
 004558	29	31	crc32:9a554fac	Rufus Inaugural\n  Banner	
-004578	10	11	中央通路へ	To Main Corridor	
+004578	10	11	中央通路へ	To Main Passage	
 004584	35	35	crc32:bea986b4	To Basement\n  (Construction)	
 0045A8	14	15	エルジュノンへ	To Lower Junon	
 0045B8	12	15	ジュノン港へ	To Junon Port	
@@ -543,7 +543,7 @@ offset	jplen	slot	jp	en	note
 0046F8	8	11	報道室へ	To Press Room	
 004704	8	11	ガス室へ	To Gas Room	
 004710	12	15	テレビカメラ	TV Camera	
-004720	8	11	通路２へ	To Hallway 2	
+004720	8	11	通路２へ	To Passage 2	
 00472C	14	15	ガス噴き出し口	Gas Vent	
 00473C	12	15	操作スイッチ	Switch	
 00474C	8	11	拘束椅子	Restraint Chair	
@@ -559,18 +559,18 @@ offset	jplen	slot	jp	en	note
 004804	8	11	医務室へ	To Infirmary	
 004810	12	15	空調プロペラ	Air Fan	
 004820	10	11	監視カメラ	Camera	
-00482C	8	11	通路１へ	To Hallway 1	
-004838	10	11	通路１左へ	To Hallway 1, Left	
+00482C	8	11	通路１へ	To Passage 1	
+004838	10	11	通路１左へ	To Passage 1, Left	
 004844	10	11	潜水艦　弐	Submarine 2	
 004850	8	11	入り口へ	To Entrance	
 00485C	10	11	潜水艦　壱	Submarine 1	
-004868	10	11	通路１右へ	To Hallway 1, Right	
-004874	8	11	通路３へ	To Hallway 3	
+004868	10	11	通路１右へ	To Passage 1, Right	
+004874	8	11	通路３へ	To Passage 3	
 004880	10	11	魔晄炉前へ	To the Reactor	
 00488C	16	19	潜水艦ドック１へ	To Sub Dock 1	
 0048A0	16	19	潜水艦ドック２へ	To Sub Dock 2	
-0048B4	10	11	突撃ラッパ	Bugle	
-0048C0	14	15	潜水艦・通路へ	To Sub Hallway	
+0048B4	10	11	突撃ラッパ	Battle Trumpet	
+0048C0	14	15	潜水艦・通路へ	To Sub Passage	
 0048D0	14	15	水神様のウロコ	Water God Scale	
 0048E0	10	11	青龍偃月刀	Scimitar	
 0048EC	8	11	操舵室へ	To Bridge	
@@ -579,10 +579,10 @@ offset	jplen	slot	jp	en	note
 004910	14	15	クロノメーター	Chronometer	
 004920	12	15	水深レーダー	Depth Radar	
 004930	16	19	魚雷探査レーダー	Torpedo Radar	
-004944	29	31	crc32:8a7751a3	Main Viewer\n  Screen	
+004944	29	31	crc32:8a7751a3	Main Viewing\n  Screen	
 004964	10	11	壊れた部品	Broken Part	
 004970	25	27	crc32:699e8252	Torpedo Room\n  (Dead End)	
-00498C	12	15	潜水艦通路へ	To Sub Hallway	
+00498C	12	15	潜水艦通路へ	To Sub Passage	
 00499C	10	11	観光案内所	Tourist Info	
 0049A8	12	15	中央エリアへ	To Center	
 0049B8	8	11	豪華客船	Cruise Ship	
@@ -857,14 +857,14 @@ offset	jplen	slot	jp	en	note
 005D90	16	19	【１】…右　３６	(1) Right 36	added 2026-11-04 (missed by extractor)
 005DA4	29	31	crc32:c2d26fc9	Summon Materia:\n  Odin	
 005DC4	16	19	【３】…右　５９	(3) Right 59	added 2026-11-04 (missed by extractor)
-005DD8	10	11	床のきしみ	Creaky Step	
+005DD8	10	11	床のきしみ	Creaky Floor	
 005DE4	10	11	隠し階段へ	To Hidden Stairs	
 005DF0	18	19	ヴィンセントの棺桶	Vincent's Coffin	
 005E04	8	11	研究室へ	To Lab	
 005E10	39	39	crc32:6074663c	C-PROJ\n  Sample a (Code Z)	
 005E38	39	39	crc32:ad91f328	C-PROJ\n  Sample B (Code C)	
 005E60	28	31	crc32:3f88c4c8	“Feeding time... my chance...	
-005E80	20	23	「ここから逃げよう…	“Lets escape...	
+005E80	20	23	「ここから逃げよう…	“Let’s escape...	
 005E98	27	27	crc32:ceb12640	Magic Materia:\n  Destruct	
 005EB4	22	23	逃亡者に関する報告書４	Fugitive Report 4	
 005ECC	22	23	逃亡者に関する報告書３	Fugitive Report 3	
@@ -876,7 +876,7 @@ offset	jplen	slot	jp	en	note
 005F40	12	15	上海亭の看板	Shanghai Inn Sign	
 005F50	12	15	武器屋の看板	Weapon Shop Sign	
 005F60	24	27	あるプロデューサーの写真	Photo of a Producer	
-005F7C	14	15	フォースブレス	Force Stealer	
+005F7C	14	15	フォースブレス	Fourth Bracelet	
 005F8C	20	23	脱いだままのセーター	Discarded Sweater	
 005FA4	16	19	ロケット村全景へ	To Rocket Town	
 005FB8	8	11	神羅26号	Shinra No. 26	
@@ -1057,24 +1057,24 @@ offset	jplen	slot	jp	en	note
 006B24	18	19	ダチャオ像・全景へ	To Da-chao: Overview	
 006B38	31	31	crc32:a7e569bd	Support Mat.:\n  Steal As Well	
 006B58	16	19	ドラグーンランス	Dragoon Lance	
-006B6C	12	15	古えの森２へ	To Old Forest 2	
-006B7C	12	15	古えの森３へ	To Old Forest 3	
-006B8C	12	15	古えの森１へ	To Old Forest 1	
+006B6C	12	15	古えの森２へ	To Ancient Forest 2	
+006B7C	12	15	古えの森３へ	To Ancient Forest 3	
+006B8C	12	15	古えの森１へ	To Ancient Forest 1	
 006B9C	16	19	巨大モウセンゴケ	Giant Sundew	
 006BB0	14	15	ハイブロウＳＴ	Supershot ST	
 006BC0	18	19	スプリガンクリップ	Spring Gun Clip	
-006BD4	12	15	古えの森４へ	To Old Forest 4	
+006BD4	12	15	古えの森４へ	To Ancient Forest 4	
 006BE4	33	35	crc32:470d3904	Command Materia:\n  Slash-All	
-006C08	12	15	古えの森５へ	To Old Forest 5	
+006C08	12	15	古えの森５へ	To Ancient Forest 5	
 006C18	14	15	ミネルバブレス	Minerva Band	
 006C28	10	11	ラフレシア	Rafflesia	
-006C34	12	15	古えの森６へ	To Old Forest 6	
-006C44	12	15	古えの森７へ	To Old Forest 7	
+006C34	12	15	古えの森６へ	To Ancient Forest 6	
+006C44	12	15	古えの森７へ	To Ancient Forest 7	
 006C54	10	11	カエルの巣	Frog Nest	
 006C60	12	15	アポカリプス	Apocalypse	
-006C70	12	15	古えの森８へ	To Old Forest 8	
+006C70	12	15	古えの森８へ	To Ancient Forest 8	
 006C80	27	27	crc32:21e3f7cb	Summon Materia:\n  Typhon	
-006C9C	9	11	天の叢雲 	Heavens Cl.	
+006C9C	9	11	天の叢雲 	Heaven's Cloud	
 006CA8	14	15	セ－ブポイント	Save Point	
 006CB8	16	19	エスコ－トガ－ド	Escort Guard	
 006CCC	33	35	crc32:1b947845	Command Materia:\n  Double Cut	
@@ -1545,7 +1545,7 @@ offset	jplen	slot	jp	en	note
 084770	14	15	サンプルの棺桶	Sample Coffin	added 2026-11-04 (scene label missed by extractor)
 0849A0	8	11	テーブル	Table	added 2026-11-04 (scene label missed by extractor)
 0849AC	8	11	バスタブ	Bathtub	
-0849B8	16	19	ロケット発射台へ	To Rocket Launch Pad	
+0849B8	16	19	ロケット発射台へ	To Launchpad	
 0850CC	18	19	神羅モータモービル	Shinra Motormobile	added 2026-11-04 (scene label missed by extractor)
 085550	10	11	時の大穴へ	To the Hole of Time	added 2026-11-04 (scene label missed by extractor)
 085F3C	12	15	古代種の言葉	Words of the Ancients	added 2026-11-04 (scene label missed by extractor)
@@ -1570,7 +1570,7 @@ offset	jplen	slot	jp	en	note
 0882AC	14	15	お客さま用布団	Guest Futon	added 2026-11-04 (scene label missed by extractor)
 0883FC	12	15	「天下無敵」	"Unbeatable" Scroll	added 2026-11-04 (scene label missed by extractor)
 088A6C	16	19	巨大うつぼかずら	Giant Pitcher Plant	added 2026-11-04 (scene label missed by extractor)
-089370	14	15	武器職人の作品	Weaponsmith's Work	added 2026-11-04 (scene label missed by extractor)
+089370	14	15	武器職人の作品	Weapon Seller's Work	added 2026-11-04 (scene label missed by extractor)
 08F5D8	68	75	crc32:2a835b33	Magic\nSupport\nCommand\nIndependent\nSummon	
 08FE30	44	47	crc32:510ac189	Area    Name    Level   EXP     HP      MP	
 08FE60	10	12	昇順　降順	Asc.  Desc.	
@@ -1809,7 +1809,7 @@ offset	jplen	slot	jp	en	note
 0AB954	6	7	冷蔵庫	Fridge	
 0AB95C	6	7	上海亭	Shanghai Inn	
 0AB964	6	7	民家１	House 1	
-0AB96C	6	7	発射台	Launch Pad	
+0AB96C	6	7	発射台	Launchpad	
 0AB974	6	7	タイヤ	Tire	
 0AB97C	6	7	裏庭へ	To Backyard	
 0AB984	6	7	ラード	Lard	
