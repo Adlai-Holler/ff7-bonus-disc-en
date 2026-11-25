@@ -120,7 +120,7 @@ P += [
  W('Spiral Shuriken','Yuffie',68,'Magic +18',110,'o-o o o o o o o','Normal',1,14000,1,'Shoot',None,['Costa del Sol (after Meteor)'],note=LR),
  W('Superball','Yuffie',68,'Magic +10',120,'',None,1,3000,1,'Shoot',['Condor Fort'],['Lower Junon (after Meteor)'],note=LR),
  W('Magic Shuriken','Yuffie',64,'Dexterity +10',113,'o o o','Normal',1,6000,1,'Shoot',['Wutai'],['Lower Junon (after Meteor)'],note=LR),
- W('Rising Sun','Yuffie',90,'Magic +38',116,'o-o o-o o o o o','Normal',1,0,1,'Shoot',['Da-chao Statue'],note=LR),
+ W('Oritsuru','Yuffie',90,'Magic +38',116,'o-o o-o o o o o','Normal',1,0,1,'Shoot',['Da-chao Statue'],note=LR),
 ]
 P += [
  W('Conformer','Yuffie',96,'Magic +42',112,'o-o o-o o-o o-o','None',1,0,1,'Shoot',['Gelnika (sunken plane)'],note="Power set by foe's level; long range"),

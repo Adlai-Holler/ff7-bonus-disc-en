@@ -1131,7 +1131,7 @@ offset	jplen	slot	jp	en	note
 071080	258	259	crc32:6f953c4e	Mythril Clip        Diamond Pin\nSilver Barrette     Gold Barrette\nAdaman Clip         Crystal Comb\nMagic Comb          Plat. Barrette\nCentclip            Hairpin\nSeraph Comb         Behemoth Horn\nSpring Gun Clip     Limited Moon	
 071184	201	203	crc32:b9f92abd	Guard Stick         Mythril Rod\nFull Metal Staff    Striking Staff\nPrism Staff         Aurora Rod\nWizard Staff        Wizer Staff\nFairy Tale          Umbrella\nPrincess Guard	
 071250	258	259	crc32:9643758a	Spear               Slash Lance\nTrident             Mast Ax\nPartisan            Viper Halberd\nJavelin             Grow Lance\nMop                 Dragoon Lance\nScimitar            Flayer\nSpirit Lance        Venus Gospel	
-071354	230	231	crc32:17f84f54	4-point Shuriken    Boomerang\nPinwheel            Razor Ring\nHawkeye             Crystal Cross\nWind Slash          Twin Viper\nSpiral Shuriken     Superball\nMagic Shuriken      Rising Sun\nConformer	
+071354	230	231	crc32:17f84f54	4-point Shuriken    Boomerang\nPinwheel            Razor Ring\nHawkeye             Crystal Cross\nWind Slash          Twin Viper\nSpiral Shuriken     Superball\nMagic Shuriken      Oritsuru\nConformer	
 07143C	238	239	crc32:eaeaafc1	Yellow M-phone      Green M-phone\nBlue M-phone        Red M-phone\nCrystal M-phone     White M-phone\nBlack M-phone       Silver M-phone\nTrumpet Shell       Gold M-phone\nBattle Trumpet      Starlight Phone\nHP Shout	
 07152C	236	239	crc32:80a5261a	Quicksilver         Shotgun\nShortbarrel         Lariat\nWinchester          Peacemaker\nBuntline            Long Barrel R\nSilver Rifle        Sniper CR\nSupershot ST        Outsider\nDeath Penalty	
 07161C	20	25	ブロンズバングル　　	Bronze Bangle       	
@@ -1564,7 +1564,7 @@ offset	jplen	slot	jp	en	note
 087B14	8	11	自在かぎ	Pot Hook	added 2026-11-04 (scene label missed by extractor)
 087C30	10	11	弁天の衝立	Benten Screen	added 2026-11-04 (scene label missed by extractor)
 087D3C	10	11	お稲荷さん	Inari Fox Shrine	added 2026-11-04 (scene label missed by extractor)
-087D48	10	11	十方手裏剣	Oritsuru	
+087D48	10	11	十方手裏剣	10-point Shuriken	
 087D54	10	11	忍法秘術書	Ninja Scroll	
 087D60	8	11	忍び熊手	Ninja Rake	
 0882AC	14	15	お客さま用布団	Guest Futon	added 2026-11-04 (scene label missed by extractor)
@@ -1902,7 +1902,7 @@ offset	jplen	slot	jp	en	note
 0ABC14	6	7	御本尊	Main Idol	
 0ABC1C	6	7	千両箱	Money Chest	
 0ABC24	4	7	雷迅	Swift Bolt	
-0ABC2C	6	7	折り鶴	Rising Sun	
+0ABC2C	6	7	折り鶴	Oritsuru	
 0ABC34	6	7	通路へ	To Passage	
 0ABC3C	6	7	カオス	Chaos	
 0ABC44	4	7	砥石	Whetstone	
